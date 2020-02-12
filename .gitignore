@@ -1,0 +1,5 @@
+package-loc.json
+node_moduels/
+config.yaml
+.git
+_*.*
