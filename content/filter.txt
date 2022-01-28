@@ -42,8 +42,45 @@ www.dcinside.com##.dcwrap
 gall.dcinside.com##tr.ub-content:nth-of-type(1)
 gall.dcinside.com##tr.ub-content:nth-of-type(2)
 
+! streaming-list
+
+! youtube
+www.youtube.com###clarify-box
+! www.youtube.com##ytd-app
+! www.youtube.com##YTD-RICH-ITEM-RENDERER[class="style-scope ytd-rich-grid-renderer"]
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com###donation-shelf
+
+! facebook
+www.facebook.com###stories_pagelet_below_composer
+
+! nicovideo
+www.nicovideo.jp##.BottomMainContainer.GridCell
+www.nicovideo.jp##.LiveTopicsContainer.Card
+www.nicovideo.jp##.FooterContainer-information
+
+! twitch
+twitch.tv##+js(twitch-videoad)
 
 
+! comic-list
+
+! mangaowl
+r.mangaowls.com###ads_inPageWrapper
+r.mangaowls.com##div.ads_300_250_container
+
+! jmana
+4.jjmana.net##[class='free-board-wrap']
+4.jjmana.net##[class='cmt-list-wrap']
+4.jjmana.net##DIV[class="breaking-news-scroll"]
+4.jjmana.net$$[id='main_popup']
+
+
+! news-list
 
 ! donga
 www.donga.com##DIV[id="aside"]
@@ -74,6 +111,7 @@ www.hankyung.com##DIV[class="inner_aside"]
 www.hankyung.com##DIV[class="box_related_list gtmRelateNews"]
 www.hankyung.com##DIV[class="box_related_list"]
 www.hankyung.com##DIV[class="slick-track"]
+www.hankyung.com##div.isuue_plus_module
 
 ! jungang
 news.joins.com##DIV[id="sub"]
@@ -135,31 +173,20 @@ news.kmib.co.kr##.SideCon
 news.kmib.co.kr###aside_news
 
 www.hankookilbo.com##.floating-banner.col-sub
-
 hrcopinion.co.kr##.widget_top-posts.widget
-
 www.korea.kr##.as-article
-
 www.mk.co.kr###container_right
-
 kormedi.com##.sidebar-column-primary.sidebar-column.col-sm-4 > .sidebar
-
 www.k-health.com##.user-aside
-
 health.chosun.com###news_aside_id
-
 dongascience.donga.com###aside_con
-
 m.gobalnews.com##.container_right.border_box
-
 www.psychiatricnews.net##.side.grid > .sticky-container
-
 www.megagong.net##.follow_m.fw_pc
-
 ohli24.net##.at-title
 
-www.hankyung.com##div.isuue_plus_module:nth-of-type(6)
 
+! community-list
 
 ! ruliweb
 bbs.ruliweb.com##DIV[id="subtop"][class="wrapper_nav main_content_area gnb_main_nav_include subtop_community"]
@@ -182,25 +209,6 @@ ygosu.com##div.alliance_ad
 ygosu.com##div.main_event
 ygosu.com##div.powerlink_ad
 
-! facebook
-www.facebook.com###stories_pagelet_below_composer
-
-! nicovideo
-www.nicovideo.jp##.BottomMainContainer.GridCell
-www.nicovideo.jp##.LiveTopicsContainer.Card
-www.nicovideo.jp##.FooterContainer-information
-
-! youtube
-www.youtube.com###clarify-box
-! www.youtube.com##ytd-app
-! www.youtube.com##YTD-RICH-ITEM-RENDERER[class="style-scope ytd-rich-grid-renderer"]
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
-www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com###donation-shelf
-
 ! nate
 m.pann.nate.com##[id='wrap']
 m.pann.nate.com##footer
@@ -212,8 +220,7 @@ www.instiz.net###menuall_fixed
 
 ! inven
 www.inven.co.kr###mapleLayout
-
-hygall.com##.skyblue.Wrapper
+m.inven.co.kr##[id='mobileWrap']
 
 ! clien
 www.clien.net##.main.nav_container
@@ -237,7 +244,7 @@ m.fmkorea.com##[class='bd']
 old.reddit.com##.commentsignupbar.infobar
 old.reddit.com##.premium-banner-outer
 
-! wiki
+! namu-wiki
 namu.wiki##ASIDE
 wiki.hash.kr##.po_right.bnn_y
 wiki.hash.kr##.bxv.left_vt
@@ -252,31 +259,11 @@ egloos.zum.com##DIV[class="aside"]
 antdv.com##DIV[class="slick-track"]
 dictionary.cambridge.org##.i-amphtml-layout.amp-active.i-amphtml-built.i-amphtml-layout-nodisplay.i-amphtml-element.loginPopupContainer
 www.acmicpc.net##.main-slider-ad.text-center
-
-!twitch
-twitch.tv##+js(twitch-videoad)
-
-! jmana
-4.jjmana.net##[class='free-board-wrap']
-4.jjmana.net##[class='cmt-list-wrap']
-4.jjmana.net##DIV[class="breaking-news-scroll"]
-4.jjmana.net$$[id='main_popup']
-
-! 2021-11-11 https://www.powerthesaurus.org
-www.powerthesaurus.org##.b8_ei.b8_x.b8_ef
-
-! misc community
-
 www.dogdrip.net##[class*='eq section]
-
+hygall.com##.skyblue.Wrapper
 m.bobaedream.co.kr##[class='wrap']
-
 m.humoruniv.com###mobile
-
-m.inven.co.kr##[id='mobileWrap']
-
 www.etoland.co.kr##[id='mw_mobile']
 www.etoland.co.kr##body
-
 m.ilbe.com##[id='wrap']
 
