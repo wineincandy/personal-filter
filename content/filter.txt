@@ -1,67 +1,58 @@
 ! DC
 dcinside.com##li[class$="dory"]
-gall.dcinside.com##DIV[class="trc_rbox thumbnails-d trc-content-sponsored "]
-gall.dcinside.com##DIV[class="content_box r_recommend"]
-gall.dcinside.com##DIV[id="right_issuezoom"]
-gall.dcinside.com##DIV[id="rightNews"]
-gall.dcinside.com##DIV[class="content_box r_sec_recommend"]
-gall.dcinside.com##DIV[class="trc_rbox_container"]
-gall.dcinside.com##SECTION[class="right_content"]
-gall.dcinside.com##DIV[class="coment_dccon_img"]
-gall.dcinside.com##HEADER[class="dcheader"]
-gall.dcinside.com##NAV[class="gnb clear"]
-gall.dcinside.com##FOOTER[class="dcfoot type1"]
-gall.dcinside.com##DIV[id="rightHit"][class="content_box r_hit"]
-gall.dcinside.com##DIV[class="issuebox gallery_box"]
-gall.dcinside.com##DIV[class="alarmPopup pop_wrap type1 fixed"]
+.dcinside.com##DIV[class="trc_rbox thumbnails-d trc-content-sponsored "]
+.dcinside.com##DIV[class="content_box r_recommend"]
+.dcinside.com##DIV[id="right_issuezoom"]
+.dcinside.com##DIV[id="rightNews"]
+.dcinside.com##DIV[class="content_box r_sec_recommend"]
+.dcinside.com##DIV[class="trc_rbox_container"]
+.dcinside.com##SECTION[class="right_content"]
+.dcinside.com##DIV[class="coment_dccon_img"]
+.dcinside.com##HEADER[class="dcheader"]
+.dcinside.com##NAV[class="gnb clear"]
+.dcinside.com##FOOTER[class="dcfoot type1"]
+.dcinside.com##DIV[id="rightHit"][class="content_box r_hit"]
+.dcinside.com##DIV[class="issuebox gallery_box"]
+.dcinside.com##DIV[class="alarmPopup pop_wrap type1 fixed"]
 json2.dcinside.com/json1/comment_boy_v2.php
-gall.dcinside.com##.recomuse_y.clear.btn_recommend_box
-gall.dcinside.com##.in_img.mintro_imgbox
-
-dcnewsj.joins.com##DIV[id="sub"]
-
-m.dcinside.com##[id='comment_box']
-m.dcinside.com##[class='today-only-scope']
-m.dcinside.com##[class*='written_dccon']
-m.dcinside.com##[class='view-btm-con']
-m.dcinside.com##.main-wrapping
-dcnewsj.joins.com##[id='content']
-dcinside.pickmaker.com##[id='wrap']
-
-gall.dcinside.com##clear
-gall.dcinside.com###container > .clear
-gall.dcinside.com##.category_listwrap
-gall.dcinside.com##.dcfoot
-www.dcinside.com##clear
-www.dcinside.com###container > .clear
-www.dcinside.com##.category_listwrap
-www.dcinside.com##.dcfoot
-
-www.dcinside.com##.dcwrap
-
-gall.dcinside.com##tr.ub-content:nth-of-type(1)
-gall.dcinside.com##tr.ub-content:nth-of-type(2)
+.dcinside.com##.recomuse_y.clear.btn_recommend_box
+.dcinside.com##.in_img.mintro_imgbox
+.dcinside.pickmaker.com##[id='wrap']
+.dcinside.com##[id='comment_box']
+.dcinside.com##[class='today-only-scope']
+.dcinside.com##[class*='written_dccon']
+.dcinside.com##[class='view-btm-con']
+.dcinside.com##.main-wrapping
+.dcinside.com##clear
+.dcinside.com###container > .clear
+.dcinside.com##.category_listwrap
+.dcinside.com##.dcfoot
+.dcinside.com##clear
+.dcinside.com##.dcwrap
+.dcinside.com##tr.ub-content:nth-of-type(1)
+.dcnewsj.joins.com##[id='content']
+.dcnewsj.joins.com##DIV[id="sub"]
 
 ! streaming-list
 
 ! youtube
-www.youtube.com###clarify-box
+.youtube.com###clarify-box
 ! www.youtube.com##ytd-app
 ! www.youtube.com##YTD-RICH-ITEM-RENDERER[class="style-scope ytd-rich-grid-renderer"]
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
-www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com###donation-shelf
+.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
+.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
+.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+.youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
+.youtube.com###donation-shelf
 
 ! facebook
-www.facebook.com###stories_pagelet_below_composer
+.facebook.com###stories_pagelet_below_composer
 
 ! nicovideo
-www.nicovideo.jp##.BottomMainContainer.GridCell
-www.nicovideo.jp##.LiveTopicsContainer.Card
-www.nicovideo.jp##.FooterContainer-information
+.nicovideo.jp##.BottomMainContainer.GridCell
+.nicovideo.jp##.LiveTopicsContainer.Card
+.nicovideo.jp##.FooterContainer-information
 
 ! twitch
 twitch.tv##+js(twitch-videoad)
@@ -70,200 +61,208 @@ twitch.tv##+js(twitch-videoad)
 ! comic-list
 
 ! mangaowl
-r.mangaowls.com###ads_inPageWrapper
-r.mangaowls.com##div.ads_300_250_container
+.mangaowls.com###ads_inPageWrapper
+.mangaowls.com##div.ads_300_250_container
 
 ! jmana
-4.jjmana.net##[class='free-board-wrap']
-4.jjmana.net##[class='cmt-list-wrap']
-4.jjmana.net##DIV[class="breaking-news-scroll"]
-4.jjmana.net$$[id='main_popup']
+.jjmana.net##[class='free-board-wrap']
+.jjmana.net##[class='cmt-list-wrap']
+.jjmana.net##DIV[class="breaking-news-scroll"]
+.jjmana.net$$[id='main_popup']
 
 
 ! news-list
 
 ! donga
-www.donga.com##DIV[id="aside"]
-www.donga.com##DIV[class="article_relation"]
-weekly.donga.com##DIV[id="right_banner"]
-weekly.donga.com##DIV[class="seoul_travel"]
-weekly.donga.com##DIV[id="spinTopLayer"]
-www.donga.com##DIV[class="many_view"]
-www.donga.com##DIV[class="reply_box"]
-www.donga.com##DIV[class="only_cont"]
-www.donga.com##DIV[class="bestview_news"]
-www.donga.com##DIV[class="reply_btnwrap"]
+.donga.com##DIV[id="aside"]
+.donga.com##DIV[class="article_relation"]
+.donga.com##DIV[id="right_banner"]
+.donga.com##DIV[class="seoul_travel"]
+.donga.com##DIV[id="spinTopLayer"]
+.donga.com##DIV[class="many_view"]
+.donga.com##DIV[class="reply_box"]
+.donga.com##DIV[class="only_cont"]
+.donga.com##DIV[class="bestview_news"]
+.donga.com##DIV[class="reply_btnwrap"]
+.donga.com###aside_con
 
 ! chosun
-lady.khan.co.kr##DIV[class="aSide"]
-www.chosun.com##ASIDE[class="layout__article-col layout__article-right-rail | grid__col--sm-12 grid__col--md-12"]
-www.chosun.com##DIV[class="flex-chain-wrapper lg | width--100 box--pad-top-xl box--bg-undefined box--hidden-sm box--hidden-md-only"]
-www.chosun.com##DIV[class="article-body__content "]
-biz.chosun.com##ASIDE[id="news_aside_id"][class="news_aside"]
-biz.chosun.com##DIV[class="copy_bottom"]
-biz.chosun.com##DIV[id="news_rel_id"][class="news_rel"]
-biz.chosun.com##DIV[class="bottom_art_list"]
-www.chosun.com##ASIDE
-news.khan.co.kr##.art_side
+.khan.co.kr##DIV[class="aSide"]
+.khan.co.kr##.art_side
+.chosun.com##ASIDE[class="layout__article-col layout__article-right-rail | grid__col--sm-12 grid__col--md-12"]
+.chosun.com##DIV[class="flex-chain-wrapper lg | width--100 box--pad-top-xl box--bg-undefined box--hidden-sm box--hidden-md-only"]
+.chosun.com##DIV[class="article-body__content "]
+.chosun.com##ASIDE[id="news_aside_id"][class="news_aside"]
+.chosun.com##DIV[class="copy_bottom"]
+.chosun.com##DIV[id="news_rel_id"][class="news_rel"]
+.chosun.com##DIV[class="bottom_art_list"]
+.chosun.com##ASIDE
 
 ! hankyung
-www.hankyung.com##DIV[class="inner_aside"]
-www.hankyung.com##DIV[class="box_related_list gtmRelateNews"]
-www.hankyung.com##DIV[class="box_related_list"]
-www.hankyung.com##DIV[class="slick-track"]
-www.hankyung.com##div.isuue_plus_module
+.hankyung.com##DIV[class="inner_aside"]
+.hankyung.com##DIV[class="box_related_list gtmRelateNews"]
+.hankyung.com##DIV[class="box_related_list"]
+.hankyung.com##DIV[class="slick-track"]
+.hankyung.com##div.isuue_plus_module
 
 ! jungang
-news.joins.com##DIV[id="sub"]
-news.joins.com##UL[class="clearfx"]
-news.joins.com##DIV[id="divRealtime"][class="ft_realtime_article"]
-news.joins.com##DIV[id="comment"][class="comment_area"]
-news.joins.com##DIV[class="sitemap"]
+.joins.com##DIV[id="sub"]
+.joins.com##UL[class="clearfx"]
+.joins.com##DIV[id="divRealtime"][class="ft_realtime_article"]
+.joins.com##DIV[id="comment"][class="comment_area"]
+.joins.com##DIV[class="sitemap"]
 
 ! naver
-n.news.naver.com##DIV[class="office_headline more_news _FLICKING_WRAP _OFFICE_HEADLINE _PERSIST_HEIGHT _PERSIST_META"]
-n.news.naver.com##DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING"]
-n.news.naver.com##DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING_ALL _PERSIST_META"]
-news.naver.com##tr > .aside
-www.naver.com###footer
-search.naver.com##.sub_pack
+.naver.com##DIV[class="office_headline more_news _FLICKING_WRAP _OFFICE_HEADLINE _PERSIST_HEIGHT _PERSIST_META"]
+.naver.com##DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING"]
+.naver.com##DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING_ALL _PERSIST_META"]
+.news.naver.com##tr > .aside
+.naver.com###footer
+.naver.com##DIV[id="NM_INT_LEFT"][class="column_left"]
+.search.naver.com##.sub_pack
+comic.naver.com##DIV[id="wrap"][class="end_page"]
 
 ! daum
-news.v.daum.net##DIV[class="cp_view"]
-news.v.daum.net##DIV[class="cmt_news cmt_view"]
-news.v.daum.net##DIV[class="inner_realtime"]
-news.v.daum.net##DIV[id="mAside"]
-www.naver.com##DIV[id="NM_INT_LEFT"][class="column_left"]
+.daum.net##DIV[class="cp_view"]
+.daum.net##DIV[class="cmt_news cmt_view"]
+.daum.net##DIV[class="inner_realtime"]
+.daum.net##DIV[id="mAside"]
 
-! misc news
+! newdaily
+.newdaily.co.kr##DIV[class="ad"]
+.newdaily.co.kr##DIV[class="clearfix"]
+.newdaily.co.kr##DIV[class="h_news"]
+.newdaily.co.kr##DIV[id="lv-container"]
+
+! mindpost
+.mindpost.or.kr##ASIDE[class="user-aside"]
+.mindpost.or.kr##ARTICLE[class="article-relation user-view"]
+.mindpost.or.kr##SECTION[class="reply-list"]
+
+! ohomynews
+.ohmynews.com##DIV[class="aside"]
+.ohmynews.com##li[-ext-has=">.ad-box"]
+
+! hani
+.hani.co.kr##.a-right
+.hani.co.kr###header-slide
+.hani.co.kr###lv-container
+
+! weeklyseoul
+.weeklyseoul.net##ASIDE[class="user-aside"]
+.weeklyseoul.net##ARTICLE[class="article-relation user-view"]
+
+! mk
+.mk.co.kr##DIV[class="link_news_area"]
+.mk.co.kr##DIV[class="content_right"]
+.mk.co.kr###container_right
+
+! kmib
+.kmib.co.kr##.SideCon
+.kmib.co.kr###aside_news
+
+! gnnews
+.gnnews.co.kr###snb-wrap
+.gnnews.co.kr##.user-aside
+
+! misc
 cnn.ybmnet.co.kr##DIV[class="desktop"]
-www.yna.co.kr##DIV[class="content02 scroll-article-zone02"]
+.yna.co.kr##DIV[class="content02 scroll-article-zone02"]
 news.mt.co.kr##DIV[id="view_aside"]
-
-www.ohmynews.com##DIV[class="aside"]
-star.ohmynews.com##li[-ext-has=">.ad-box"]
-
-biz.newdaily.co.kr##DIV[class="ad"]
-biz.newdaily.co.kr##DIV[class="clearfix"]
-biz.newdaily.co.kr##DIV[class="h_news"]
-biz.newdaily.co.kr##DIV[id="lv-container"]
-
-www.mk.co.kr##DIV[class="link_news_area"]
-www.mk.co.kr##DIV[class="content_right"]
-
-www.weeklyseoul.net##ASIDE[class="user-aside"]
-www.weeklyseoul.net##ARTICLE[class="article-relation user-view"]
-
-www.mindpost.or.kr##ASIDE[class="user-aside"]
-www.mindpost.or.kr##ARTICLE[class="article-relation user-view"]
-www.mindpost.or.kr##SECTION[class="reply-list"]
-
-www.hani.co.kr##.a-right
-www.hani.co.kr###header-slide
-www.hani.co.kr###lv-container
-
-www.gnnews.co.kr###snb-wrap
-www.gnnews.co.kr##.user-aside
-
-www.sisajournal.com##.user-aside
-news.sbs.co.kr##.w_article_side
-www.monews.co.kr##.side.grid
-www.ilyoseoul.co.kr##.user-aside
-news.kmib.co.kr##.SideCon
-news.kmib.co.kr###aside_news
-
-www.hankookilbo.com##.floating-banner.col-sub
-hrcopinion.co.kr##.widget_top-posts.widget
-www.korea.kr##.as-article
-www.mk.co.kr###container_right
-kormedi.com##.sidebar-column-primary.sidebar-column.col-sm-4 > .sidebar
-www.k-health.com##.user-aside
-health.chosun.com###news_aside_id
-dongascience.donga.com###aside_con
-m.gobalnews.com##.container_right.border_box
-www.psychiatricnews.net##.side.grid > .sticky-container
-www.megagong.net##.follow_m.fw_pc
-ohli24.net##.at-title
+.sisajournal.com##.user-aside
+.sbs.co.kr##.w_article_side
+.monews.co.kr##.side.grid
+.ilyoseoul.co.kr##.user-aside
+.hankookilbo.com##.floating-banner.col-sub
+.hrcopinion.co.kr##.widget_top-posts.widget
+.korea.kr##.as-article
+.kormedi.com##.sidebar
+.k-health.com##.user-aside
+.chosun.com###news_aside_id
+.gobalnews.com##.container_right.border_box
+.psychiatricnews.net##.side.grid > .sticky-container
+.megagong.net##.follow_m.fw_pc
+.ohli24.net##.at-title
 
 
 ! community-list
 
 ! ruliweb
-bbs.ruliweb.com##DIV[id="subtop"][class="wrapper_nav main_content_area gnb_main_nav_include subtop_community"]
-bbs.ruliweb.com##HEADER[id="header"][class="type_1"]
-bbs.ruliweb.com##DIV[class="side_wrapper"]
-bbs.ruliweb.com##.body_wrapper
-bbs.ruliweb.com##.ad_back_wrapper
-bbs.ruliweb.com###main
-bbs.ruliweb.com###footer
-bbs.ruliweb.com##.notice_element
-bbs.ruliweb.com##.max_width_outer.gnb_wrapper > .row
-
-m.ruliweb.com##[id='main']
-m.ruliweb.com##[id='header']
+.ruliweb.com##DIV[id="subtop"][class="main_content_area"]
+.ruliweb.com##DIV[class="side_wrapper"]
+.ruliweb.com##.body_wrapper
+.ruliweb.com##.ad_back_wrapper
+.ruliweb.com###main
+.ruliweb.com###footer
+.ruliweb.com##.notice_element
+.ruliweb.com##.row
+.ruliweb.com##[id='main']
+.ruliweb.com##[id='header']
 
 ! ygosu
-ygosu.com##body
-ygosu.com##div.ad700
-ygosu.com##div.alliance_ad
-ygosu.com##div.main_event
-ygosu.com##div.powerlink_ad
+.ygosu.com##body
+.ygosu.com##div.ad700
+.ygosu.com##div.alliance_ad
+.ygosu.com##div.main_event
+.ygosu.com##div.powerlink_ad
 
 ! nate
-m.pann.nate.com##[id='wrap']
-m.pann.nate.com##footer
+.pann.nate.com##[id='wrap']
+.pann.nate.com##footer
 
 ! instize
-www.instiz.net##body > .container > div
-www.instiz.net##body > div > .responsive_main
-www.instiz.net###menuall_fixed
+.instiz.net##body > .container > div
+.instiz.net##body > div > .responsive_main
+.instiz.net###menuall_fixed
 
 ! inven
-www.inven.co.kr###mapleLayout
-m.inven.co.kr##[id='mobileWrap']
+.inven.co.kr###mapleLayout
+.inven.co.kr##[id='mobileWrap']
 
 ! clien
-www.clien.net##.main.nav_container
-www.clien.net##.header_wrap
+.clien.net##.main.nav_container
+.clien.net##.header_wrap
 
 ! todayhumor
-www.todayhumor.co.kr##.whole_box
-www.todayhumor.co.kr###topmenu_container
-web.humoruniv.com###wrap_center
-
-m.todayhumor.co.kr##[id='header']
-m.todayhumor.co.kr##[class='viewWriteDiv']
+.todayhumor.co.kr##.whole_box
+.todayhumor.co.kr###topmenu_container
+.todayhumor.co.kr##[id='header']
+.todayhumor.co.kr##[class='viewWriteDiv']
 
 ! fm
-www.fmkorea.com##.ko_.center.ce
-m.fmkorea.com##[class='hd']
-m.fmkorea.com##[class='bd_lst_wrp']
-m.fmkorea.com##[class='bd']
+.fmkorea.com##.ko_.center.ce
+.fmkorea.com##[class='hd']
+.fmkorea.com##[class='bd_lst_wrp']
+.fmkorea.com##[class='bd']
 
 ! reddit
-old.reddit.com##.commentsignupbar.infobar
-old.reddit.com##.premium-banner-outer
+.reddit.com##.commentsignupbar.infobar
+.reddit.com##.premium-banner-outer
 
 ! namu-wiki
 namu.wiki##ASIDE
 wiki.hash.kr##.po_right.bnn_y
 wiki.hash.kr##.bxv.left_vt
 
+! humoruniv
+.humoruniv.com###mobile
+.humoruniv.com###wrap_center
+
+! etoland
+.etoland.co.kr##[id='mw_mobile']
+.etoland.co.kr##body
+
 ! misc
-comic.naver.com##DIV[id="wrap"][class="end_page"]
-www.willbes.net##DIV[class="Layer-Cont"]
-hub.zum.com##DIV[class="aside fixed"]
-hub.zum.com##DIV[id="article_comment_wrap"][class="article_comment_wrap"]
-www.wikitree.co.kr##ASIDE[class="content_right_wrap"]
-egloos.zum.com##DIV[class="aside"]
-antdv.com##DIV[class="slick-track"]
-dictionary.cambridge.org##.i-amphtml-layout.amp-active.i-amphtml-built.i-amphtml-layout-nodisplay.i-amphtml-element.loginPopupContainer
-www.acmicpc.net##.main-slider-ad.text-center
-www.dogdrip.net##[class*='eq section]
+.willbes.net##DIV[class="Layer-Cont"]
+.hub.zum.com##DIV[class="aside fixed"]
+.hub.zum.com##DIV[id="article_comment_wrap"][class="article_comment_wrap"]
+.wikitree.co.kr##ASIDE[class="content_right_wrap"]
+.egloos.zum.com##DIV[class="aside"]
+.antdv.com##DIV[class="slick-track"]
+.dictionary.cambridge.org##.loginPopupContainer
+.acmicpc.net##.main-slider-ad.text-center
+.dogdrip.net##[class*='eq section]
 hygall.com##.skyblue.Wrapper
-m.bobaedream.co.kr##[class='wrap']
-m.humoruniv.com###mobile
-www.etoland.co.kr##[id='mw_mobile']
-www.etoland.co.kr##body
-m.ilbe.com##[id='wrap']
+.bobaedream.co.kr##[class='wrap']
+.ilbe.com##[id='wrap']
 
