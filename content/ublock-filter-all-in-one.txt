@@ -68,7 +68,7 @@ mangaowls.com##div.ads_300_250_container
 jjmana.net##[class='free-board-wrap']
 jjmana.net##[class='cmt-list-wrap']
 jjmana.net##DIV[class="breaking-news-scroll"]
-jjmana.net$$[id='main_popup']
+jjmana.net##[id='main_popup']
 
 
 ! news-list
