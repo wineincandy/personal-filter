@@ -1,265 +1,265 @@
 ! DC
-[$domain=dcinside.com]###li[class$="dory"]
-[$domain=dcinside.com]###DIV[class="trc_rbox thumbnails-d trc-content-sponsored "]
-[$domain=dcinside.com]###DIV[class="content_box r_recommend"]
-[$domain=dcinside.com]###DIV[id="right_issuezoom"]
-[$domain=dcinside.com]###DIV[id="rightNews"]
-[$domain=dcinside.com]###DIV[class="content_box r_sec_recommend"]
-[$domain=dcinside.com]###DIV[class="trc_rbox_container"]
-[$domain=dcinside.com]###SECTION[class="right_content"]
-[$domain=dcinside.com]###DIV[class="coment_dccon_img"]
-[$domain=dcinside.com]###HEADER[class="dcheader"]
-[$domain=dcinside.com]###NAV[class="gnb clear"]
-[$domain=dcinside.com]###FOOTER[class="dcfoot type1"]
-[$domain=dcinside.com]###DIV[id="rightHit"][class="content_box r_hit"]
-[$domain=dcinside.com]###DIV[class="issuebox gallery_box"]
-[$domain=dcinside.com]###DIV[class="alarmPopup pop_wrap type1 fixed"]
+[$domain=dcinside.com]##li[class$="dory"]
+[$domain=dcinside.com]##DIV[class="trc_rbox thumbnails-d trc-content-sponsored "]
+[$domain=dcinside.com]##DIV[class="content_box r_recommend"]
+[$domain=dcinside.com]##DIV[id="right_issuezoom"]
+[$domain=dcinside.com]##DIV[id="rightNews"]
+[$domain=dcinside.com]##DIV[class="content_box r_sec_recommend"]
+[$domain=dcinside.com]##DIV[class="trc_rbox_container"]
+[$domain=dcinside.com]##SECTION[class="right_content"]
+[$domain=dcinside.com]##DIV[class="coment_dccon_img"]
+[$domain=dcinside.com]##HEADER[class="dcheader"]
+[$domain=dcinside.com]##NAV[class="gnb clear"]
+[$domain=dcinside.com]##FOOTER[class="dcfoot type1"]
+[$domain=dcinside.com]##DIV[id="rightHit"][class="content_box r_hit"]
+[$domain=dcinside.com]##DIV[class="issuebox gallery_box"]
+[$domain=dcinside.com]##DIV[class="alarmPopup pop_wrap type1 fixed"]
 json2.dcinside.com/json1/comment_boy_v2.php
-[$domain=dcinside.com]###.recomuse_y.clear.btn_recommend_box
-[$domain=dcinside.com]###.in_img.mintro_imgbox
-[$domain=dcinside.pickmaker.com]###[id='wrap']
-[$domain=dcinside.com]###[id='comment_box']
-[$domain=dcinside.com]###[class='today-only-scope']
-[$domain=dcinside.com]###[class*='written_dccon']
-[$domain=dcinside.com]###[class='view-btm-con']
-[$domain=dcinside.com]###.main-wrapping
-[$domain=dcinside.com]###clear
-[$domain=dcinside.com]###container > .clear
-[$domain=dcinside.com]###.category_listwrap
-[$domain=dcinside.com]###.dcfoot
-[$domain=dcinside.com]###clear
-[$domain=dcinside.com]###.dcwrap
-[$domain=dcinside.com]###tr.ub-content:nth-of-type(1)
-[$domain=dcnewsj.joins.com]###[id='content']
-[$domain=dcnewsj.joins.com]###DIV[id="sub"]
+[$domain=dcinside.com]##.recomuse_y.clear.btn_recommend_box
+[$domain=dcinside.com]##.in_img.mintro_imgbox
+[$domain=dcinside.pickmaker.com]##[id='wrap']
+[$domain=dcinside.com]##[id='comment_box']
+[$domain=dcinside.com]##[class='today-only-scope']
+[$domain=dcinside.com]##[class*='written_dccon']
+[$domain=dcinside.com]##[class='view-btm-con']
+[$domain=dcinside.com]##.main-wrapping
+[$domain=dcinside.com]##clear
+[$domain=dcinside.com]##container > .clear
+[$domain=dcinside.com]##.category_listwrap
+[$domain=dcinside.com]##.dcfoot
+[$domain=dcinside.com]##clear
+[$domain=dcinside.com]##.dcwrap
+[$domain=dcinside.com]##tr.ub-content:nth-of-type(1)
+[$domain=dcnewsj.joins.com]##[id='content']
+[$domain=dcnewsj.joins.com]##DIV[id="sub"]
 
 ! streaming-list
 
 ! youtube
-[$domain=youtube.com]###clarify-box
-[$domain=youtube.com]###.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-[$domain=youtube.com]###.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
-[$domain=youtube.com]###ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
-[$domain=youtube.com]###header > .ytd-rich-grid-renderer.style-scope
-[$domain=youtube.com]###ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
-[$domain=youtube.com]###donation-shelf
+[$domain=youtube.com]##clarify-box
+[$domain=youtube.com]##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
+[$domain=youtube.com]##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+[$domain=youtube.com]##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
+[$domain=youtube.com]##header > .ytd-rich-grid-renderer.style-scope
+[$domain=youtube.com]##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
+[$domain=youtube.com]##donation-shelf
 
 ! facebook
-[$domain=facebook.com]###stories_pagelet_below_composer
+[$domain=facebook.com]##stories_pagelet_below_composer
 
 ! nicovideo
-[$domain=nicovideo.jp]###.BottomMainContainer.GridCell
-[$domain=nicovideo.jp]###.LiveTopicsContainer.Card
-[$domain=nicovideo.jp]###.FooterContainer-information
+[$domain=nicovideo.jp]##.BottomMainContainer.GridCell
+[$domain=nicovideo.jp]##.LiveTopicsContainer.Card
+[$domain=nicovideo.jp]##.FooterContainer-information
 
 ! twitch
-[$domain=twitch.tv]###+js(twitch-videoad)
+[$domain=twitch.tv]##+js(twitch-videoad)
 
 
 ! comic-list
 
 ! mangaowl
-[$domain=mangaowls.com]###ads_inPageWrapper
-[$domain=mmangaowls.com]###div.ads_300_250_container
+[$domain=mangaowls.com]##ads_inPageWrapper
+[$domain=mmangaowls.com]##div.ads_300_250_container
 
 ! jmana
-[$domain=jjmana.net]###[class='free-board-wrap']
-[$domain=jjmana.net]###[class='cmt-list-wrap']
-[$domain=jjmana.net]###DIV[class="breaking-news-scroll"]
-[$domain=jjmana.net]###[id='main_popup']
+[$domain=jjmana.net]##[class='free-board-wrap']
+[$domain=jjmana.net]##[class='cmt-list-wrap']
+[$domain=jjmana.net]##DIV[class="breaking-news-scroll"]
+[$domain=jjmana.net]##[id='main_popup']
 
 
 ! news-list
 
 ! donga
-[$domain=donga.com]###DIV[id="aside"]
-[$domain=donga.com]###DIV[class="article_relation"]
-[$domain=donga.com]###DIV[id="right_banner"]
-[$domain=donga.com]###DIV[class="seoul_travel"]
-[$domain=donga.com]###DIV[id="spinTopLayer"]
-[$domain=donga.com]###DIV[class="many_view"]
-[$domain=donga.com]###DIV[class="reply_box"]
-[$domain=donga.com]###DIV[class="only_cont"]
-[$domain=donga.com]###DIV[class="bestview_news"]
-[$domain=donga.com]###DIV[class="reply_btnwrap"]
-[$domain=donga.com]###aside_con
+[$domain=donga.com]##DIV[id="aside"]
+[$domain=donga.com]##DIV[class="article_relation"]
+[$domain=donga.com]##DIV[id="right_banner"]
+[$domain=donga.com]##DIV[class="seoul_travel"]
+[$domain=donga.com]##DIV[id="spinTopLayer"]
+[$domain=donga.com]##DIV[class="many_view"]
+[$domain=donga.com]##DIV[class="reply_box"]
+[$domain=donga.com]##DIV[class="only_cont"]
+[$domain=donga.com]##DIV[class="bestview_news"]
+[$domain=donga.com]##DIV[class="reply_btnwrap"]
+[$domain=donga.com]##aside_con
 
 ! chosun
-[$domain=khan.co.kr]###DIV[class="aSide"]
-[$domain=khan.co.kr]###.art_side
-[$domain=chosun.com]###ASIDE[class="layout__article-col layout__article-right-rail | grid__col--sm-12 grid__col--md-12"]
-[$domain=chosun.com]###DIV[class="flex-chain-wrapper lg | width--100 box--pad-top-xl box--bg-undefined box--hidden-sm box--hidden-md-only"]
-[$domain=chosun.com]###DIV[class="article-body__content "]
-[$domain=chosun.com]###ASIDE[id="news_aside_id"][class="news_aside"]
-[$domain=chosun.com]###DIV[class="copy_bottom"]
-[$domain=chosun.com]###DIV[id="news_rel_id"][class="news_rel"]
-[$domain=chosun.com]###DIV[class="bottom_art_list"]
-[$domain=chosun.com]###ASIDE
+[$domain=khan.co.kr]##DIV[class="aSide"]
+[$domain=khan.co.kr]##.art_side
+[$domain=chosun.com]##ASIDE[class="layout__article-col layout__article-right-rail | grid__col--sm-12 grid__col--md-12"]
+[$domain=chosun.com]##DIV[class="flex-chain-wrapper lg | width--100 box--pad-top-xl box--bg-undefined box--hidden-sm box--hidden-md-only"]
+[$domain=chosun.com]##DIV[class="article-body__content "]
+[$domain=chosun.com]##ASIDE[id="news_aside_id"][class="news_aside"]
+[$domain=chosun.com]##DIV[class="copy_bottom"]
+[$domain=chosun.com]##DIV[id="news_rel_id"][class="news_rel"]
+[$domain=chosun.com]##DIV[class="bottom_art_list"]
+[$domain=chosun.com]##ASIDE
 
 ! hankyung
-[$domain=hankyung.com]###DIV[class="inner_aside"]
-[$domain=hankyung.com]###DIV[class="box_related_list gtmRelateNews"]
-[$domain=hankyung.com]###DIV[class="box_related_list"]
-[$domain=hankyung.com]###DIV[class="slick-track"]
-[$domain=hankyung.com]###div.isuue_plus_module
+[$domain=hankyung.com]##DIV[class="inner_aside"]
+[$domain=hankyung.com]##DIV[class="box_related_list gtmRelateNews"]
+[$domain=hankyung.com]##DIV[class="box_related_list"]
+[$domain=hankyung.com]##DIV[class="slick-track"]
+[$domain=hankyung.com]##div.isuue_plus_module
 
 ! jungang
-[$domain=joins.com]###DIV[id="sub"]
-[$domain=joins.com]###UL[class="clearfx"]
-[$domain=joins.com]###DIV[id="divRealtime"][class="ft_realtime_article"]
-[$domain=joins.com]###DIV[id="comment"][class="comment_area"]
-[$domain=joins.com]###DIV[class="sitemap"]
+[$domain=joins.com]##DIV[id="sub"]
+[$domain=joins.com]##UL[class="clearfx"]
+[$domain=joins.com]##DIV[id="divRealtime"][class="ft_realtime_article"]
+[$domain=joins.com]##DIV[id="comment"][class="comment_area"]
+[$domain=joins.com]##DIV[class="sitemap"]
 
 ! naver
-[$domain=naver.com]###DIV[class="office_headline more_news _FLICKING_WRAP _OFFICE_HEADLINE _PERSIST_HEIGHT _PERSIST_META"]
-[$domain=naver.com]###DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING"]
-[$domain=naver.com]###DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING_ALL _PERSIST_META"]
-[$domain=news.naver.com]###tr > .aside
-[$domain=naver.com]###footer
-[$domain=naver.com]###DIV[id="NM_INT_LEFT"][class="column_left"]
-[$domain=search.naver.com]###.sub_pack
-[$domain=comic.naver.com]###DIV[id="wrap"][class="end_page"]
+[$domain=naver.com]##DIV[class="office_headline more_news _FLICKING_WRAP _OFFICE_HEADLINE _PERSIST_HEIGHT _PERSIST_META"]
+[$domain=naver.com]##DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING"]
+[$domain=naver.com]##DIV[class="rankingnews _FLICKING_WRAP _OFFICE_RANKING_ALL _PERSIST_META"]
+[$domain=news.naver.com]##tr > .aside
+[$domain=naver.com]##footer
+[$domain=naver.com]##DIV[id="NM_INT_LEFT"][class="column_left"]
+[$domain=search.naver.com]##.sub_pack
+[$domain=comic.naver.com]##DIV[id="wrap"][class="end_page"]
 
 ! daum
-[$domain=daum.net]###DIV[class="cp_view"]
-[$domain=daum.net]###DIV[class="cmt_news cmt_view"]
-[$domain=daum.net]###DIV[class="inner_realtime"]
-[$domain=daum.net]###DIV[id="mAside"]
+[$domain=daum.net]##DIV[class="cp_view"]
+[$domain=daum.net]##DIV[class="cmt_news cmt_view"]
+[$domain=daum.net]##DIV[class="inner_realtime"]
+[$domain=daum.net]##DIV[id="mAside"]
 
 ! newdaily
-[$domain=newdaily.co.kr]###DIV[class="ad"]
-[$domain=newdaily.co.kr]###DIV[class="clearfix"]
-[$domain=newdaily.co.kr]###DIV[class="h_news"]
-[$domain=newdaily.co.kr]###DIV[id="lv-container"]
+[$domain=newdaily.co.kr]##DIV[class="ad"]
+[$domain=newdaily.co.kr]##DIV[class="clearfix"]
+[$domain=newdaily.co.kr]##DIV[class="h_news"]
+[$domain=newdaily.co.kr]##DIV[id="lv-container"]
 
 ! mindpost
-[$domain=mindpost.or.kr]###ASIDE[class="user-aside"]
-[$domain=mindpost.or.kr]###ARTICLE[class="article-relation user-view"]
-[$domain=mindpost.or.kr]###SECTION[class="reply-list"]
+[$domain=mindpost.or.kr]##ASIDE[class="user-aside"]
+[$domain=mindpost.or.kr]##ARTICLE[class="article-relation user-view"]
+[$domain=mindpost.or.kr]##SECTION[class="reply-list"]
 
 ! ohomynews
-[$domain=ohmynews.com]###DIV[class="aside"]
-[$domain=ohmynews.com]###li[-ext-has=">.ad-box"]
+[$domain=ohmynews.com]##DIV[class="aside"]
+[$domain=ohmynews.com]##li[-ext-has=">.ad-box"]
 
 ! hani
-[$domain=hani.co.kr]###.a-right
-[$domain=hani.co.kr]###header-slide
-[$domain=hani.co.kr]###lv-container
+[$domain=hani.co.kr]##.a-right
+[$domain=hani.co.kr]##header-slide
+[$domain=hani.co.kr]##lv-container
 
 ! weeklyseoul
-[$domain=weeklyseoul.net]###ASIDE[class="user-aside"]
-[$domain=weeklyseoul.net]###ARTICLE[class="article-relation user-view"]
+[$domain=weeklyseoul.net]##ASIDE[class="user-aside"]
+[$domain=weeklyseoul.net]##ARTICLE[class="article-relation user-view"]
 
 ! mk
-[$domain=mk.co.kr]###DIV[class="link_news_area"]
-[$domain=mk.co.kr]###DIV[class="content_right"]
-[$domain=mk.co.kr]###container_right
+[$domain=mk.co.kr]##DIV[class="link_news_area"]
+[$domain=mk.co.kr]##DIV[class="content_right"]
+[$domain=mk.co.kr]##container_right
 
 ! kmib
-[$domain=kmib.co.kr]###.SideCon
-[$domain=kmib.co.kr]###aside_news
+[$domain=kmib.co.kr]##.SideCon
+[$domain=kmib.co.kr]##aside_news
 
 ! gnnews
-[$domain=gnnews.co.kr]###snb-wrap
-[$domain=gnnews.co.kr]###.user-aside
+[$domain=gnnews.co.kr]##snb-wrap
+[$domain=gnnews.co.kr]##.user-aside
 
 ! misc
-[$domain=.ybmnet.co.kr]###DIV[class="desktop"]
-[$domain=yna.co.kr]###DIV[class="content02 scroll-article-zone02"]
-[$domain=.mt.co.kr]###DIV[id="view_aside"]
-[$domain=sisajournal.com]###.user-aside
-[$domain=sbs.co.kr]###.w_article_side
-[$domain=monews.co.kr]###.side.grid
-[$domain=ilyoseoul.co.kr]###.user-aside
-[$domain=hankookilbo.com]###.floating-banner.col-sub
-[$domain=hrcopinion.co.kr]###.widget_top-posts.widget
-[$domain=korea.kr]###.as-article
-[$domain=kormedi.com]###.sidebar
-[$domain=k-health.com]###.user-aside
-[$domain=chosun.com]###news_aside_id
-[$domain=gobalnews.com]###.container_right.border_box
-[$domain=psychiatricnews.net]###.side.grid > .sticky-container
-[$domain=megagong.net]###.follow_m.fw_pc
-[$domain=ohli24.net]###.at-title
+[$domain=.ybmnet.co.kr]##DIV[class="desktop"]
+[$domain=yna.co.kr]##DIV[class="content02 scroll-article-zone02"]
+[$domain=.mt.co.kr]##DIV[id="view_aside"]
+[$domain=sisajournal.com]##.user-aside
+[$domain=sbs.co.kr]##.w_article_side
+[$domain=monews.co.kr]##.side.grid
+[$domain=ilyoseoul.co.kr]##.user-aside
+[$domain=hankookilbo.com]##.floating-banner.col-sub
+[$domain=hrcopinion.co.kr]##.widget_top-posts.widget
+[$domain=korea.kr]##.as-article
+[$domain=kormedi.com]##.sidebar
+[$domain=k-health.com]##.user-aside
+[$domain=chosun.com]##news_aside_id
+[$domain=gobalnews.com]##.container_right.border_box
+[$domain=psychiatricnews.net]##.side.grid > .sticky-container
+[$domain=megagong.net]##.follow_m.fw_pc
+[$domain=ohli24.net]##.at-title
 
 
 ! community-list
 
 ! ruliweb
-[$domain=ruliweb.com]###DIV[id="subtop"][class="main_content_area"]
-[$domain=ruliweb.com]###DIV[class="side_wrapper"]
-[$domain=ruliweb.com]###.body_wrapper
-[$domain=ruliweb.com]###.ad_back_wrapper
-[$domain=ruliweb.com]###main
-[$domain=ruliweb.com]###footer
-[$domain=ruliweb.com]###.notice_element
-[$domain=ruliweb.com]###.row
-[$domain=ruliweb.com]###[id='main']
-[$domain=ruliweb.com]###[id='header']
+[$domain=ruliweb.com]##DIV[id="subtop"][class="main_content_area"]
+[$domain=ruliweb.com]##DIV[class="side_wrapper"]
+[$domain=ruliweb.com]##.body_wrapper
+[$domain=ruliweb.com]##.ad_back_wrapper
+[$domain=ruliweb.com]##main
+[$domain=ruliweb.com]##footer
+[$domain=ruliweb.com]##.notice_element
+[$domain=ruliweb.com]##.row
+[$domain=ruliweb.com]##[id='main']
+[$domain=ruliweb.com]##[id='header']
 
 ! ygosu
-[$domain=ygosu.com]###body
-[$domain=ygosu.com]###div.ad700
-[$domain=ygosu.com]###div.alliance_ad
-[$domain=ygosu.com]###div.main_event
-[$domain=ygosu.com]###div.powerlink_ad
+[$domain=ygosu.com]##body
+[$domain=ygosu.com]##div.ad700
+[$domain=ygosu.com]##div.alliance_ad
+[$domain=ygosu.com]##div.main_event
+[$domain=ygosu.com]##div.powerlink_ad
 
 ! nate
-[$domain=pann.nate.com]###[id='wrap']
-[$domain=pann.nate.com]###footer
+[$domain=pann.nate.com]##[id='wrap']
+[$domain=pann.nate.com]##footer
 
 ! instize
-[$domain=instiz.net]###body > .container > div
-[$domain=instiz.net]###body > div > .responsive_main
-[$domain=instiz.net]###menuall_fixed
+[$domain=instiz.net]##body > .container > div
+[$domain=instiz.net]##body > div > .responsive_main
+[$domain=instiz.net]##menuall_fixed
 
 ! inven
-[$domain=inven.co.kr]###mapleLayout
-[$domain=inven.co.kr]###[id='mobileWrap']
+[$domain=inven.co.kr]##mapleLayout
+[$domain=inven.co.kr]##[id='mobileWrap']
 
 ! clien
-[$domain=clien.net]###.main.nav_container
-[$domain=clien.net]###.header_wrap
+[$domain=clien.net]##.main.nav_container
+[$domain=clien.net]##.header_wrap
 
 ! todayhumor
-[$domain=todayhumor.co.kr]###.whole_box
-[$domain=todayhumor.co.kr]###topmenu_container
-[$domain=todayhumor.co.kr]###[id='header']
-[$domain=todayhumor.co.kr]###[class='viewWriteDiv']
+[$domain=todayhumor.co.kr]##.whole_box
+[$domain=todayhumor.co.kr]##topmenu_container
+[$domain=todayhumor.co.kr]##[id='header']
+[$domain=todayhumor.co.kr]##[class='viewWriteDiv']
 
 ! fm
-[$domain=fmkorea.com]###.ko_.center.ce
-[$domain=fmkorea.com]###[class='hd']
-[$domain=fmkorea.com]###[class='bd_lst_wrp']
-[$domain=fmkorea.com]###[class='bd']
+[$domain=fmkorea.com]##.ko_.center.ce
+[$domain=fmkorea.com]##[class='hd']
+[$domain=fmkorea.com]##[class='bd_lst_wrp']
+[$domain=fmkorea.com]##[class='bd']
 
 ! reddit
-[$domain=reddit.com]###.commentsignupbar.infobar
-[$domain=reddit.com]###.premium-banner-outer
+[$domain=reddit.com]##.commentsignupbar.infobar
+[$domain=reddit.com]##.premium-banner-outer
 
 ! namu-wiki
-[$domain=namu.wiki]###ASIDE
-[$domain=wiki.hash.kr]###.po_right.bnn_y
-[$domain=wiki.hash.kr]###.bxv.left_vt
+[$domain=namu.wiki]##ASIDE
+[$domain=wiki.hash.kr]##.po_right.bnn_y
+[$domain=wiki.hash.kr]##.bxv.left_vt
 
 ! humoruniv
-[$domain=humoruniv.com]###mobile
-[$domain=humoruniv.com]###wrap_center
+[$domain=humoruniv.com]##mobile
+[$domain=humoruniv.com]##wrap_center
 
 ! etoland
-[$domain=etoland.co.kr]###[id='mw_mobile']
-[$domain=etoland.co.kr]###body
+[$domain=etoland.co.kr]##[id='mw_mobile']
+[$domain=etoland.co.kr]##body
 
 ! misc
-[$domain=willbes.net]###DIV[class="Layer-Cont"]
-[$domain=hub.zum.com]###DIV[class="aside fixed"]
-[$domain=hub.zum.com]###DIV[id="article_comment_wrap"][class="article_comment_wrap"]
-[$domain=wikitree.co.kr]###ASIDE[class="content_right_wrap"]
-[$domain=egloos.zum.com]###DIV[class="aside"]
-[$domain=antdv.com]###DIV[class="slick-track"]
-[$domain=dictionary.cambridge.org]###.loginPopupContainer
-[$domain=acmicpc.net]###.main-slider-ad.text-center
-[$domain=dogdrip.net]###[class*='eq section]
-[$domain=hygall.com]###.skyblue.Wrapper
-[$domain=bobaedream.co.kr]###[class='wrap']
-[$domain=ilbe.com]###[id='wrap']
+[$domain=willbes.net]##DIV[class="Layer-Cont"]
+[$domain=hub.zum.com]##DIV[class="aside fixed"]
+[$domain=hub.zum.com]##DIV[id="article_comment_wrap"][class="article_comment_wrap"]
+[$domain=wikitree.co.kr]##ASIDE[class="content_right_wrap"]
+[$domain=egloos.zum.com]##DIV[class="aside"]
+[$domain=antdv.com]##DIV[class="slick-track"]
+[$domain=dictionary.cambridge.org]##.loginPopupContainer
+[$domain=acmicpc.net]##.main-slider-ad.text-center
+[$domain=dogdrip.net]##[class*='eq section]
+[$domain=hygall.com]##.skyblue.Wrapper
+[$domain=bobaedream.co.kr]##[class='wrap']
+[$domain=ilbe.com]##[id='wrap']
