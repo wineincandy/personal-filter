@@ -265,3 +265,4 @@ dogdrip.net##[class*='eq section]
 hygall.com##.skyblue.Wrapper
 bobaedream.co.kr##[class='wrap']
 ilbe.com##[id='wrap']
+twitch.tv##+js(twitch-videoad)
