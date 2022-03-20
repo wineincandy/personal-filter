@@ -23,7 +23,7 @@ dcinside.com##[class='today-only-scope']
 dcinside.com##[class*='written_dccon']
 dcinside.com##[class='view-btm-con']
 dcinside.com##.main-wrapping
-dcinside.com###.container
+dcinside.com##.container
 dcinside.com##.category_listwrap
 dcinside.com##.dcfoot
 dcinside.com##.dcwrap
