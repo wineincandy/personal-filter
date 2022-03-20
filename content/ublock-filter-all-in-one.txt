@@ -23,11 +23,9 @@ dcinside.com##[class='today-only-scope']
 dcinside.com##[class*='written_dccon']
 dcinside.com##[class='view-btm-con']
 dcinside.com##.main-wrapping
-dcinside.com##clear
-dcinside.com###container > .clear
+dcinside.com###.container
 dcinside.com##.category_listwrap
 dcinside.com##.dcfoot
-dcinside.com##clear
 dcinside.com##.dcwrap
 dcinside.com##tr.ub-content:nth-of-type(1)
 dcnewsj.joins.com##[id='content']
