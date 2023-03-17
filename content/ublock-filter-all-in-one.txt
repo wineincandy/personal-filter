@@ -53,7 +53,11 @@ nicovideo.jp##.FooterContainer-information
 
 ! twitch
 twitch.tv##+js(twitch-videoad)
+twitch.tv##.chat-shell__expanded.chat-shell 
+twitch.tv##.right-column--beside 
 
+! dailymotion
+dailymotion.com##div[class*="Discovery"] div.col:nth-of-type(2) 
 
 ! comic-list
 
@@ -62,10 +66,10 @@ mangaowls.com###ads_inPageWrapper
 mangaowls.com##div.ads_300_250_container
 
 ! jmana
-jjmana.net##[class='free-board-wrap']
-jjmana.net##[class='cmt-list-wrap']
-jjmana.net##DIV[class="breaking-news-scroll"]
-jjmana.net##[id='main_popup']
+jmana.one##.comment-wrap 
+jmana.one##div.free-board-wrap 
+jmana.one##div."breaking-news-scroll"
+jmana.one##[id='main_popup']
 
 
 ! news-list
@@ -197,57 +201,49 @@ ruliweb.com##[id='main']
 ruliweb.com##[id='header']
 
 ! ygosu
-ygosu.com##body
-ygosu.com##div.ad700
-ygosu.com##div.alliance_ad
-ygosu.com##div.main_event
-ygosu.com##div.powerlink_ad
+ygosu.com
 
 ! nate
-pann.nate.com##[id='wrap']
-pann.nate.com##footer
+pann.nate.com
 
 ! instize
-instiz.net##body > .container > div
-instiz.net##body > div > .responsive_main
-instiz.net###menuall_fixed
+instiz.net
 
 ! inven
-inven.co.kr###mapleLayout
-inven.co.kr##[id='mobileWrap']
+inven.co.kr
 
 ! clien
-clien.net##.main.nav_container
-clien.net##.header_wrap
+clien.net
 
 ! todayhumor
-todayhumor.co.kr##.whole_box
-todayhumor.co.kr###topmenu_container
-todayhumor.co.kr##[id='header']
-todayhumor.co.kr##[class='viewWriteDiv']
+todayhumor.co.kr
 
 ! fm
-fmkorea.com##.ko_.center.ce
-fmkorea.com##[class='hd']
-fmkorea.com##[class='bd_lst_wrp']
-fmkorea.com##[class='bd']
+fmkorea.com
 
 ! reddit
 reddit.com##.commentsignupbar.infobar
 reddit.com##.premium-banner-outer
 
 ! namu-wiki
-namu.wiki##ASIDE
-wiki.hash.kr##.po_right.bnn_y
-wiki.hash.kr##.bxv.left_vt
+||namu.wiki/sidebar.json
+namu.wiki##a[href*="namu.news"]
+||i.namu.wiki/i/*.png
+namu.wiki##div:matches-css(cursor:pointer)
+namu.wiki##footer
 
 ! humoruniv
-humoruniv.com###mobile
-humoruniv.com###wrap_center
+humoruniv.com
 
 ! etoland
-etoland.co.kr##[id='mw_mobile']
-etoland.co.kr##body
+etoland.co.kr
+
+! pixiv
+pixiv.net##.work-details-comments-container 
+
+! igg-games
+igg-games.com##iframe:nth-of-type(2) 
+igg-games.com##iframe:nth-of-type(1) 
 
 ! misc
 willbes.net##DIV[class="Layer-Cont"]
@@ -262,4 +258,7 @@ dogdrip.net##[class*='eq section]
 hygall.com##.skyblue.Wrapper
 bobaedream.co.kr##[class='wrap']
 ilbe.com##[id='wrap']
-twitch.tv##+js(twitch-videoad)
+hinative.com##body 
+ko.hinative.com##body 
+duckduckgo.com##.js-module--videos.module--carousel-videos.module--carousel.module 
+||drive.google.com/uc$image 
