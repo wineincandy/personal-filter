@@ -55,6 +55,9 @@ nicovideo.jp##.FooterContainer-information
 twitch.tv##+js(twitch-videoad)
 twitch.tv##.chat-shell__expanded.chat-shell 
 twitch.tv##.right-column--beside 
+twitch.tv##.side-bar-contents
+twitch.tv##.side-nav__scrollable_content.simplebar-content
+twitch.tv###twilight-sticky-footer-root
 
 ! dailymotion
 dailymotion.com##div[class*="Discovery"] div.col:nth-of-type(2) 
@@ -70,6 +73,7 @@ jmana.one##.comment-wrap
 jmana.one##div.free-board-wrap 
 jmana.one##div."breaking-news-scroll"
 jmana.one##[id='main_popup']
+jmana.one##.quick-btn.wrap
 
 
 ! news-list
