@@ -71,9 +71,9 @@ mangaowls.com##div.ads_300_250_container
 ! jmana
 jmana.one##.comment-wrap 
 jmana.one##div.free-board-wrap 
-jmana.one##div."breaking-news-scroll"
-jmana.one##[id='main_popup']
-jmana.one##.quick-btn.wrap
+jmana.one##div.breaking-news-scroll
+jmana.one###main_popup
+jmana.one##.quick-btn-wrap
 
 
 ! news-list
@@ -224,6 +224,18 @@ todayhumor.co.kr
 
 ! fm
 fmkorea.com
+
+! dogdrip
+dogdrip.net
+
+! hygall
+hygall.com
+
+! bobaedream
+bobaedream.co.kr
+
+! ilbe
+ilbe.com
 
 ! reddit
 reddit.com##.commentsignupbar.infobar
@@ -574,15 +586,9 @@ willbes.net##DIV[class="Layer-Cont"]
 hub.zum.com##DIV[class="aside fixed"]
 hub.zum.com##DIV[id="article_comment_wrap"][class="article_comment_wrap"]
 wikitree.co.kr##ASIDE[class="content_right_wrap"]
-egloos.zum.com##DIV[class="aside"]
 antdv.com##DIV[class="slick-track"]
 dictionary.cambridge.org##.loginPopupContainer
 acmicpc.net##.main-slider-ad.text-center
-dogdrip.net##[class*='eq section]
-hygall.com##.skyblue.Wrapper
-bobaedream.co.kr##[class='wrap']
-ilbe.com##[id='wrap']
 hinative.com##body 
-ko.hinative.com##body 
 duckduckgo.com##.js-module--videos.module--carousel-videos.module--carousel.module 
 ||drive.google.com/uc$image 
