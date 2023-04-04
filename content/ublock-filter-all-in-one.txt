@@ -31,57 +31,71 @@ dcnewsj.joins.com##[id='content']
 dcnewsj.joins.com##DIV[id="sub"]
 
 ! searching engine
-duckduckgo.com##body div.module--images
-google.com##body div g-section-with-header
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=arca.live])
-google.com##body div[data-snc]:has(a[href*=arca.live])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=theqoo.net])
-google.com##body div[data-snc]:has(a[href*=theqoo.net])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=facebook.com])
-google.com##body div[data-snc]:has(a[href*=facebook.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=meeco.kr])
-google.com##body div[data-snc]:has(a[href*=meeco.kr])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=koreapas.com])
-google.com##body div[data-snc]:has(a[href*=koreapas.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=cafe.daum.net])
-google.com##body div[data-snc]:has(a[href*=cafe.daum.net])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=dmitory.com])
-google.com##body div[data-snc]:has(a[href*=dmitory.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=slrclub.com])
-google.com##body div[data-snc]:has(a[href*=slrclub.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=issuya.com])
-google.com##body div[data-snc]:has(a[href*=issuya.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=ygosu.com])
-google.com##body div[data-snc]:has(a[href*=ygosu.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=pann.nate.com])
-google.com##body div[data-snc]:has(a[href*=pann.nate.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=instiz.net])
-google.com##body div[data-snc]:has(a[href*=instiz.net])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=inven.co.kr])
-google.com##body div[data-snc]:has(a[href*=inven.co.kr])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=clien.net])
-google.com##body div[data-snc]:has(a[href*=clien.net])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=todayhumor.co.kr])
-google.com##body div[data-snc]:has(a[href*=todayhumor.co.kr])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=fmkorea.com])
-google.com##body div[data-snc]:has(a[href*=fmkorea.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=dogdrip.net])
-google.com##body div[data-snc]:has(a[href*=dogdrip.net])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=hygall.com])
-google.com##body div[data-snc]:has(a[href*=hygall.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=bobaedream.co.kr])
-google.com##body div[data-snc]:has(a[href*=bobaedream.co.kr])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=ilbe.com])
-google.com##body div[data-snc]:has(a[href*=ilbe.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=humoruniv.com])
-google.com##body div[data-snc]:has(a[href*=humoruniv.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=etoland.co.kr])
-google.com##body div[data-snc]:has(a[href*=etoland.co.kr])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=dcinside.com])
-google.com##body div[data-snc]:has(a[href*=dcinside.com])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*=ruliweb.com])
-google.com##body div[data-snc]:has(a[href*=ruliweb.com])
+duckduckgo.com##body div.module--images ! block image
+google.com##body div g-section-with-header ! block image
+google.com##body div div[data-hveid][jsname]:has(div[aria-level="3"]) ! block video
 
+! block result from particular sites
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="arca.live"])
+google.com##body div[data-snc]:has(a[href*="arca.live"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="theqoo.net"])
+google.com##body div[data-snc]:has(a[href*="theqoo.net"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="facebook.com"])
+google.com##body div[data-snc]:has(a[href*="facebook.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="meeco.kr"])
+google.com##body div[data-snc]:has(a[href*="meeco.kr"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="koreapas.com"])
+google.com##body div[data-snc]:has(a[href*="koreapas.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="cafe.daum.net"])
+google.com##body div[data-snc]:has(a[href*="cafe.daum.net"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="dmitory.com"])
+google.com##body div[data-snc]:has(a[href*="dmitory.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="slrclub.com"])
+google.com##body div[data-snc]:has(a[href*="slrclub.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="issuya.com"])
+google.com##body div[data-snc]:has(a[href*="issuya.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="ygosu.com"])
+google.com##body div[data-snc]:has(a[href*="ygosu.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="pann.nate.com"])
+google.com##body div[data-snc]:has(a[href*="pann.nate.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="instiz.net"])
+google.com##body div[data-snc]:has(a[href*="instiz.net"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="inven.co.kr"])
+google.com##body div[data-snc]:has(a[href*="inven.co.kr"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="clien.net"])
+google.com##body div[data-snc]:has(a[href*="clien.net"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="todayhumor.co.kr"])
+google.com##body div[data-snc]:has(a[href*="todayhumor.co.kr"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="fmkorea.com"])
+google.com##body div[data-snc]:has(a[href*="fmkorea.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="dogdrip.net"])
+google.com##body div[data-snc]:has(a[href*="dogdrip.net"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="hygall.com"])
+google.com##body div[data-snc]:has(a[href*="hygall.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="bobaedream.co.kr"])
+google.com##body div[data-snc]:has(a[href*="bobaedream.co.kr"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="ilbe.com"])
+google.com##body div[data-snc]:has(a[href*="ilbe.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="humoruniv.com"])
+google.com##body div[data-snc]:has(a[href*="humoruniv.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="etoland.co.kr"])
+google.com##body div[data-snc]:has(a[href*="etoland.co.kr"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="dcinside.com"])
+google.com##body div[data-snc]:has(a[href*="dcinside.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="ruliweb.com"])
+google.com##body div[data-snc]:has(a[href*="ruliweb.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="tdgall.com"])
+google.com##body div[data-snc]:has(a[href*="tdgall.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="teamblind.com"])
+google.com##body div[data-snc]:has(a[href*="teamblind.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="ppomppu.com"])
+google.com##body div[data-snc]:has(a[href*="ppomppu.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="mlbpark.donga.com"])
+google.com##body div[data-snc]:has(a[href*="mlbpark.donga.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="twitter.com"])
+google.com##body div[data-snc]:has(a[href*="twitter.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="hygall.com"])
+google.com##body div[data-snc]:has(a[href*="hygall.com"])
 
 ! streaming-list
 
@@ -303,6 +317,12 @@ bobaedream.co.kr
 ilbe.com
 humoruniv.com
 etoland.co.kr
+tdgall.com
+teamblind.com
+ppomppu.com
+mlbpark.donga.com
+82cook.com
+hygall.com
 
 ! manatoki
 
