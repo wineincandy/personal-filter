@@ -36,6 +36,17 @@ dcnewsj.joins.com##DIV[id="sub"]
 duckduckgo.com##body div.module--images
 google.com##body div g-section-with-header
 google.com##body div div[data-hveid][jsname]:has(div[aria-level="3"])
+! for pc
+google.com##body div#main div[data-abe]:has(div[data-hveid] a[data-xbu])
+
+! annoying recommend stuff
+
+! for mobile
+google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
+google.com##body div#main div:has(> div[aria-expanded][role])
+google.com##body div#main div:has(accordion-entry-search-icon)
+google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
+
 
 ! block result from particular sites
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="arca.live"])
@@ -128,6 +139,8 @@ google.com##body div#main div[data-hveid]:has(a[href*="82cook.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="hygall.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="dcinside.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="ruliweb.com"])
+
+
 
 
 ! streaming-list
