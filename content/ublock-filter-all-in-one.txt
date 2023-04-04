@@ -31,9 +31,11 @@ dcnewsj.joins.com##[id='content']
 dcnewsj.joins.com##DIV[id="sub"]
 
 ! searching engine
-duckduckgo.com##body div.module--images ! block image
+
+! block image & video
+duckduckgo.com##body div.module--images
 google.com##body div g-section-with-header ! block image
-google.com##body div div[data-hveid][jsname]:has(div[aria-level="3"]) ! block video
+google.com##body div div[data-hveid][jsname]:has(div[aria-level="3"])
 
 ! block result from particular sites
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="arca.live"])
