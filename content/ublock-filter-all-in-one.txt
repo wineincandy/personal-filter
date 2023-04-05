@@ -101,8 +101,8 @@ duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="tdgall.com"])
 google.com##body div[data-snc]:has(a[href*="tdgall.com"])
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="teamblind.com"])
 google.com##body div[data-snc]:has(a[href*="teamblind.com"])
-duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="ppomppu.com"])
-google.com##body div[data-snc]:has(a[href*="ppomppu.com"])
+duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="ppomppu.co.kr"])
+google.com##body div[data-snc]:has(a[href*="ppomppu.co.kr"])
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="mlbpark.donga.com"])
 google.com##body div[data-snc]:has(a[href*="mlbpark.donga.com"])
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="hygall.com"])
@@ -133,7 +133,7 @@ google.com##body div#main div[data-hveid]:has(a[href*="humoruniv.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="etoland.co.kr"])
 google.com##body div#main div[data-hveid]:has(a[href*="tdgall.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="teamblind.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="ppomppu.com"])
+google.com##body div#main div[data-hveid]:has(a[href*="ppomppu.co.kr"])
 google.com##body div#main div[data-hveid]:has(a[href*="mlbpark.donga.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="82cook.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="hygall.com"])
@@ -365,7 +365,7 @@ humoruniv.com
 etoland.co.kr
 tdgall.com
 teamblind.com
-ppomppu.com
+ppomppu.co.kr
 mlbpark.donga.com
 82cook.com
 hygall.com
