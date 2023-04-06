@@ -321,6 +321,7 @@ ruliweb.com##.notice_element
 ruliweb.com##.row
 ruliweb.com##[id='main']
 ruliweb.com##[id='header']
+ruliweb.com##.notice_common
 
 ! reddit
 reddit.com##.commentsignupbar.infobar
