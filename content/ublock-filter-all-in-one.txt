@@ -334,6 +334,8 @@ ruliweb.com##.notice_common
 ! reddit
 reddit.com##.commentsignupbar.infobar
 reddit.com##.premium-banner-outer
+reddit.com##div[data-scroller-first]:has(a[href^="/search?q"])
+reddit.com##div[data-testid*="frontpage-sidebar"]
 
 ! namu-wiki
 ||namu.wiki/sidebar.json
