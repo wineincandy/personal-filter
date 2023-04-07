@@ -158,6 +158,14 @@ youtube.com###donation-shelf
 ! facebook
 facebook.com
 
+! twitter
+twitter.com##div[aria-label]:has(div[data-testid="trend"])
+twitter.com##div[aria-label*="Loading"]
+twitter.com##aside[role="complementary"]
+||abs.twimg.com/sticky/animations/like.4.json
+||abs.twimg.com/responsive-web/*ProfessionalHome*
+||abs.twimg.com/responsive-web/*SettingMonetization*
+
 ! nicovideo
 nicovideo.jp##.BottomMainContainer.GridCell
 nicovideo.jp##.LiveTopicsContainer.Card
