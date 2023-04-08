@@ -51,7 +51,8 @@ google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
 google.com##body div#main div:has(> div[aria-expanded][role])
 google.com##body div#main div:has(accordion-entry-search-icon)
 google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
-google.com##body div#main div:has(div > span ~ br ~ span)
+google.com##body div#main div:has(:scope span a[href^="/url?q=https://support.google.com"])
+||play.google.com
 !#endif
 
 ! block result from particular sites
@@ -664,6 +665,74 @@ manatoki350.net###hd_pop
 manatoki350.net##.div-title-underbar 
 manatoki350.net###to-btn 
 manatoki350.net###viewcomment
+
+manatoki284.net##.miso-post-list > .post-wrap
+manatoki285.net##.miso-post-list > .post-wrap
+manatoki286.net##.miso-post-list > .post-wrap
+manatoki287.net##.miso-post-list > .post-wrap
+manatoki288.net##.miso-post-list > .post-wrap
+manatoki289.net##.miso-post-list > .post-wrap
+manatoki290.net##.miso-post-list > .post-wrap
+manatoki291.net##.miso-post-list > .post-wrap
+manatoki292.net##.miso-post-list > .post-wrap
+manatoki293.net##.miso-post-list > .post-wrap
+manatoki294.net##.miso-post-list > .post-wrap
+manatoki295.net##.miso-post-list > .post-wrap
+manatoki296.net##.miso-post-list > .post-wrap
+manatoki297.net##.miso-post-list > .post-wrap
+manatoki298.net##.miso-post-list > .post-wrap
+manatoki299.net##.miso-post-list > .post-wrap
+manatoki300.net##.miso-post-list > .post-wrap
+manatoki301.net##.miso-post-list > .post-wrap
+manatoki302.net##.miso-post-list > .post-wrap
+manatoki303.net##.miso-post-list > .post-wrap
+manatoki304.net##.miso-post-list > .post-wrap
+manatoki305.net##.miso-post-list > .post-wrap
+manatoki306.net##.miso-post-list > .post-wrap
+manatoki307.net##.miso-post-list > .post-wrap
+manatoki308.net##.miso-post-list > .post-wrap
+manatoki309.net##.miso-post-list > .post-wrap
+manatoki310.net##.miso-post-list > .post-wrap
+manatoki311.net##.miso-post-list > .post-wrap
+manatoki312.net##.miso-post-list > .post-wrap
+manatoki313.net##.miso-post-list > .post-wrap
+manatoki314.net##.miso-post-list > .post-wrap
+manatoki315.net##.miso-post-list > .post-wrap
+manatoki316.net##.miso-post-list > .post-wrap
+manatoki317.net##.miso-post-list > .post-wrap
+manatoki318.net##.miso-post-list > .post-wrap
+manatoki319.net##.miso-post-list > .post-wrap
+manatoki320.net##.miso-post-list > .post-wrap
+manatoki321.net##.miso-post-list > .post-wrap
+manatoki322.net##.miso-post-list > .post-wrap
+manatoki323.net##.miso-post-list > .post-wrap
+manatoki324.net##.miso-post-list > .post-wrap
+manatoki325.net##.miso-post-list > .post-wrap
+manatoki326.net##.miso-post-list > .post-wrap
+manatoki327.net##.miso-post-list > .post-wrap
+manatoki328.net##.miso-post-list > .post-wrap
+manatoki329.net##.miso-post-list > .post-wrap
+manatoki330.net##.miso-post-list > .post-wrap
+manatoki331.net##.miso-post-list > .post-wrap
+manatoki332.net##.miso-post-list > .post-wrap
+manatoki333.net##.miso-post-list > .post-wrap
+manatoki334.net##.miso-post-list > .post-wrap
+manatoki335.net##.miso-post-list > .post-wrap
+manatoki336.net##.miso-post-list > .post-wrap
+manatoki337.net##.miso-post-list > .post-wrap
+manatoki338.net##.miso-post-list > .post-wrap
+manatoki339.net##.miso-post-list > .post-wrap
+manatoki340.net##.miso-post-list > .post-wrap
+manatoki341.net##.miso-post-list > .post-wrap
+manatoki342.net##.miso-post-list > .post-wrap
+manatoki343.net##.miso-post-list > .post-wrap
+manatoki344.net##.miso-post-list > .post-wrap
+manatoki345.net##.miso-post-list > .post-wrap
+manatoki346.net##.miso-post-list > .post-wrap
+manatoki347.net##.miso-post-list > .post-wrap
+manatoki348.net##.miso-post-list > .post-wrap
+manatoki349.net##.miso-post-list > .post-wrap
+manatoki350.net##.miso-post-list > .post-wrap
 
 
 
