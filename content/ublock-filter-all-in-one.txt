@@ -669,12 +669,10 @@ manatoki350.net###viewcomment
 
 ! misc
 willbes.net##DIV[class="Layer-Cont"]
-hub.zum.com##DIV[class="aside fixed"]
-hub.zum.com##DIV[id="article_comment_wrap"][class="article_comment_wrap"]
-wikitree.co.kr##ASIDE[class="content_right_wrap"]
+||wikitree.co.kr##ASIDE[class="content_right_wrap"]
 antdv.com##DIV[class="slick-track"]
 dictionary.cambridge.org##.loginPopupContainer
 acmicpc.net##.main-slider-ad.text-center
-hinative.com##body 
+||hinative.com##body 
 duckduckgo.com##.js-module--videos.module--carousel-videos.module--carousel.module 
 ||drive.google.com/uc$image 
