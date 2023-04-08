@@ -114,7 +114,7 @@ duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="mlbpark.donga.com"
 google.com##body div[data-snc]:has(a[href*="mlbpark.donga.com"])
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="hygall.com"])
 google.com##body div[data-snc]:has(a[href*="hygall.com"])
-!#end_if
+!#endif
 
 ! for mobile
 !#if env_mobile
@@ -148,7 +148,7 @@ google.com##body div#main div[data-hveid]:has(a[href*="82cook.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="hygall.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="dcinside.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="ruliweb.com"])
-!#end_if
+!#endif
 
 
 
