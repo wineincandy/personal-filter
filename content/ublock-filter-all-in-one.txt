@@ -35,14 +35,14 @@ dcnewsj.joins.com##DIV[id="sub"]
 ! annoying recommend stuff
  
 duckduckgo.com##body div.module--images
-google.com##body div g-section-with-header
-google.com##body div div[data-hveid][jsname]:has(div[aria-level="3"])
 duckduckgo.com##.related-searches
 
 ! for pc
 !#if !env_mobile
 google.com##body div#main div[data-abe]:has(div[data-hveid] a[data-xbu])
 google.com##body div#main div#center_col div:has(> div[data-entityid][data-entityname])
+google.com##body div#main g-section-with-header
+google.com##body div#main div[data-qc][data-initq]:has(div[aria-level="3"])
 !#endif
 
 ! for mobile
@@ -51,7 +51,7 @@ google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
 google.com##body div#main div:has(> div[aria-expanded][role])
 google.com##body div#main div:has(accordion-entry-search-icon)
 google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
-google.com##body div#main div#center_col div:has(div > span ~ br ~ span)
+google.com##body div#main div:has(div > span ~ br ~ span)
 !#endif
 
 ! block result from particular sites
