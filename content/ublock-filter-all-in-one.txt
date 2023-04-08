@@ -33,23 +33,29 @@ dcnewsj.joins.com##DIV[id="sub"]
 ! searching engine
 
 ! annoying recommend stuff
-
-! block image & video
+ 
 duckduckgo.com##body div.module--images
 google.com##body div g-section-with-header
 google.com##body div div[data-hveid][jsname]:has(div[aria-level="3"])
 duckduckgo.com##.related-searches
+
 ! for pc
+!#if !env_mobile
 google.com##body div#main div[data-abe]:has(div[data-hveid] a[data-xbu])
-google.com##body div#main div:has(> div[data-entityid][data-entityname])
+google.com##body div#main div#center_col div:has(> div[data-entityid][data-entityname])
+!#endif
+
 ! for mobile
+!#if env_mobile
 google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
 google.com##body div#main div:has(> div[aria-expanded][role])
 google.com##body div#main div:has(accordion-entry-search-icon)
 google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
-google.com##body div#main div:has(div > span ~ br ~ span)
+google.com##body div#main div#center_col div:has(div > span ~ br ~ span)
+!#endif
 
 ! block result from particular sites
+!#if !env_mobile
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="arca.live"])
 google.com##body div[data-snc]:has(a[href*="arca.live"])
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="theqoo.net"])
@@ -108,8 +114,10 @@ duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="mlbpark.donga.com"
 google.com##body div[data-snc]:has(a[href*="mlbpark.donga.com"])
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="hygall.com"])
 google.com##body div[data-snc]:has(a[href*="hygall.com"])
+!#end_if
 
 ! for mobile
+!#if env_mobile
 google.com##body div#main div[data-hveid]:has(a[href*="arca.live"])
 google.com##body div#main div[data-hveid]:has(a[href*="theqoo.net"])
 google.com##body div#main div[data-hveid]:has(a[href*="facebook.com"])
@@ -140,7 +148,7 @@ google.com##body div#main div[data-hveid]:has(a[href*="82cook.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="hygall.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="dcinside.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="ruliweb.com"])
-
+!#end_if
 
 
 
