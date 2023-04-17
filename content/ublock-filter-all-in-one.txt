@@ -36,6 +36,7 @@ dcnewsj.joins.com##DIV[id="sub"]
  
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
+duckduckgo.com##.js-module--news
 
 ! for pc
 !#if !env_mobile
@@ -166,7 +167,18 @@ duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="mlbpark.donga.com"
 duckduckgo.com##body div#links div.nrn-react-div:has(a[href*="hygall.com"])
 !#endif
 
+! danawa
 
+danawa.com##.swiper-container-horizontal
+danawa.com##.main-clip__wrap
+danawa.com##.main__header
+danawa.com##.main-top__right
+danawa.com##.aside_content
+danawa.com###shoppingGuideArea
+danawa.com###newsArea
+danawa.com###reviewArea
+danawa.com###communityArea
+danawa.com##.footer
 
 ! streaming-list
 
@@ -405,6 +417,7 @@ ppomppu.co.kr
 mlbpark.donga.com
 82cook.com
 hygall.com
+brunch.co.kr###footerBanner
 
 ! manatoki
 
