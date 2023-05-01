@@ -180,6 +180,7 @@ danawa.com###reviewArea
 danawa.com###communityArea
 danawa.com##.footer
 
+
 ! streaming-list
 
 ! youtube
@@ -235,6 +236,8 @@ jmana.one##div.breaking-news-scroll
 jmana.one###main_popup
 jmana.one##.quick-btn-wrap
 
+! klmanga
+klmanga.net##center:has(> a[href*="miscemassed.com"])
 
 ! news-list
 
@@ -286,6 +289,13 @@ naver.com###footer
 naver.com##DIV[id="NM_INT_LEFT"][class="column_left"]
 search.naver.com##.sub_pack
 comic.naver.com##DIV[id="wrap"][class="end_page"]
+
+! shopping.naver.com
+shopping.naver.com##div[class*="shoppingHome"] div[class*="homeBanner"]
+shopping.naver.com##div[class*="shoppingHome"] div[class*="sectionList"]:has(img)
+shopping.naver.com##div[class*="shoppingHome"] div[class*="mallArea"]
+
+
 
 ! daum
 daum.net##DIV[class="cp_view"]
@@ -382,6 +392,7 @@ namu.wiki##footer
 
 ! pixiv
 pixiv.net##.work-details-comments-container 
+pixiv.net##.promo-comic
 
 ! igg-games
 igg-games.com##iframe:nth-of-type(2) 
@@ -563,7 +574,7 @@ manatoki317.net###to-btn
 manatoki317.net###viewcomment
 manatoki318.net###hd_pop
 manatoki318.net##.div-title-underbar 
-manatoki318.net###to-btn 
+manatoki318.net###to-btn
 manatoki318.net###viewcomment
 manatoki319.net###hd_pop
 manatoki319.net##.div-title-underbar 
