@@ -44,6 +44,7 @@ google.com##body div#main div[data-abe]:has(div[data-hveid] a[data-xbu])
 google.com##body div#main div#center_col div:has(> div[data-entityid][data-entityname])
 google.com##body div#main g-section-with-header
 google.com##body div#main div[data-qc][data-initq]:has(div[aria-level="3"])
+google.com##div#main div[data-count]:has(a span)
 !#endif
 
 ! for mobile
@@ -54,6 +55,7 @@ google.com##body div#main div:has(accordion-entry-search-icon)
 google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
 google.com##body div#main div:has(:scope span a[href^="/url?q=https://support.google.com"])
 ||play.google.com
+google.com##div#main a:has(:scope img[alt][src][data-deferred])
 !#endif
 
 ! block result from particular sites
