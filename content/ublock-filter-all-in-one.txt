@@ -34,6 +34,7 @@ dcnewsj.joins.com##DIV[id="sub"]
 
 ! annoying recommend stuff
  
+||google.com/complete/search^$important
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
 duckduckgo.com##.js-module--news
