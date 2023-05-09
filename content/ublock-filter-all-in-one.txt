@@ -182,6 +182,8 @@ danawa.com###newsArea
 danawa.com###reviewArea
 danawa.com###communityArea
 danawa.com##.footer
+||img.danawa.com/*mainContent
+||img.danawa.com/*prod_item
 
 
 ! streaming-list
@@ -297,7 +299,10 @@ comic.naver.com##DIV[id="wrap"][class="end_page"]
 shopping.naver.com##div[class*="shoppingHome"] div[class*="homeBanner"]
 shopping.naver.com##div[class*="shoppingHome"] div[class*="sectionList"]:has(img)
 shopping.naver.com##div[class*="shoppingHome"] div[class*="mallArea"]
-
+||g-selected.pstatic.net
+||a01-g-naver-vod.pstatic.net
+||s.pstatic.net
+shopping.naver.com##[class*="shoppingHome_list_wrap"]
 
 
 ! daum
