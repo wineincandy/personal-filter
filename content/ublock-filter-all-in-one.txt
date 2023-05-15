@@ -182,6 +182,11 @@ danawa.com###newsArea
 danawa.com###reviewArea
 danawa.com###communityArea
 danawa.com##.footer
+search.danawa.com###recommandProductArea
+search.danawa.com###qnaArea
+search.danawa.com###videoArea
+search.danawa.com###shoppingPlanArea
+search.danawa.com###powerShoppingArea 
 ||img.danawa.com/*mainContent
 ||img.danawa.com/*prod_item
 
@@ -299,6 +304,9 @@ comic.naver.com##DIV[id="wrap"][class="end_page"]
 shopping.naver.com##div[class*="shoppingHome"] div[class*="homeBanner"]
 shopping.naver.com##div[class*="shoppingHome"] div[class*="sectionList"]:has(img)
 shopping.naver.com##div[class*="shoppingHome"] div[class*="mallArea"]
+shopping.naver.com##[class*="verticalCollection"] 
+shopping.naver.com##[class*="intentPrice"] 
+shopping.naver.com##[class*="recommendTrend"] 
 ||g-selected.pstatic.net
 ||a01-g-naver-vod.pstatic.net
 ||s.pstatic.net
