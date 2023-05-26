@@ -403,7 +403,7 @@ reddit.com##div[data-testid*="frontpage-sidebar"]
 ||namu.wiki/sidebar.json
 namu.wiki##a[href*="namu.news"]
 ||i.namu.wiki/i/*.png
-! namu.wiki##div:matches-css(cursor:pointer)
+namu.wiki##div:matches-css(cursor:pointer)
 namu.wiki##div:matches-css(flex-direction: column):matches-css(display:flex)
 namu.wiki##footer
 
