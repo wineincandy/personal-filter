@@ -36,6 +36,7 @@ dcnewsj.joins.com##DIV[id="sub"]
 
 
 ||google.com/complete/search^$important
+||google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
 duckduckgo.com##.js-module--news
