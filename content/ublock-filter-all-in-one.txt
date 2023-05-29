@@ -33,11 +33,13 @@ dcnewsj.joins.com##DIV[id="sub"]
 ! searching engine
 
 ! annoying recommend stuff
- 
+
+
 ||google.com/complete/search^$important
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
 duckduckgo.com##.js-module--news
+||duckduckgo.com/ac/?q
 
 ! for pc
 !#if !env_mobile
@@ -415,6 +417,8 @@ pixiv.net##.promo-comic
 igg-games.com##iframe:nth-of-type(2) 
 igg-games.com##iframe:nth-of-type(1)
 igg-games.com##.tm-sidebar img 
+igg-games.com#@#[href*="-games.com/"][href$=".html"]:has([src]):not(*:has(.wk-margin-right))
+igg-games.com##p a[rel="nofollow"]
 
 ! misc
 arca.live 
