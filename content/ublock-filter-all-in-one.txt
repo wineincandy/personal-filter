@@ -37,6 +37,7 @@ dcnewsj.joins.com##DIV[id="sub"]
 
 ||google.com/complete/search^$important
 ||google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
+||google.com##generic-promo-controller
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
 duckduckgo.com##.js-module--news
@@ -248,6 +249,7 @@ jmana.one##div.free-board-wrap
 jmana.one##div.breaking-news-scroll
 jmana.one###main_popup
 jmana.one##.quick-btn-wrap
+||jmana.one/resouce/img/adimg/$image
 
 ! klmanga
 klmanga.net##center:has(> a[href*="miscemassed.com"])
