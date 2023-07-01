@@ -253,6 +253,9 @@ jmana.one##.quick-btn-wrap
 
 ! klmanga
 klmanga.net##center:has(> a[href*="miscemassed.com"])
+klmanga.net##iframe:nth-of-type(1) 
+klmanga.net##.chapter-content > center 
+
 
 ! news-list
 
@@ -403,6 +406,14 @@ reddit.com##.commentsignupbar.infobar
 reddit.com##.premium-banner-outer
 reddit.com##div[data-scroller-first]:has(a[href^="/search?q"])
 reddit.com##div[data-testid*="frontpage-sidebar"]
+reddit.com##.OuterBannerContainer
+!#if !env_mobile
+reddit.com##div.Comment:has(a[data-testid^="comment"][href*="AutoModerator"])
+!#endif
+!#if env_mobile
+!reddit.com##.Comment:has(.m-synthetic.CommentHeader__avatar) 
+reddit.com##.in-comment-tree.Comment:has(.m-moderator) 
+!#endif
 
 ! namu-wiki
 ||namu.wiki/sidebar.json
