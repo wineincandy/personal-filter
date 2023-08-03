@@ -50,6 +50,7 @@ google.com##body div#main div#center_col div:has(> div[data-entityid][data-entit
 google.com##body div#main g-section-with-header
 google.com##body div#main div[data-qc][data-initq]:has(div[aria-level="3"])
 google.com##div#main div[data-count]:has(a span)
+google.com##div[data-abe][data-ved]
 !#endif
 
 ! for mobile
@@ -205,8 +206,7 @@ search.danawa.com###qnaArea
 search.danawa.com###videoArea
 search.danawa.com###shoppingPlanArea
 search.danawa.com###powerShoppingArea 
-||img.danawa.com/*mainContent
-||img.danawa.com/*prod_item
+img.danawa.com^$image,domain=danawa.com|~search.danawa.com|~prod.danawa.com
 
 
 ! streaming-list
@@ -332,6 +332,10 @@ shopping.naver.com##[class*="recommendTrend"]
 ||g-selected.pstatic.net
 ||a01-g-naver-vod.pstatic.net
 ||s.pstatic.net
+shop-phinf.pstatic.net^$image,domain=shopping.naver.com|~search.shopping.naver.com|~msearch.shopping.naver.com
+a01-g-naver-vod.akamaized.net
+phinf.pstatic.net/dthumb
+shopping-phinf.pstatic.net^$image,domain=shopping.naver.com|~search.shopping.naver.com|~msearch.shopping.naver.com
 shopping.naver.com##[class*="shoppingHome_list_wrap"]
 
 
