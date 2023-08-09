@@ -124,6 +124,7 @@ duckduckgo.com##body article[data-nrn="result"]:has(a[href*="mlbpark.donga.com"]
 google.com##body div[data-snc]:has(a[href*="mlbpark.donga.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="hygall.com"])
 google.com##body div[data-snc]:has(a[href*="hygall.com"])
+google.com##body div[data-snc]:has(a[href*="youtube.com"])
 !#endif
 
 ! for mobile
@@ -158,6 +159,7 @@ google.com##body div#main div[data-hveid]:has(a[href*="82cook.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="hygall.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="dcinside.com"])
 google.com##body div#main div[data-hveid]:has(a[href*="ruliweb.com"])
+google.com##body div#main div[data-hveid]:has(a[href*="youtube.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="theqoo.net"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="facebook.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="meeco.kr"])
