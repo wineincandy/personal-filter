@@ -60,11 +60,18 @@ google.com##body div[role="complementary"]
 ! for mobile
 !#if env_mobile
 google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
-google.com##body div#main div:has(> div[aria-expanded][role])
-google.com##body div#main div:has(accordion-entry-search-icon)
 google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
+! 보조 설명 제거
+google.com##body div#main div:has(> div[aria-expanded][role])
+! 관련 검색어 제거
+google.com##body div#main div:has(accordion-entry-search-icon)
+! 안내 문구 제거
 google.com##body div#main div:has(:scope span a[href^="/url?q=https://support.google.com"])
+! 앱 광고 제거
 ||play.google.com
+! 주요뉴스  제거
+google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
+! 이미지 제거
 google.com##div#main a:has(:scope img[alt][src][data-deferred])
 ! 관련 검색어 제거
 google.com##div#main div:has(:scope accordion-entry-search-icon) 
@@ -88,6 +95,7 @@ duckduckgo.com##body article[data-nrn="result"]:has(a[href*="dmitory.com"])
 google.com##body div[data-snc]:has(a[href*="dmitory.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="slrclub.com"])
 google.com##body div[data-snc]:has(a[href*="slrclub.com"])
+
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="issuya.com"])
 google.com##body div[data-snc]:has(a[href*="issuya.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="ygosu.com"])
