@@ -38,6 +38,7 @@ dcnewsj.joins.com##DIV[id="sub"]
 ||google.com/complete/search^$important
 ||google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
 ||google.com##generic-promo-controller
+google.com###botstuff 
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
 duckduckgo.com##.js-module--news
@@ -259,6 +260,13 @@ twitch.tv##.right-column--beside
 twitch.tv##.side-bar-contents
 twitch.tv##.side-nav__scrollable_content.simplebar-content
 twitch.tv###twilight-sticky-footer-root
+! block chatk
+irc-ws.chat.twitch.tv
+! block badge image
+static-cdn.jtvnw.net/badges/
+static-cdn.jtvnw.net/jtv_user_pictures/
+twitch.tv##div[dir="auto"]
+
 
 ! dailymotion
 dailymotion.com##div[class*="Discovery"] div.col:nth-of-type(2)
@@ -285,7 +293,7 @@ jmana.one##.quick-btn-wrap
 klmanga.net##center:has(> a[href*="miscemassed.com"])
 klmanga.net##iframe:nth-of-type(1) 
 klmanga.net##.chapter-content > center 
-
+klmanga.net###list-imga > center 
 
 ! news-list
 
@@ -500,103 +508,6 @@ hygall.com
 brunch.co.kr###footerBanner
 
 ! manatoki
-
-manatoki283.net###hd_pop
-manatoki283.net##.div-title-underbar 
-manatoki283.net###to-btn 
-manatoki283.net###viewcomment
-manatoki284.net###hd_pop
-manatoki284.net##.div-title-underbar 
-manatoki284.net###to-btn 
-manatoki284.net###viewcomment
-manatoki285.net###hd_pop
-manatoki285.net##.div-title-underbar 
-manatoki285.net###to-btn 
-manatoki285.net###viewcomment
-manatoki286.net###hd_pop
-manatoki286.net##.div-title-underbar 
-manatoki286.net###to-btn 
-manatoki286.net###viewcomment
-manatoki287.net###hd_pop
-manatoki287.net##.div-title-underbar 
-manatoki287.net###to-btn 
-manatoki287.net###viewcomment
-manatoki288.net###hd_pop
-manatoki288.net##.div-title-underbar 
-manatoki288.net###to-btn 
-manatoki288.net###viewcomment
-manatoki289.net###hd_pop
-manatoki289.net##.div-title-underbar 
-manatoki289.net###to-btn 
-manatoki289.net###viewcomment
-manatoki290.net###hd_pop
-manatoki290.net##.div-title-underbar 
-manatoki290.net###to-btn 
-manatoki290.net###viewcomment
-manatoki291.net###hd_pop
-manatoki291.net##.div-title-underbar 
-manatoki291.net###to-btn 
-manatoki291.net###viewcomment
-manatoki292.net###hd_pop
-manatoki292.net##.div-title-underbar 
-manatoki292.net###to-btn 
-manatoki292.net###viewcomment
-manatoki293.net###hd_pop
-manatoki293.net##.div-title-underbar 
-manatoki293.net###to-btn 
-manatoki293.net###viewcomment
-manatoki294.net###hd_pop
-manatoki294.net##.div-title-underbar 
-manatoki294.net###to-btn 
-manatoki294.net###viewcomment
-manatoki295.net###hd_pop
-manatoki295.net##.div-title-underbar 
-manatoki295.net###to-btn 
-manatoki295.net###viewcomment
-manatoki296.net###hd_pop
-manatoki296.net##.div-title-underbar 
-manatoki296.net###to-btn 
-manatoki296.net###viewcomment
-manatoki297.net###hd_pop
-manatoki297.net##.div-title-underbar 
-manatoki297.net###to-btn 
-manatoki297.net###viewcomment
-manatoki298.net###hd_pop
-manatoki298.net##.div-title-underbar 
-manatoki298.net###to-btn 
-manatoki298.net###viewcomment
-manatoki299.net###hd_pop
-manatoki299.net##.div-title-underbar 
-manatoki299.net###to-btn 
-manatoki299.net###viewcomment
-manatoki300.net###hd_pop
-manatoki300.net##.div-title-underbar 
-manatoki300.net###to-btn 
-manatoki300.net###viewcomment
-manatoki301.net###hd_pop
-manatoki301.net##.div-title-underbar 
-manatoki301.net###to-btn 
-manatoki301.net###viewcomment
-manatoki302.net###hd_pop
-manatoki302.net##.div-title-underbar 
-manatoki302.net###to-btn 
-manatoki302.net###viewcomment
-manatoki303.net###hd_pop
-manatoki303.net##.div-title-underbar 
-manatoki303.net###to-btn 
-manatoki303.net###viewcomment
-manatoki304.net###hd_pop
-manatoki304.net##.div-title-underbar 
-manatoki304.net###to-btn 
-manatoki304.net###viewcomment
-manatoki305.net###hd_pop
-manatoki305.net##.div-title-underbar 
-manatoki305.net###to-btn 
-manatoki305.net###viewcomment
-manatoki306.net###hd_pop
-manatoki306.net##.div-title-underbar 
-manatoki306.net###to-btn 
-manatoki306.net###viewcomment
 manatoki307.net###hd_pop
 manatoki307.net##.div-title-underbar 
 manatoki307.net###to-btn 
@@ -774,29 +685,6 @@ manatoki350.net##.div-title-underbar
 manatoki350.net###to-btn 
 manatoki350.net###viewcomment
 
-manatoki284.net##.miso-post-list > .post-wrap
-manatoki285.net##.miso-post-list > .post-wrap
-manatoki286.net##.miso-post-list > .post-wrap
-manatoki287.net##.miso-post-list > .post-wrap
-manatoki288.net##.miso-post-list > .post-wrap
-manatoki289.net##.miso-post-list > .post-wrap
-manatoki290.net##.miso-post-list > .post-wrap
-manatoki291.net##.miso-post-list > .post-wrap
-manatoki292.net##.miso-post-list > .post-wrap
-manatoki293.net##.miso-post-list > .post-wrap
-manatoki294.net##.miso-post-list > .post-wrap
-manatoki295.net##.miso-post-list > .post-wrap
-manatoki296.net##.miso-post-list > .post-wrap
-manatoki297.net##.miso-post-list > .post-wrap
-manatoki298.net##.miso-post-list > .post-wrap
-manatoki299.net##.miso-post-list > .post-wrap
-manatoki300.net##.miso-post-list > .post-wrap
-manatoki301.net##.miso-post-list > .post-wrap
-manatoki302.net##.miso-post-list > .post-wrap
-manatoki303.net##.miso-post-list > .post-wrap
-manatoki304.net##.miso-post-list > .post-wrap
-manatoki305.net##.miso-post-list > .post-wrap
-manatoki306.net##.miso-post-list > .post-wrap
 manatoki307.net##.miso-post-list > .post-wrap
 manatoki308.net##.miso-post-list > .post-wrap
 manatoki309.net##.miso-post-list > .post-wrap
