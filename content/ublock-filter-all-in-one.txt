@@ -34,7 +34,7 @@ dcnewsj.joins.com##DIV[id="sub"]
 
 ! annoying recommend stuff
 
-
+google.com###botstuff
 ||google.com/complete/search^$important
 ||google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
 ||google.com##generic-promo-controller
@@ -52,6 +52,7 @@ google.com##body div#main g-section-with-header
 google.com##body div#main div[data-qc][data-initq]:has(div[aria-level="3"])
 google.com##div#main div[data-count]:has(a span)
 google.com##div[data-abe][data-ved]
+google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
 ! 관련 검색어 삭제
 google.com##div[role="navigation"]
 ! 옆의 곁가지 삭제
@@ -75,7 +76,9 @@ google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):mat
 ! 이미지 제거
 google.com##div#main a:has(:scope img[alt][src][data-deferred])
 ! 관련 검색어 제거
-google.com##div#main div:has(:scope accordion-entry-search-icon) 
+google.com##div#main div:has(:scope accordion-entry-search-icon)
+! 위키백과 제거
+google.com##div#main div:has(:scope #tsuid_5):has(:scope h3)
 !#endif
 
 ! block result from particular sites
@@ -236,6 +239,15 @@ youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-sco
 youtube.com###header > .ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
 youtube.com###donation-shelf
+youtube.com/youtubei/v1/live_chat/get_live_chat
+youtube.com##.rich-section-content
+youtube.com##.metadata-badge
+youtube.com##.donation-shelf-campaign
+youtube.com##.donation-shelf-amount-raised-label
+youtube.com##.donation-shelf-expander
+youtube.com##.reel-shelf-items
+youtube.com##.reel-shelf-header
+youtube.com##ad-slot-renderer
 
 ! facebook
 facebook.com
@@ -266,6 +278,8 @@ irc-ws.chat.twitch.tv
 static-cdn.jtvnw.net/badges/
 static-cdn.jtvnw.net/jtv_user_pictures/
 twitch.tv##div[dir="auto"]
+twitch.tv##.r-ongcgc
+
 
 
 ! dailymotion
@@ -345,6 +359,11 @@ naver.com###footer
 naver.com##DIV[id="NM_INT_LEFT"][class="column_left"]
 search.naver.com##.sub_pack
 comic.naver.com##DIV[id="wrap"][class="end_page"]
+
+! dict.naver.com
+en.dict.naver.com##.enen
+ko.dict.naver.com##._sensitiveWord.cautionDiscrimCode_discrimination.info
+ko.dict.naver.com##.cautionDiscrimCodediscrimination.
 
 ! shopping.naver.com
 shopping.naver.com##div[class*="shoppingHome"] div[class*="homeBanner"]
@@ -449,6 +468,10 @@ reddit.com##.premium-banner-outer
 reddit.com##div[data-scroller-first]:has(a[href^="/search?q"])
 reddit.com##div[data-testid*="frontpage-sidebar"]
 reddit.com##.OuterBannerContainer
+! 검색 결과에서 광고 제거
+reddit.com/svc/shreddit/trending-searches
+! 잇따른 응답 요청 실페 전언 상자 제거
+reddit.com##faceplate-toast.hasAction
 !#if !env_mobile
 reddit.com##div.Comment:has(a[data-testid^="comment"][href*="AutoModerator"])
 !#endif
@@ -475,6 +498,10 @@ igg-games.com##iframe:nth-of-type(1)
 igg-games.com##.tm-sidebar img 
 igg-games.com#@#[href*="-games.com/"][href$=".html"]:has([src]):not(*:has(.wk-margin-right))
 igg-games.com##p a[rel="nofollow"]
+||igg-games.com/wp-content/uploads/*/na2.jpg$image
+||igg-games.com/wp-content/uploads/*/nfff2.jpg$image
+||igg-games.com/wp-content/uploads/*/nfff2.webp$image
+||igg-games.com/wp-content/uploads/*/na2.avif$image
 
 ! misc
 arca.live 
