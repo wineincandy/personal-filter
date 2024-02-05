@@ -73,12 +73,14 @@ google.com##body div#main div:has(:scope span a[href^="/url?q=https://support.go
 ||play.google.com
 ! 주요뉴스  제거
 google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
-! 이미지 제거
+! 화상 제거
 google.com##div#main a:has(:scope img[alt][src][data-deferred])
 ! 관련 검색어 제거
 google.com##div#main div:has(:scope accordion-entry-search-icon)
-! 위키백과 제거
+! 질문 제거
 google.com##div#main div:has(:scope #tsuid_5):has(:scope h3)
+! 위키백과 제거
+google.com##div#main div:has(:scope span a[href*="wikipedia.org"])
 !#endif
 
 ! block result from particular sites
