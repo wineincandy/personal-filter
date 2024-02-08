@@ -484,10 +484,17 @@ reddit.com##.in-comment-tree.Comment:has(.m-moderator)
 
 ! namu-wiki
 ||namu.wiki/sidebar.json
-namu.wiki##a[href*="namu.news"]
 ||i.namu.wiki/i/*.png
+! 아래 광고 막음
+namu.wiki##article div:has(> div > div > img[src$=".svg"])
+! 뉴스 막음
+namu.wiki##main > div div:has(> a[href="#"][rel="noopener"])
+namu.wiki##a[href*="namu.news"]
+! 최근 수정된 문서 막음
+namu.wiki##main > div div:has(> a[href="/RecentChanges"])
 namu.wiki##div:matches-css(cursor:pointer)
-namu.wiki##div:matches-css(flex-direction: column):matches-css(display:flex)
+! 바닥 막음
+namu.wiki##main > div div:has(> a[href^="https://play.google.com"])
 namu.wiki##footer
 
 ! pixiv
