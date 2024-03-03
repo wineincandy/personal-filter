@@ -33,7 +33,6 @@ dcnewsj.joins.com##DIV[id="sub"]
 ! searching engine
 
 ! annoying recommend stuff
-
 google.com###botstuff
 ||google.com/complete/search^$important
 ||google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
@@ -57,6 +56,8 @@ google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):mat
 google.com##div[role="navigation"]
 ! 옆의 곁가지 삭제
 google.com##body div[role="complementary"]
+! 표를 없애나?
+google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
 !#endif
 
 ! for mobile
@@ -250,6 +251,7 @@ youtube.com##.donation-shelf-expander
 youtube.com##.reel-shelf-items
 youtube.com##.reel-shelf-header
 youtube.com##ad-slot-renderer
+youtube.com/youtubei/v1/live_chat/get_live_chat
 
 ! facebook
 facebook.com
@@ -281,8 +283,6 @@ static-cdn.jtvnw.net/badges/
 static-cdn.jtvnw.net/jtv_user_pictures/
 twitch.tv##div[dir="auto"]
 twitch.tv##.r-ongcgc
-
-
 
 ! dailymotion
 dailymotion.com##div[class*="Discovery"] div.col:nth-of-type(2)
@@ -470,6 +470,8 @@ reddit.com##.premium-banner-outer
 reddit.com##div[data-scroller-first]:has(a[href^="/search?q"])
 reddit.com##div[data-testid*="frontpage-sidebar"]
 reddit.com##.OuterBannerContainer
+reddit.com##.styled-scrollbars.w-100.right-sidebar.block 
+reddit.com##alert-controller 
 ! 검색 결과에서 광고 제거
 reddit.com/svc/shreddit/trending-searches
 ! 잇따른 응답 요청 실페 전언 상자 제거
@@ -487,6 +489,7 @@ reddit.com##.in-comment-tree.Comment:has(.m-moderator)
 ||i.namu.wiki/i/*.png
 ! 아래 광고 막음
 namu.wiki##article div:has(> div > div > img[src$=".svg"])
+namu.wiki##article div div div div div div:has(:scope div > a[href="#"] > span:has-text("광고등록")):has(:scope div > a[href="#"] > img)
 ! 뉴스 막음
 namu.wiki##main > div div:has(> a[href="#"][rel="noopener"])
 namu.wiki##a[href*="namu.news"]
@@ -544,229 +547,881 @@ hygall.com
 brunch.co.kr###footerBanner
 
 ! manatoki
-manatoki307.net###hd_pop
-manatoki307.net##.div-title-underbar 
-manatoki307.net###to-btn 
-manatoki307.net###viewcomment
-manatoki308.net###hd_pop
-manatoki308.net##.div-title-underbar 
-manatoki308.net###to-btn 
-manatoki308.net###viewcomment
-manatoki309.net###hd_pop
-manatoki309.net##.div-title-underbar 
-manatoki309.net###to-btn 
-manatoki309.net###viewcomment
-manatoki310.net###hd_pop
-manatoki310.net##.div-title-underbar 
-manatoki310.net###to-btn 
-manatoki310.net###viewcomment
-manatoki311.net###hd_pop
-manatoki311.net##.div-title-underbar 
-manatoki311.net###to-btn 
-manatoki311.net###viewcomment
-manatoki312.net###hd_pop
-manatoki312.net##.div-title-underbar 
-manatoki312.net###to-btn 
-manatoki312.net###viewcomment
-manatoki313.net###hd_pop
-manatoki313.net##.div-title-underbar 
-manatoki313.net###to-btn 
-manatoki313.net###viewcomment
-manatoki314.net###hd_pop
-manatoki314.net##.div-title-underbar 
-manatoki314.net###to-btn 
-manatoki314.net###viewcomment
-manatoki315.net###hd_pop
-manatoki315.net##.div-title-underbar 
-manatoki315.net###to-btn 
-manatoki315.net###viewcomment
-manatoki316.net###hd_pop
-manatoki316.net##.div-title-underbar 
-manatoki316.net###to-btn 
-manatoki316.net###viewcomment
-manatoki317.net###hd_pop
-manatoki317.net##.div-title-underbar 
-manatoki317.net###to-btn 
-manatoki317.net###viewcomment
-manatoki318.net###hd_pop
-manatoki318.net##.div-title-underbar 
-manatoki318.net###to-btn
-manatoki318.net###viewcomment
-manatoki319.net###hd_pop
-manatoki319.net##.div-title-underbar 
-manatoki319.net###to-btn 
-manatoki319.net###viewcomment
-manatoki320.net###hd_pop
-manatoki320.net##.div-title-underbar 
-manatoki320.net###to-btn 
-manatoki320.net###viewcomment
-manatoki321.net###hd_pop
-manatoki321.net##.div-title-underbar 
-manatoki321.net###to-btn 
-manatoki321.net###viewcomment
-manatoki322.net###hd_pop
-manatoki322.net##.div-title-underbar 
-manatoki322.net###to-btn 
-manatoki322.net###viewcomment
-manatoki323.net###hd_pop
-manatoki323.net##.div-title-underbar 
-manatoki323.net###to-btn 
-manatoki323.net###viewcomment
-manatoki324.net###hd_pop
-manatoki324.net##.div-title-underbar 
-manatoki324.net###to-btn 
-manatoki324.net###viewcomment
-manatoki325.net###hd_pop
-manatoki325.net##.div-title-underbar 
-manatoki325.net###to-btn 
-manatoki325.net###viewcomment
-manatoki326.net###hd_pop
-manatoki326.net##.div-title-underbar 
-manatoki326.net###to-btn 
-manatoki326.net###viewcomment
-manatoki327.net###hd_pop
-manatoki327.net##.div-title-underbar 
-manatoki327.net###to-btn 
-manatoki327.net###viewcomment
-manatoki328.net###hd_pop
-manatoki328.net##.div-title-underbar 
-manatoki328.net###to-btn 
-manatoki328.net###viewcomment
-manatoki329.net###hd_pop
-manatoki329.net##.div-title-underbar 
-manatoki329.net###to-btn 
-manatoki329.net###viewcomment
-manatoki330.net###hd_pop
-manatoki330.net##.div-title-underbar 
-manatoki330.net###to-btn 
-manatoki330.net###viewcomment
-manatoki331.net###hd_pop
-manatoki331.net##.div-title-underbar 
-manatoki331.net###to-btn 
-manatoki331.net###viewcomment
-manatoki332.net###hd_pop
-manatoki332.net##.div-title-underbar 
-manatoki332.net###to-btn 
-manatoki332.net###viewcomment
-manatoki333.net###hd_pop
-manatoki333.net##.div-title-underbar 
-manatoki333.net###to-btn 
-manatoki333.net###viewcomment
-manatoki334.net###hd_pop
-manatoki334.net##.div-title-underbar 
-manatoki334.net###to-btn 
-manatoki334.net###viewcomment
-manatoki335.net###hd_pop
-manatoki335.net##.div-title-underbar 
-manatoki335.net###to-btn 
-manatoki335.net###viewcomment
-manatoki336.net###hd_pop
-manatoki336.net##.div-title-underbar 
-manatoki336.net###to-btn 
-manatoki336.net###viewcomment
-manatoki337.net###hd_pop
-manatoki337.net##.div-title-underbar 
-manatoki337.net###to-btn 
-manatoki337.net###viewcomment
-manatoki338.net###hd_pop
-manatoki338.net##.div-title-underbar 
-manatoki338.net###to-btn 
-manatoki338.net###viewcomment
-manatoki339.net###hd_pop
-manatoki339.net##.div-title-underbar 
-manatoki339.net###to-btn 
-manatoki339.net###viewcomment
-manatoki340.net###hd_pop
-manatoki340.net##.div-title-underbar 
-manatoki340.net###to-btn 
-manatoki340.net###viewcomment
-manatoki341.net###hd_pop
-manatoki341.net##.div-title-underbar 
-manatoki341.net###to-btn 
-manatoki341.net###viewcomment
-manatoki342.net###hd_pop
-manatoki342.net##.div-title-underbar 
-manatoki342.net###to-btn 
-manatoki342.net###viewcomment
-manatoki343.net###hd_pop
-manatoki343.net##.div-title-underbar 
-manatoki343.net###to-btn 
-manatoki343.net###viewcomment
-manatoki344.net###hd_pop
-manatoki344.net##.div-title-underbar 
-manatoki344.net###to-btn 
-manatoki344.net###viewcomment
-manatoki345.net###hd_pop
-manatoki345.net##.div-title-underbar 
-manatoki345.net###to-btn 
-manatoki345.net###viewcomment
-manatoki346.net###hd_pop
-manatoki346.net##.div-title-underbar 
-manatoki346.net###to-btn 
-manatoki346.net###viewcomment
-manatoki347.net###hd_pop
-manatoki347.net##.div-title-underbar 
-manatoki347.net###to-btn 
-manatoki347.net###viewcomment
-manatoki348.net###hd_pop
-manatoki348.net##.div-title-underbar 
-manatoki348.net###to-btn 
-manatoki348.net###viewcomment
-manatoki349.net###hd_pop
-manatoki349.net##.div-title-underbar 
-manatoki349.net###to-btn 
-manatoki349.net###viewcomment
-manatoki350.net###hd_pop
-manatoki350.net##.div-title-underbar 
-manatoki350.net###to-btn 
-manatoki350.net###viewcomment
+manatoki326###hd_pop
+manatoki326##.div-title-underbar
+manatoki326###to-btn
+manatoki326###viewcomment
+manatoki326##.miso-post-list > .post-wrap
+manatoki326##.at-tip.btn-next
+manatoki326##.at-tip.btn-next
+manatoki327###hd_pop
+manatoki327##.div-title-underbar
+manatoki327###to-btn
+manatoki327###viewcomment
+manatoki327##.miso-post-list > .post-wrap
+manatoki327##.at-tip.btn-next
+manatoki327##.at-tip.btn-next
+manatoki328###hd_pop
+manatoki328##.div-title-underbar
+manatoki328###to-btn
+manatoki328###viewcomment
+manatoki328##.miso-post-list > .post-wrap
+manatoki328##.at-tip.btn-next
+manatoki328##.at-tip.btn-next
+manatoki329###hd_pop
+manatoki329##.div-title-underbar
+manatoki329###to-btn
+manatoki329###viewcomment
+manatoki329##.miso-post-list > .post-wrap
+manatoki329##.at-tip.btn-next
+manatoki329##.at-tip.btn-next
+manatoki330###hd_pop
+manatoki330##.div-title-underbar
+manatoki330###to-btn
+manatoki330###viewcomment
+manatoki330##.miso-post-list > .post-wrap
+manatoki330##.at-tip.btn-next
+manatoki330##.at-tip.btn-next
+manatoki331###hd_pop
+manatoki331##.div-title-underbar
+manatoki331###to-btn
+manatoki331###viewcomment
+manatoki331##.miso-post-list > .post-wrap
+manatoki331##.at-tip.btn-next
+manatoki331##.at-tip.btn-next
+manatoki332###hd_pop
+manatoki332##.div-title-underbar
+manatoki332###to-btn
+manatoki332###viewcomment
+manatoki332##.miso-post-list > .post-wrap
+manatoki332##.at-tip.btn-next
+manatoki332##.at-tip.btn-next
+manatoki333###hd_pop
+manatoki333##.div-title-underbar
+manatoki333###to-btn
+manatoki333###viewcomment
+manatoki333##.miso-post-list > .post-wrap
+manatoki333##.at-tip.btn-next
+manatoki333##.at-tip.btn-next
+manatoki334###hd_pop
+manatoki334##.div-title-underbar
+manatoki334###to-btn
+manatoki334###viewcomment
+manatoki334##.miso-post-list > .post-wrap
+manatoki334##.at-tip.btn-next
+manatoki334##.at-tip.btn-next
+manatoki335###hd_pop
+manatoki335##.div-title-underbar
+manatoki335###to-btn
+manatoki335###viewcomment
+manatoki335##.miso-post-list > .post-wrap
+manatoki335##.at-tip.btn-next
+manatoki335##.at-tip.btn-next
+manatoki336###hd_pop
+manatoki336##.div-title-underbar
+manatoki336###to-btn
+manatoki336###viewcomment
+manatoki336##.miso-post-list > .post-wrap
+manatoki336##.at-tip.btn-next
+manatoki336##.at-tip.btn-next
+manatoki337###hd_pop
+manatoki337##.div-title-underbar
+manatoki337###to-btn
+manatoki337###viewcomment
+manatoki337##.miso-post-list > .post-wrap
+manatoki337##.at-tip.btn-next
+manatoki337##.at-tip.btn-next
+manatoki338###hd_pop
+manatoki338##.div-title-underbar
+manatoki338###to-btn
+manatoki338###viewcomment
+manatoki338##.miso-post-list > .post-wrap
+manatoki338##.at-tip.btn-next
+manatoki338##.at-tip.btn-next
+manatoki339###hd_pop
+manatoki339##.div-title-underbar
+manatoki339###to-btn
+manatoki339###viewcomment
+manatoki339##.miso-post-list > .post-wrap
+manatoki339##.at-tip.btn-next
+manatoki339##.at-tip.btn-next
+manatoki340###hd_pop
+manatoki340##.div-title-underbar
+manatoki340###to-btn
+manatoki340###viewcomment
+manatoki340##.miso-post-list > .post-wrap
+manatoki340##.at-tip.btn-next
+manatoki340##.at-tip.btn-next
+manatoki341###hd_pop
+manatoki341##.div-title-underbar
+manatoki341###to-btn
+manatoki341###viewcomment
+manatoki341##.miso-post-list > .post-wrap
+manatoki341##.at-tip.btn-next
+manatoki341##.at-tip.btn-next
+manatoki342###hd_pop
+manatoki342##.div-title-underbar
+manatoki342###to-btn
+manatoki342###viewcomment
+manatoki342##.miso-post-list > .post-wrap
+manatoki342##.at-tip.btn-next
+manatoki342##.at-tip.btn-next
+manatoki343###hd_pop
+manatoki343##.div-title-underbar
+manatoki343###to-btn
+manatoki343###viewcomment
+manatoki343##.miso-post-list > .post-wrap
+manatoki343##.at-tip.btn-next
+manatoki343##.at-tip.btn-next
+manatoki344###hd_pop
+manatoki344##.div-title-underbar
+manatoki344###to-btn
+manatoki344###viewcomment
+manatoki344##.miso-post-list > .post-wrap
+manatoki344##.at-tip.btn-next
+manatoki344##.at-tip.btn-next
+manatoki345###hd_pop
+manatoki345##.div-title-underbar
+manatoki345###to-btn
+manatoki345###viewcomment
+manatoki345##.miso-post-list > .post-wrap
+manatoki345##.at-tip.btn-next
+manatoki345##.at-tip.btn-next
+manatoki346###hd_pop
+manatoki346##.div-title-underbar
+manatoki346###to-btn
+manatoki346###viewcomment
+manatoki346##.miso-post-list > .post-wrap
+manatoki346##.at-tip.btn-next
+manatoki346##.at-tip.btn-next
+manatoki347###hd_pop
+manatoki347##.div-title-underbar
+manatoki347###to-btn
+manatoki347###viewcomment
+manatoki347##.miso-post-list > .post-wrap
+manatoki347##.at-tip.btn-next
+manatoki347##.at-tip.btn-next
+manatoki348###hd_pop
+manatoki348##.div-title-underbar
+manatoki348###to-btn
+manatoki348###viewcomment
+manatoki348##.miso-post-list > .post-wrap
+manatoki348##.at-tip.btn-next
+manatoki348##.at-tip.btn-next
+manatoki349###hd_pop
+manatoki349##.div-title-underbar
+manatoki349###to-btn
+manatoki349###viewcomment
+manatoki349##.miso-post-list > .post-wrap
+manatoki349##.at-tip.btn-next
+manatoki349##.at-tip.btn-next
+manatoki350###hd_pop
+manatoki350##.div-title-underbar
+manatoki350###to-btn
+manatoki350###viewcomment
+manatoki350##.miso-post-list > .post-wrap
+manatoki350##.at-tip.btn-next
+manatoki350##.at-tip.btn-next
+manatoki351###hd_pop
+manatoki351##.div-title-underbar
+manatoki351###to-btn
+manatoki351###viewcomment
+manatoki351##.miso-post-list > .post-wrap
+manatoki351##.at-tip.btn-next
+manatoki351##.at-tip.btn-next
+manatoki352###hd_pop
+manatoki352##.div-title-underbar
+manatoki352###to-btn
+manatoki352###viewcomment
+manatoki352##.miso-post-list > .post-wrap
+manatoki352##.at-tip.btn-next
+manatoki352##.at-tip.btn-next
+manatoki353###hd_pop
+manatoki353##.div-title-underbar
+manatoki353###to-btn
+manatoki353###viewcomment
+manatoki353##.miso-post-list > .post-wrap
+manatoki353##.at-tip.btn-next
+manatoki353##.at-tip.btn-next
+manatoki354###hd_pop
+manatoki354##.div-title-underbar
+manatoki354###to-btn
+manatoki354###viewcomment
+manatoki354##.miso-post-list > .post-wrap
+manatoki354##.at-tip.btn-next
+manatoki354##.at-tip.btn-next
+manatoki355###hd_pop
+manatoki355##.div-title-underbar
+manatoki355###to-btn
+manatoki355###viewcomment
+manatoki355##.miso-post-list > .post-wrap
+manatoki355##.at-tip.btn-next
+manatoki355##.at-tip.btn-next
+manatoki356###hd_pop
+manatoki356##.div-title-underbar
+manatoki356###to-btn
+manatoki356###viewcomment
+manatoki356##.miso-post-list > .post-wrap
+manatoki356##.at-tip.btn-next
+manatoki356##.at-tip.btn-next
+manatoki357###hd_pop
+manatoki357##.div-title-underbar
+manatoki357###to-btn
+manatoki357###viewcomment
+manatoki357##.miso-post-list > .post-wrap
+manatoki357##.at-tip.btn-next
+manatoki357##.at-tip.btn-next
+manatoki358###hd_pop
+manatoki358##.div-title-underbar
+manatoki358###to-btn
+manatoki358###viewcomment
+manatoki358##.miso-post-list > .post-wrap
+manatoki358##.at-tip.btn-next
+manatoki358##.at-tip.btn-next
+manatoki359###hd_pop
+manatoki359##.div-title-underbar
+manatoki359###to-btn
+manatoki359###viewcomment
+manatoki359##.miso-post-list > .post-wrap
+manatoki359##.at-tip.btn-next
+manatoki359##.at-tip.btn-next
+manatoki360###hd_pop
+manatoki360##.div-title-underbar
+manatoki360###to-btn
+manatoki360###viewcomment
+manatoki360##.miso-post-list > .post-wrap
+manatoki360##.at-tip.btn-next
+manatoki360##.at-tip.btn-next
+manatoki361###hd_pop
+manatoki361##.div-title-underbar
+manatoki361###to-btn
+manatoki361###viewcomment
+manatoki361##.miso-post-list > .post-wrap
+manatoki361##.at-tip.btn-next
+manatoki361##.at-tip.btn-next
+manatoki362###hd_pop
+manatoki362##.div-title-underbar
+manatoki362###to-btn
+manatoki362###viewcomment
+manatoki362##.miso-post-list > .post-wrap
+manatoki362##.at-tip.btn-next
+manatoki362##.at-tip.btn-next
+manatoki363###hd_pop
+manatoki363##.div-title-underbar
+manatoki363###to-btn
+manatoki363###viewcomment
+manatoki363##.miso-post-list > .post-wrap
+manatoki363##.at-tip.btn-next
+manatoki363##.at-tip.btn-next
+manatoki364###hd_pop
+manatoki364##.div-title-underbar
+manatoki364###to-btn
+manatoki364###viewcomment
+manatoki364##.miso-post-list > .post-wrap
+manatoki364##.at-tip.btn-next
+manatoki364##.at-tip.btn-next
+manatoki365###hd_pop
+manatoki365##.div-title-underbar
+manatoki365###to-btn
+manatoki365###viewcomment
+manatoki365##.miso-post-list > .post-wrap
+manatoki365##.at-tip.btn-next
+manatoki365##.at-tip.btn-next
+manatoki366###hd_pop
+manatoki366##.div-title-underbar
+manatoki366###to-btn
+manatoki366###viewcomment
+manatoki366##.miso-post-list > .post-wrap
+manatoki366##.at-tip.btn-next
+manatoki366##.at-tip.btn-next
+manatoki367###hd_pop
+manatoki367##.div-title-underbar
+manatoki367###to-btn
+manatoki367###viewcomment
+manatoki367##.miso-post-list > .post-wrap
+manatoki367##.at-tip.btn-next
+manatoki367##.at-tip.btn-next
+manatoki368###hd_pop
+manatoki368##.div-title-underbar
+manatoki368###to-btn
+manatoki368###viewcomment
+manatoki368##.miso-post-list > .post-wrap
+manatoki368##.at-tip.btn-next
+manatoki368##.at-tip.btn-next
+manatoki369###hd_pop
+manatoki369##.div-title-underbar
+manatoki369###to-btn
+manatoki369###viewcomment
+manatoki369##.miso-post-list > .post-wrap
+manatoki369##.at-tip.btn-next
+manatoki369##.at-tip.btn-next
+manatoki370###hd_pop
+manatoki370##.div-title-underbar
+manatoki370###to-btn
+manatoki370###viewcomment
+manatoki370##.miso-post-list > .post-wrap
+manatoki370##.at-tip.btn-next
+manatoki370##.at-tip.btn-next
+manatoki371###hd_pop
+manatoki371##.div-title-underbar
+manatoki371###to-btn
+manatoki371###viewcomment
+manatoki371##.miso-post-list > .post-wrap
+manatoki371##.at-tip.btn-next
+manatoki371##.at-tip.btn-next
+manatoki372###hd_pop
+manatoki372##.div-title-underbar
+manatoki372###to-btn
+manatoki372###viewcomment
+manatoki372##.miso-post-list > .post-wrap
+manatoki372##.at-tip.btn-next
+manatoki372##.at-tip.btn-next
+manatoki373###hd_pop
+manatoki373##.div-title-underbar
+manatoki373###to-btn
+manatoki373###viewcomment
+manatoki373##.miso-post-list > .post-wrap
+manatoki373##.at-tip.btn-next
+manatoki373##.at-tip.btn-next
+manatoki374###hd_pop
+manatoki374##.div-title-underbar
+manatoki374###to-btn
+manatoki374###viewcomment
+manatoki374##.miso-post-list > .post-wrap
+manatoki374##.at-tip.btn-next
+manatoki374##.at-tip.btn-next
+manatoki375###hd_pop
+manatoki375##.div-title-underbar
+manatoki375###to-btn
+manatoki375###viewcomment
+manatoki375##.miso-post-list > .post-wrap
+manatoki375##.at-tip.btn-next
+manatoki375##.at-tip.btn-next
+manatoki376###hd_pop
+manatoki376##.div-title-underbar
+manatoki376###to-btn
+manatoki376###viewcomment
+manatoki376##.miso-post-list > .post-wrap
+manatoki376##.at-tip.btn-next
+manatoki376##.at-tip.btn-next
+manatoki377###hd_pop
+manatoki377##.div-title-underbar
+manatoki377###to-btn
+manatoki377###viewcomment
+manatoki377##.miso-post-list > .post-wrap
+manatoki377##.at-tip.btn-next
+manatoki377##.at-tip.btn-next
+manatoki378###hd_pop
+manatoki378##.div-title-underbar
+manatoki378###to-btn
+manatoki378###viewcomment
+manatoki378##.miso-post-list > .post-wrap
+manatoki378##.at-tip.btn-next
+manatoki378##.at-tip.btn-next
+manatoki379###hd_pop
+manatoki379##.div-title-underbar
+manatoki379###to-btn
+manatoki379###viewcomment
+manatoki379##.miso-post-list > .post-wrap
+manatoki379##.at-tip.btn-next
+manatoki379##.at-tip.btn-next
+manatoki380###hd_pop
+manatoki380##.div-title-underbar
+manatoki380###to-btn
+manatoki380###viewcomment
+manatoki380##.miso-post-list > .post-wrap
+manatoki380##.at-tip.btn-next
+manatoki380##.at-tip.btn-next
+manatoki381###hd_pop
+manatoki381##.div-title-underbar
+manatoki381###to-btn
+manatoki381###viewcomment
+manatoki381##.miso-post-list > .post-wrap
+manatoki381##.at-tip.btn-next
+manatoki381##.at-tip.btn-next
+manatoki382###hd_pop
+manatoki382##.div-title-underbar
+manatoki382###to-btn
+manatoki382###viewcomment
+manatoki382##.miso-post-list > .post-wrap
+manatoki382##.at-tip.btn-next
+manatoki382##.at-tip.btn-next
+manatoki383###hd_pop
+manatoki383##.div-title-underbar
+manatoki383###to-btn
+manatoki383###viewcomment
+manatoki383##.miso-post-list > .post-wrap
+manatoki383##.at-tip.btn-next
+manatoki383##.at-tip.btn-next
+manatoki384###hd_pop
+manatoki384##.div-title-underbar
+manatoki384###to-btn
+manatoki384###viewcomment
+manatoki384##.miso-post-list > .post-wrap
+manatoki384##.at-tip.btn-next
+manatoki384##.at-tip.btn-next
+manatoki385###hd_pop
+manatoki385##.div-title-underbar
+manatoki385###to-btn
+manatoki385###viewcomment
+manatoki385##.miso-post-list > .post-wrap
+manatoki385##.at-tip.btn-next
+manatoki385##.at-tip.btn-next
+manatoki386###hd_pop
+manatoki386##.div-title-underbar
+manatoki386###to-btn
+manatoki386###viewcomment
+manatoki386##.miso-post-list > .post-wrap
+manatoki386##.at-tip.btn-next
+manatoki386##.at-tip.btn-next
+manatoki387###hd_pop
+manatoki387##.div-title-underbar
+manatoki387###to-btn
+manatoki387###viewcomment
+manatoki387##.miso-post-list > .post-wrap
+manatoki387##.at-tip.btn-next
+manatoki387##.at-tip.btn-next
+manatoki388###hd_pop
+manatoki388##.div-title-underbar
+manatoki388###to-btn
+manatoki388###viewcomment
+manatoki388##.miso-post-list > .post-wrap
+manatoki388##.at-tip.btn-next
+manatoki388##.at-tip.btn-next
+manatoki389###hd_pop
+manatoki389##.div-title-underbar
+manatoki389###to-btn
+manatoki389###viewcomment
+manatoki389##.miso-post-list > .post-wrap
+manatoki389##.at-tip.btn-next
+manatoki389##.at-tip.btn-next
+manatoki390###hd_pop
+manatoki390##.div-title-underbar
+manatoki390###to-btn
+manatoki390###viewcomment
+manatoki390##.miso-post-list > .post-wrap
+manatoki390##.at-tip.btn-next
+manatoki390##.at-tip.btn-next
+manatoki391###hd_pop
+manatoki391##.div-title-underbar
+manatoki391###to-btn
+manatoki391###viewcomment
+manatoki391##.miso-post-list > .post-wrap
+manatoki391##.at-tip.btn-next
+manatoki391##.at-tip.btn-next
+manatoki392###hd_pop
+manatoki392##.div-title-underbar
+manatoki392###to-btn
+manatoki392###viewcomment
+manatoki392##.miso-post-list > .post-wrap
+manatoki392##.at-tip.btn-next
+manatoki392##.at-tip.btn-next
+manatoki393###hd_pop
+manatoki393##.div-title-underbar
+manatoki393###to-btn
+manatoki393###viewcomment
+manatoki393##.miso-post-list > .post-wrap
+manatoki393##.at-tip.btn-next
+manatoki393##.at-tip.btn-next
+manatoki394###hd_pop
+manatoki394##.div-title-underbar
+manatoki394###to-btn
+manatoki394###viewcomment
+manatoki394##.miso-post-list > .post-wrap
+manatoki394##.at-tip.btn-next
+manatoki394##.at-tip.btn-next
+manatoki395###hd_pop
+manatoki395##.div-title-underbar
+manatoki395###to-btn
+manatoki395###viewcomment
+manatoki395##.miso-post-list > .post-wrap
+manatoki395##.at-tip.btn-next
+manatoki395##.at-tip.btn-next
+manatoki396###hd_pop
+manatoki396##.div-title-underbar
+manatoki396###to-btn
+manatoki396###viewcomment
+manatoki396##.miso-post-list > .post-wrap
+manatoki396##.at-tip.btn-next
+manatoki396##.at-tip.btn-next
+manatoki397###hd_pop
+manatoki397##.div-title-underbar
+manatoki397###to-btn
+manatoki397###viewcomment
+manatoki397##.miso-post-list > .post-wrap
+manatoki397##.at-tip.btn-next
+manatoki397##.at-tip.btn-next
+manatoki398###hd_pop
+manatoki398##.div-title-underbar
+manatoki398###to-btn
+manatoki398###viewcomment
+manatoki398##.miso-post-list > .post-wrap
+manatoki398##.at-tip.btn-next
+manatoki398##.at-tip.btn-next
+manatoki399###hd_pop
+manatoki399##.div-title-underbar
+manatoki399###to-btn
+manatoki399###viewcomment
+manatoki399##.miso-post-list > .post-wrap
+manatoki399##.at-tip.btn-next
+manatoki399##.at-tip.btn-next
+manatoki400###hd_pop
+manatoki400##.div-title-underbar
+manatoki400###to-btn
+manatoki400###viewcomment
+manatoki400##.miso-post-list > .post-wrap
+manatoki400##.at-tip.btn-next
+manatoki400##.at-tip.btn-next
 
-manatoki307.net##.miso-post-list > .post-wrap
-manatoki308.net##.miso-post-list > .post-wrap
-manatoki309.net##.miso-post-list > .post-wrap
-manatoki310.net##.miso-post-list > .post-wrap
-manatoki311.net##.miso-post-list > .post-wrap
-manatoki312.net##.miso-post-list > .post-wrap
-manatoki313.net##.miso-post-list > .post-wrap
-manatoki314.net##.miso-post-list > .post-wrap
-manatoki315.net##.miso-post-list > .post-wrap
-manatoki316.net##.miso-post-list > .post-wrap
-manatoki317.net##.miso-post-list > .post-wrap
-manatoki318.net##.miso-post-list > .post-wrap
-manatoki319.net##.miso-post-list > .post-wrap
-manatoki320.net##.miso-post-list > .post-wrap
-manatoki321.net##.miso-post-list > .post-wrap
-manatoki322.net##.miso-post-list > .post-wrap
-manatoki323.net##.miso-post-list > .post-wrap
-manatoki324.net##.miso-post-list > .post-wrap
-manatoki325.net##.miso-post-list > .post-wrap
-manatoki326.net##.miso-post-list > .post-wrap
-manatoki327.net##.miso-post-list > .post-wrap
-manatoki328.net##.miso-post-list > .post-wrap
-manatoki329.net##.miso-post-list > .post-wrap
-manatoki330.net##.miso-post-list > .post-wrap
-manatoki331.net##.miso-post-list > .post-wrap
-manatoki332.net##.miso-post-list > .post-wrap
-manatoki333.net##.miso-post-list > .post-wrap
-manatoki334.net##.miso-post-list > .post-wrap
-manatoki335.net##.miso-post-list > .post-wrap
-manatoki336.net##.miso-post-list > .post-wrap
-manatoki337.net##.miso-post-list > .post-wrap
-manatoki338.net##.miso-post-list > .post-wrap
-manatoki339.net##.miso-post-list > .post-wrap
-manatoki340.net##.miso-post-list > .post-wrap
-manatoki341.net##.miso-post-list > .post-wrap
-manatoki342.net##.miso-post-list > .post-wrap
-manatoki343.net##.miso-post-list > .post-wrap
-manatoki344.net##.miso-post-list > .post-wrap
-manatoki345.net##.miso-post-list > .post-wrap
-manatoki346.net##.miso-post-list > .post-wrap
-manatoki347.net##.miso-post-list > .post-wrap
-manatoki348.net##.miso-post-list > .post-wrap
-manatoki349.net##.miso-post-list > .post-wrap
-manatoki350.net##.miso-post-list > .post-wrap
-
-
+! fxfx.com
+fxfx234.com##.prepage
+fxfx234.com##.nextpage
+fxfx234.com##.down
+fxfx234.com##.up
+fxfx235.com##.prepage
+fxfx235.com##.nextpage
+fxfx235.com##.down
+fxfx235.com##.up
+fxfx236.com##.prepage
+fxfx236.com##.nextpage
+fxfx236.com##.down
+fxfx236.com##.up
+fxfx237.com##.prepage
+fxfx237.com##.nextpage
+fxfx237.com##.down
+fxfx237.com##.up
+fxfx238.com##.prepage
+fxfx238.com##.nextpage
+fxfx238.com##.down
+fxfx238.com##.up
+fxfx239.com##.prepage
+fxfx239.com##.nextpage
+fxfx239.com##.down
+fxfx239.com##.up
+fxfx240.com##.prepage
+fxfx240.com##.nextpage
+fxfx240.com##.down
+fxfx240.com##.up
+fxfx241.com##.prepage
+fxfx241.com##.nextpage
+fxfx241.com##.down
+fxfx241.com##.up
+fxfx242.com##.prepage
+fxfx242.com##.nextpage
+fxfx242.com##.down
+fxfx242.com##.up
+fxfx243.com##.prepage
+fxfx243.com##.nextpage
+fxfx243.com##.down
+fxfx243.com##.up
+fxfx244.com##.prepage
+fxfx244.com##.nextpage
+fxfx244.com##.down
+fxfx244.com##.up
+fxfx245.com##.prepage
+fxfx245.com##.nextpage
+fxfx245.com##.down
+fxfx245.com##.up
+fxfx246.com##.prepage
+fxfx246.com##.nextpage
+fxfx246.com##.down
+fxfx246.com##.up
+fxfx247.com##.prepage
+fxfx247.com##.nextpage
+fxfx247.com##.down
+fxfx247.com##.up
+fxfx248.com##.prepage
+fxfx248.com##.nextpage
+fxfx248.com##.down
+fxfx248.com##.up
+fxfx249.com##.prepage
+fxfx249.com##.nextpage
+fxfx249.com##.down
+fxfx249.com##.up
+fxfx250.com##.prepage
+fxfx250.com##.nextpage
+fxfx250.com##.down
+fxfx250.com##.up
+fxfx251.com##.prepage
+fxfx251.com##.nextpage
+fxfx251.com##.down
+fxfx251.com##.up
+fxfx252.com##.prepage
+fxfx252.com##.nextpage
+fxfx252.com##.down
+fxfx252.com##.up
+fxfx253.com##.prepage
+fxfx253.com##.nextpage
+fxfx253.com##.down
+fxfx253.com##.up
+fxfx254.com##.prepage
+fxfx254.com##.nextpage
+fxfx254.com##.down
+fxfx254.com##.up
+fxfx255.com##.prepage
+fxfx255.com##.nextpage
+fxfx255.com##.down
+fxfx255.com##.up
+fxfx256.com##.prepage
+fxfx256.com##.nextpage
+fxfx256.com##.down
+fxfx256.com##.up
+fxfx257.com##.prepage
+fxfx257.com##.nextpage
+fxfx257.com##.down
+fxfx257.com##.up
+fxfx258.com##.prepage
+fxfx258.com##.nextpage
+fxfx258.com##.down
+fxfx258.com##.up
+fxfx259.com##.prepage
+fxfx259.com##.nextpage
+fxfx259.com##.down
+fxfx259.com##.up
+fxfx260.com##.prepage
+fxfx260.com##.nextpage
+fxfx260.com##.down
+fxfx260.com##.up
+fxfx261.com##.prepage
+fxfx261.com##.nextpage
+fxfx261.com##.down
+fxfx261.com##.up
+fxfx262.com##.prepage
+fxfx262.com##.nextpage
+fxfx262.com##.down
+fxfx262.com##.up
+fxfx263.com##.prepage
+fxfx263.com##.nextpage
+fxfx263.com##.down
+fxfx263.com##.up
+fxfx264.com##.prepage
+fxfx264.com##.nextpage
+fxfx264.com##.down
+fxfx264.com##.up
+fxfx265.com##.prepage
+fxfx265.com##.nextpage
+fxfx265.com##.down
+fxfx265.com##.up
+fxfx266.com##.prepage
+fxfx266.com##.nextpage
+fxfx266.com##.down
+fxfx266.com##.up
+fxfx267.com##.prepage
+fxfx267.com##.nextpage
+fxfx267.com##.down
+fxfx267.com##.up
+fxfx268.com##.prepage
+fxfx268.com##.nextpage
+fxfx268.com##.down
+fxfx268.com##.up
+fxfx269.com##.prepage
+fxfx269.com##.nextpage
+fxfx269.com##.down
+fxfx269.com##.up
+fxfx270.com##.prepage
+fxfx270.com##.nextpage
+fxfx270.com##.down
+fxfx270.com##.up
+fxfx271.com##.prepage
+fxfx271.com##.nextpage
+fxfx271.com##.down
+fxfx271.com##.up
+fxfx272.com##.prepage
+fxfx272.com##.nextpage
+fxfx272.com##.down
+fxfx272.com##.up
+fxfx273.com##.prepage
+fxfx273.com##.nextpage
+fxfx273.com##.down
+fxfx273.com##.up
+fxfx274.com##.prepage
+fxfx274.com##.nextpage
+fxfx274.com##.down
+fxfx274.com##.up
+fxfx275.com##.prepage
+fxfx275.com##.nextpage
+fxfx275.com##.down
+fxfx275.com##.up
+fxfx276.com##.prepage
+fxfx276.com##.nextpage
+fxfx276.com##.down
+fxfx276.com##.up
+fxfx277.com##.prepage
+fxfx277.com##.nextpage
+fxfx277.com##.down
+fxfx277.com##.up
+fxfx278.com##.prepage
+fxfx278.com##.nextpage
+fxfx278.com##.down
+fxfx278.com##.up
+fxfx279.com##.prepage
+fxfx279.com##.nextpage
+fxfx279.com##.down
+fxfx279.com##.up
+fxfx280.com##.prepage
+fxfx280.com##.nextpage
+fxfx280.com##.down
+fxfx280.com##.up
+fxfx281.com##.prepage
+fxfx281.com##.nextpage
+fxfx281.com##.down
+fxfx281.com##.up
+fxfx282.com##.prepage
+fxfx282.com##.nextpage
+fxfx282.com##.down
+fxfx282.com##.up
+fxfx283.com##.prepage
+fxfx283.com##.nextpage
+fxfx283.com##.down
+fxfx283.com##.up
+fxfx284.com##.prepage
+fxfx284.com##.nextpage
+fxfx284.com##.down
+fxfx284.com##.up
+fxfx285.com##.prepage
+fxfx285.com##.nextpage
+fxfx285.com##.down
+fxfx285.com##.up
+fxfx286.com##.prepage
+fxfx286.com##.nextpage
+fxfx286.com##.down
+fxfx286.com##.up
+fxfx287.com##.prepage
+fxfx287.com##.nextpage
+fxfx287.com##.down
+fxfx287.com##.up
+fxfx288.com##.prepage
+fxfx288.com##.nextpage
+fxfx288.com##.down
+fxfx288.com##.up
+fxfx289.com##.prepage
+fxfx289.com##.nextpage
+fxfx289.com##.down
+fxfx289.com##.up
+fxfx290.com##.prepage
+fxfx290.com##.nextpage
+fxfx290.com##.down
+fxfx290.com##.up
+fxfx291.com##.prepage
+fxfx291.com##.nextpage
+fxfx291.com##.down
+fxfx291.com##.up
+fxfx292.com##.prepage
+fxfx292.com##.nextpage
+fxfx292.com##.down
+fxfx292.com##.up
+fxfx293.com##.prepage
+fxfx293.com##.nextpage
+fxfx293.com##.down
+fxfx293.com##.up
+fxfx294.com##.prepage
+fxfx294.com##.nextpage
+fxfx294.com##.down
+fxfx294.com##.up
+fxfx295.com##.prepage
+fxfx295.com##.nextpage
+fxfx295.com##.down
+fxfx295.com##.up
+fxfx296.com##.prepage
+fxfx296.com##.nextpage
+fxfx296.com##.down
+fxfx296.com##.up
+fxfx297.com##.prepage
+fxfx297.com##.nextpage
+fxfx297.com##.down
+fxfx297.com##.up
+fxfx298.com##.prepage
+fxfx298.com##.nextpage
+fxfx298.com##.down
+fxfx298.com##.up
+fxfx299.com##.prepage
+fxfx299.com##.nextpage
+fxfx299.com##.down
+fxfx299.com##.up
+fxfx300.com##.prepage
+fxfx300.com##.nextpage
+fxfx300.com##.down
+fxfx300.com##.up
+fxfx301.com##.prepage
+fxfx301.com##.nextpage
+fxfx301.com##.down
+fxfx301.com##.up
+fxfx302.com##.prepage
+fxfx302.com##.nextpage
+fxfx302.com##.down
+fxfx302.com##.up
+fxfx303.com##.prepage
+fxfx303.com##.nextpage
+fxfx303.com##.down
+fxfx303.com##.up
+fxfx304.com##.prepage
+fxfx304.com##.nextpage
+fxfx304.com##.down
+fxfx304.com##.up
+fxfx305.com##.prepage
+fxfx305.com##.nextpage
+fxfx305.com##.down
+fxfx305.com##.up
+fxfx306.com##.prepage
+fxfx306.com##.nextpage
+fxfx306.com##.down
+fxfx306.com##.up
+fxfx307.com##.prepage
+fxfx307.com##.nextpage
+fxfx307.com##.down
+fxfx307.com##.up
+fxfx308.com##.prepage
+fxfx308.com##.nextpage
+fxfx308.com##.down
+fxfx308.com##.up
+fxfx309.com##.prepage
+fxfx309.com##.nextpage
+fxfx309.com##.down
+fxfx309.com##.up
+fxfx310.com##.prepage
+fxfx310.com##.nextpage
+fxfx310.com##.down
+fxfx310.com##.up
+fxfx311.com##.prepage
+fxfx311.com##.nextpage
+fxfx311.com##.down
+fxfx311.com##.up
+fxfx312.com##.prepage
+fxfx312.com##.nextpage
+fxfx312.com##.down
+fxfx312.com##.up
+fxfx313.com##.prepage
+fxfx313.com##.nextpage
+fxfx313.com##.down
+fxfx313.com##.up
+fxfx314.com##.prepage
+fxfx314.com##.nextpage
+fxfx314.com##.down
+fxfx314.com##.up
+fxfx315.com##.prepage
+fxfx315.com##.nextpage
+fxfx315.com##.down
+fxfx315.com##.up
+fxfx316.com##.prepage
+fxfx316.com##.nextpage
+fxfx316.com##.down
+fxfx316.com##.up
+fxfx317.com##.prepage
+fxfx317.com##.nextpage
+fxfx317.com##.down
+fxfx317.com##.up
+fxfx318.com##.prepage
+fxfx318.com##.nextpage
+fxfx318.com##.down
+fxfx318.com##.up
+fxfx319.com##.prepage
+fxfx319.com##.nextpage
+fxfx319.com##.down
+fxfx319.com##.up
+fxfx320.com##.prepage
+fxfx320.com##.nextpage
+fxfx320.com##.down
+fxfx320.com##.up
 
 ! misc
 willbes.net##DIV[class="Layer-Cont"]
