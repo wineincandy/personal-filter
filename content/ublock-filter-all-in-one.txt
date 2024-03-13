@@ -35,8 +35,8 @@ dcnewsj.joins.com##DIV[id="sub"]
 ! annoying recommend stuff
 google.com###botstuff
 ||google.com/complete/search^$important
-||google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
-||google.com##generic-promo-controller
+google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
+google.com##generic-promo-controller
 google.com###botstuff 
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
@@ -499,6 +499,7 @@ namu.wiki##div:matches-css(cursor:pointer)
 ! 바닥 막음
 namu.wiki##main > div div:has(> a[href^="https://play.google.com"])
 namu.wiki##footer
+search.namu.wiki
 
 ! pixiv
 pixiv.net##.work-details-comments-container 
