@@ -145,7 +145,7 @@ duckduckgo.com##body article[data-nrn="result"]:has(a[href*="mlbpark.donga.com"]
 google.com##body div[data-snc]:has(a[href*="mlbpark.donga.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="hygall.com"])
 google.com##body div[data-snc]:has(a[href*="hygall.com"])
-google.com##body div[data-ar][data-surl*="youtube.com"])
+google.com##body div[data-ar][data-surl*="youtube.com"]
 !#endif
 
 ! for mobile
@@ -365,7 +365,6 @@ comic.naver.com##DIV[id="wrap"][class="end_page"]
 ! dict.naver.com
 en.dict.naver.com##.enen
 ko.dict.naver.com##._sensitiveWord.cautionDiscrimCode_discrimination.info
-ko.dict.naver.com##.cautionDiscrimCodediscrimination.
 
 ! shopping.naver.com
 shopping.naver.com##div[class*="shoppingHome"] div[class*="homeBanner"]
