@@ -33,15 +33,24 @@ dcnewsj.joins.com##DIV[id="sub"]
 ! searching engine
 
 ! annoying recommend stuff
+! google
 google.com###botstuff
 ||google.com/complete/search^$important
 google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
 google.com##generic-promo-controller
-google.com###botstuff 
+maps.googleapis.com
+google.com/images/searchbox
+! Wikipedia 등 대문 제거
+google.com##body div:has(> a g-more-link)
+! 검색어 자동 완성 제거
+google.com## form div[role="presentation"] ul[role="listbox"]
+
+! duckduckgo
 duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
 duckduckgo.com##.js-module--news
 ||duckduckgo.com/ac/?q
+
 
 ! for pc
 !#if !env_mobile
@@ -62,8 +71,6 @@ google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):mat
 
 ! for mobile
 !#if env_mobile
-google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
-google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
 ! 보조 설명 제거
 google.com##body div#main div:has(> div[aria-expanded][role])
 ! 관련 검색어 제거
@@ -72,17 +79,29 @@ google.com##body div#main div:has(accordion-entry-search-icon)
 google.com##body div#main div:has(:scope span a[href^="/url?q=https://support.google.com"])
 ! 앱 광고 제거
 ||play.google.com
-! 주요뉴스  제거
-google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
-! 화상 제거
-google.com##div#main a:has(:scope img[alt][src][data-deferred])
+! 관련 질문 제거
+google.com##div#center_col > div > div > div > div:has(:scope div[aria-level="2"][role="heading"]):has(:scope div[aria-controls][role="button"][aria-expanded])
 ! 관련 검색어 제거
-google.com##div#main div:has(:scope accordion-entry-search-icon)
-! 질문 제거
-google.com##div#main div:has(:scope #tsuid_5):has(:scope h3)
-! 위키백과 제거
-google.com##div#main div:has(:scope span a[href*="wikipedia.org"])
+google.com##div#center_col > div > div > div > div:has(:scope div[aria-level="2"][role="heading"]):has(div > a[href^="/search?"] svg)
+! 동영상 제거
+google.com##div#center_col > div > div > div  div:has(:scope div[aria-level="3"][role="heading"] > a[data-jsarwt][data-usg])
 !#endif
+
+! 휴대폰 용이었으나 더 이상 쓰지 않음
+! 화상 제거
+! google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
+! google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
+! 주요뉴스  제거
+! google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
+! 화상 제거
+! google.com##div#main a:has(:scope img[alt][src][data-deferred])
+! 관련 검색어 제거
+! google.com##div#main div:has(:scope accordion-entry-search-icon)
+! 질문 제거
+! google.com##div#main div:has(:scope #tsuid_5):has(:scope h3)
+! 위키백과 제거
+! google.com##div#main div:has(:scope span a[href*="wikipedia.org"])
+
 
 ! block result from particular sites
 !#if !env_mobile
