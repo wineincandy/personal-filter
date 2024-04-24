@@ -93,11 +93,18 @@ google.com##body div#main div:has(:scope span a[href^="/url?q=https://support.go
 google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
 ! 관련 검색어 제거
 google.com##div#main div:has(:scope accordion-entry-search-icon)
-
-! 휴대폰 용이었으나 더 이상 쓰지 않음
+! 구글 지도 제거
+google.com##div#main div:has(> div > a[href^="/url?q=https://maps.google.com"])
+! 추가 설명 제거
+google.com##body div#main div:has(> div div#tsuid_1)
 ! 화상 제거
 ! google.com##body div#main div[data-hveid]:has(a[href*="google.com/imgres"])
-! google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
+! 이상한 검색어 확장 제거
+google.com##body div#main div:has(h3 div span):has(a[href^="/url?q="])
+! 주소나 인물 확장 제거
+google.com##div#main > div > div:has(:scope img[data-deferred]):has(:scope span > h3)
+
+! 휴대폰 용이었으나 더 이상 쓰지 않음
 ! 화상 제거
 ! google.com##div#main a:has(:scope img[alt][src][data-deferred])
 ! 질문 제거
