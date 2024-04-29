@@ -529,6 +529,12 @@ namu.wiki##div:matches-css(cursor:pointer)
 namu.wiki##main > div div:has(> a[href^="https://play.google.com"])
 namu.wiki##footer
 search.namu.wiki
+! 새로 생긴 검색어 순위 막음
+namu.wiki##div#app > div > div div ol
+! 새로 생긴 뉴스 막음
+namu.wiki##div#app > div > div div a[href="#"] ~ ul
+! 옆의 벽을 전부 치워버림
+namu.wiki##div#app > div > div:nth-child(2) > div:has(div):nth-child(2n+1)
 
 ! pixiv
 pixiv.net##.work-details-comments-container 
