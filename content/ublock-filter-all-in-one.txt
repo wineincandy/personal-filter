@@ -475,8 +475,6 @@ psychiatricnews.net##.side.grid > .sticky-container
 megagong.net##.follow_m.fw_pc
 ohli24.net##.at-title
 *news*.kr 
-*news*.com 
-
 
 ! community-list
 
@@ -494,6 +492,7 @@ ruliweb.com##[id='header']
 ruliweb.com##.notice_common
 
 ! reddit
+reddit.com##recent-posts
 reddit.com##.commentsignupbar.infobar
 reddit.com##.premium-banner-outer
 reddit.com##div[data-scroller-first]:has(a[href^="/search?q"])
@@ -518,23 +517,23 @@ reddit.com##.in-comment-tree.Comment:has(.m-moderator)
 ||i.namu.wiki/i/*.png
 ! 아래 광고 막음
 namu.wiki##article div:has(> div > div > img[src$=".svg"])
-namu.wiki##article div div div div div div:has(:scope div > a[href="#"] > span:has-text("광고등록")):has(:scope div > a[href="#"] > img)
+namu.wiki##div#app div:has(> div > div > table > tr td ~ td div > a[href^="/w/"])
 ! 뉴스 막음
 namu.wiki##main > div div:has(> a[href="#"][rel="noopener"])
 namu.wiki##a[href*="namu.news"]
 ! 최근 수정된 문서 막음
 namu.wiki##main > div div:has(> a[href="/RecentChanges"])
-namu.wiki##div:matches-css(cursor:pointer)
 ! 바닥 막음
-namu.wiki##main > div div:has(> a[href^="https://play.google.com"])
-namu.wiki##footer
+namu.wiki##div:has(> div > div > a[href^="https://play.google.com"])
 search.namu.wiki
 ! 새로 생긴 검색어 순위 막음
 namu.wiki##div#app > div > div div ol
 ! 새로 생긴 뉴스 막음
 namu.wiki##div#app > div > div div a[href="#"] ~ ul
 ! 옆의 벽을 전부 치워버림
-namu.wiki##div#app > div > div:nth-child(2) > div:has(div):nth-child(2n+1)
+namu.wiki##section[dummycount]
+! 수상해서 막았음
+jnn-pa.googleapis.com
 
 ! pixiv
 pixiv.net##.work-details-comments-container 
