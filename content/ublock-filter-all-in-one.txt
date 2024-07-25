@@ -533,7 +533,12 @@ reddit.com##shreddit-post.stickied:has(span.distinguished-mod)
 
 ! namu-wiki
 ||namu.wiki/sidebar.json
-||i.namu.wiki/i/*.png
+! 검색어 순위 제거
+namu.wiki##ul:has(>li a[href^="/Go?q="])
+! octat-stream 을 막으면서 자동 완성과 그림만 허용
+namu.wiki/i/*
+@@namu.wiki/i/*&q=*
+@@namu.wiki/i$image
 ! 아래 광고 막음
 namu.wiki##article div:has(> div > div > img[src$=".svg"])
 namu.wiki##div#app div:has(> div > div > table > tr td ~ td div > a[href^="/w/"])
