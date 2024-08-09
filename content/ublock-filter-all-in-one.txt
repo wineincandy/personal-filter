@@ -265,26 +265,15 @@ img.danawa.com^$image,domain=danawa.com|~search.danawa.com|~prod.danawa.com
 ! streaming-list
 
 ! youtube
-youtube.com###clarify-box
-youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
-youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
-youtube.com###header > .ytd-rich-grid-renderer.style-scope
-youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope
+youtube.com##ytd-emergency-onebox-renderer
 youtube.com###donation-shelf
-youtube.com/youtubei/v1/live_chat/get_live_chat
-youtube.com##.rich-section-content
-youtube.com##.metadata-badge
-youtube.com##.donation-shelf-campaign
-youtube.com##.donation-shelf-amount-raised-label
-youtube.com##.donation-shelf-expander
-youtube.com##.reel-shelf-items
-youtube.com##.reel-shelf-header
 youtube.com##ad-slot-renderer
-youtube.com/youtubei/v1/live_chat/get_live_chat
 youtube.com##ytm-media-item:has(.promoted-video-byline-container)
-youtube.com##.donation-shelf-match-label
+! youtube.com##.reel-shelf-items
+! youtube.com##.reel-shelf-header
+!#if env_mobile
 youtube.com##.adaptive-feed-item.item:nth-of-type(n+4)
+!#endif
 
 ! facebook
 facebook.com
@@ -516,6 +505,7 @@ ruliweb.com##.notice_common
 ! 오른쪽 기둥에서 잡다한 것 제거
 reddit.com##recent-posts
 reddit.com##.commentsignupbar.infobar
+reddit.com##.community-highlight-carousel
 reddit.com##.premium-banner-outer
 reddit.com##div[data-scroller-first]:has(a[href^="/search?q"])
 reddit.com##div[data-testid*="frontpage-sidebar"]
@@ -536,9 +526,9 @@ reddit.com##shreddit-post.stickied:has(span.distinguished-mod)
 ! 검색어 순위 제거
 namu.wiki##ul:has(>li a[href^="/Go?q="])
 ! octat-stream 을 막으면서 자동 완성과 그림만 허용
-namu.wiki/i/*
-@@namu.wiki/i/*&q=*
-@@namu.wiki/i$image
+! namu.wiki/i/*
+! @@namu.wiki/i/*&q=*
+! @@namu.wiki/i$image
 ! 아래 광고 막음
 namu.wiki##article div:has(> div > div > img[src$=".svg"])
 namu.wiki##div#app div:has(> div > div > table > tr td ~ td div > a[href^="/w/"])
