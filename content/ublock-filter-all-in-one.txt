@@ -34,12 +34,9 @@ dcnewsj.joins.com##DIV[id="sub"]
 
 ! annoying recommend stuff
 ! google
-google.com###botstuff
 ||google.com/complete/search^$important
-google.com##div[jsaction*="mouseout"] ul[role="listbox"]:first-child
 google.com##generic-promo-controller
 maps.googleapis.com
-google.com/images/searchbox
 ! Wikipedia 등 대문 제거
 google.com##body div:has(> a g-more-link)
 ! 검색어 자동 완성 제거
@@ -54,19 +51,21 @@ duckduckgo.com##.js-module--news
 
 ! for pc
 !#if !env_mobile
-google.com##body div#main div[data-abe]:has(div[data-hveid] a[data-xbu])
-google.com##body div#main div#center_col div:has(> div[data-entityid][data-entityname])
 google.com##body div#main g-section-with-header
-google.com##body div#main div[data-qc][data-initq]:has(div[aria-level="3"])
-google.com##div#main div[data-count]:has(a span)
-google.com##div[data-abe][data-ved]
-google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
-! 관련 검색어 삭제
-google.com##div[role="navigation"]
+! Video 를 막음
+google.com##div[data-curl][data-surl]
+! People also ask 를 막음
+google.com##div[data-initq]
 ! 옆의 곁가지 삭제
 google.com##body div[role="complementary"]
+! 연관 검색어를 막음
+! google.com##div[role="listitem"] a[href^="/search"][aria-label]
+google.com##div[role="listitem"][data-surface]
+! 지도를 제거함
+! google.com##img[data-bsrc]:upward(4)
+google.com##div#main div div:has(> h1):has(img[data-bsrc])
 ! 표를 없애나?
-google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
+!google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
 !#endif
 
 ! for mobile
