@@ -39,8 +39,6 @@ google.com##generic-promo-controller
 maps.googleapis.com
 ! Wikipedia 등 대문 제거
 google.com##body div:has(> a g-more-link)
-! 검색어 자동 완성 제거
-google.com## form div[role="presentation"] ul[role="listbox"]
 
 ! duckduckgo
 duckduckgo.com##body div.module--images
