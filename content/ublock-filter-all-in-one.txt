@@ -59,6 +59,15 @@ google.com##body div[role="complementary"]
 ! 연관 검색어를 막음
 ! google.com##div[role="listitem"] a[href^="/search"][aria-label]
 google.com##div[role="listitem"][data-surface]
+google.com##div#main div[role="listitem"] a[aria-label^='Add']
+! People Also Ask 를 막음
+google.com##div#botstuff a[href^='/search']:has(svg)
+! 기능 추천 막음
+google.com##div#main promo-inline-card
+! 연관 검색어를 막음
+google.com##div#search div#kp-wp-tab-overview > div[data-hveid][data-ved]:nth-last-child(-n +2)
+! 불필요한 화상 검색을 막음
+google.com##div#search div#kp-wp-tab-overview div#media_result_group
 ! 지도를 제거함
 ! google.com##img[data-bsrc]:upward(4)
 google.com##div#main div div:has(> h1):has(img[data-bsrc])
@@ -262,6 +271,7 @@ img.danawa.com^$image,domain=danawa.com|~search.danawa.com|~prod.danawa.com
 ! streaming-list
 
 ! youtube
+https://suggestqueries-clients6.youtube.com
 youtube.com##ytd-emergency-onebox-renderer
 youtube.com###donation-shelf
 youtube.com##ad-slot-renderer
@@ -276,6 +286,10 @@ www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-rend
 www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer
 ! youtube.com##.reel-shelf-items
 ! youtube.com##.reel-shelf-header
+youtube.com##.donation-shelf-campaign
+youtube.com##.donation-shelf-amount-raised-label
+youtube.com##.donation-shelf-expander
+youtube.com##ytm-badge-supported-renderer
 !#if env_mobile
 youtube.com##.adaptive-feed-item.item:nth-of-type(n+4)
 !#endif
@@ -535,8 +549,8 @@ namu.wiki##ul:has(>li a[href^="/Go?q="])
 ! @@namu.wiki/i/*&q=*
 ! @@namu.wiki/i$image
 ! 아래 광고 막음
-namu.wiki##article div:has(> div > div > img[src$=".svg"])
-namu.wiki##div#app div:has(> div > div > table > tr td ~ td div > a[href^="/w/"])
+! namu.wiki##article div:has(> div > div > img[src$=".svg"])
+namu.wiki##body div > div > span > a[href][title] > span:upward(5)
 ! 뉴스 막음
 namu.wiki##main > div div:has(> a[href="#"][rel="noopener"])
 namu.wiki##a[href*="namu.news"]
@@ -1565,6 +1579,9 @@ manatoki399.net##.cursor.to-show
 manatoki400.net##.at-tip.btn-prev
 manatoki400.net##.cursor.to-show
 
+! secretDNS
+secretdns.kilho.net##body div.sidebar
+secretdns.kilho.net##body div.revenue_unit_wrap
 
 ! misc
 willbes.net##DIV[class="Layer-Cont"]
