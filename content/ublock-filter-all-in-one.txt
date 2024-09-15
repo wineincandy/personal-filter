@@ -276,6 +276,8 @@ youtube.com##ytd-emergency-onebox-renderer
 youtube.com###donation-shelf
 youtube.com##ad-slot-renderer
 youtube.com##ytm-media-item:has(.promoted-video-byline-container)
+! 영화 광고 감춤
+youtube.com##ytd-movie-renderer
 ! short 감춤
 www.youtube.com##.ytd-rich-section-renderer.style-scope
 ! 추천 상자 감춤
@@ -290,8 +292,10 @@ youtube.com##.donation-shelf-campaign
 youtube.com##.donation-shelf-amount-raised-label
 youtube.com##.donation-shelf-expander
 youtube.com##ytm-badge-supported-renderer
+
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Asmongold/))
 !#if env_mobile
-youtube.com##.adaptive-feed-item.item:nth-of-type(n+4)
+youtube.com##ytm-video-with-context-renderer:nth-of-type(n+4)
 !#endif
 
 ! facebook
