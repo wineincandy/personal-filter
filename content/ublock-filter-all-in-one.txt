@@ -276,6 +276,7 @@ img.danawa.com^$image,domain=danawa.com|~search.danawa.com|~prod.danawa.com
 
 ! youtube
 https://suggestqueries-clients6.youtube.com
+youtube.com###offer-module
 youtube.com##ytd-emergency-onebox-renderer
 youtube.com###donation-shelf
 youtube.com##ad-slot-renderer
@@ -296,9 +297,46 @@ youtube.com##.donation-shelf-campaign
 youtube.com##.donation-shelf-amount-raised-label
 youtube.com##.donation-shelf-expander
 youtube.com##ytm-badge-supported-renderer
+youtube.com##ytd-horizontal-card-list-renderer
+youtube.com###clarify-box
 
+! 가리기
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Rev says/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Fireship/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Synthetic Man/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Smash JT/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Ducksen/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Hero Hei/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Muaxh03/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^penguiz0/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^ThePrimeTime/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Asmongold/))
+
+!#if !env_mobile
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Synthetic Man/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Fireship/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Rev says/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Smash JT/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Ducksen/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Hero Hei/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Muaxh03/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/penguiz0/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/ThePrimeTime/))
+
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Synthetic Man/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Fireship/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Rev says/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Smash JT/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Ducksen/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Hero Hei/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/penguiz0/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/ThePrimeTime/))
+!#endif
+
 !#if env_mobile
+youtube.com##ytm-video-with-context-renderer:has(:scope .media-item-headline:has-text(/Meme/i))
+youtube.com##.scrollable.rich-shelf-content
+youtube.com##tym-shorts-lockup-view-model
 youtube.com##ytm-video-with-context-renderer:nth-of-type(n+4)
 !#endif
 
