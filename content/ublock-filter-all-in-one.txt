@@ -322,6 +322,7 @@ youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Hero H
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Muaxh03/))
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/penguiz0/))
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/ThePrimeTime/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Asmongold/))
 
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Synthetic Man/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Fireship/))
@@ -331,6 +332,8 @@ youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/D
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Hero Hei/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/penguiz0/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/ThePrimeTime/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Asmongold/))
+
 !#endif
 
 !#if env_mobile
