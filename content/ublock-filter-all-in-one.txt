@@ -311,6 +311,17 @@ youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-ren
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^penguiz0/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^ThePrimeTime/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Asmongold/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/Rainbow Retiree/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/Mental Outlaw/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/Phoenix SC/))
+
+youtube.com##ytm-video-with-context-renderer:has(:scope #video-title:has-text(/nijisanji/i))
+youtube.com##ytm-video-with-context-renderer:has(:scope .media-item-headline:has-text(/Trump/i))
+youtube.com##ytm-video-with-context-renderer:has(:scope .media-item-headline:has-text(/South Korea/i))
+
+
+
+
 
 !#if !env_mobile
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Synthetic Man/))
@@ -334,6 +345,23 @@ youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/p
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/ThePrimeTime/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Asmongold/))
 
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Rainbow Retiree/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Rainbow Retiree/))
+
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Mental Outlaw/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Mental Outlaw/))
+
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Phoenix SC/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Phoenix SC/))
+
+youtube.com##ytd-rich-item-renderer:has(:scope #video-title:has-text(/nijisanji/))
+youtube.com##ytd-compact-video-renderer:has(:scope #video-title:has-text(/nijisanji/i))
+
+youtube.com##ytd-rich-item-renderer:has(:scope #video-title:has-text(/Trump/))
+youtube.com##ytd-compact-video-renderer:has(:scope #video-title:has-text(/Trump/i))
+
+youtube.com##ytd-compact-video-renderer:has(:scope #video-title:has-text(/South Korea/i))
+youtube.com##ytd-rich-item-renderer:has(:scope #video-title:has-text(/South Korea/i))
 !#endif
 
 !#if env_mobile
@@ -470,6 +498,11 @@ naver.com##DIV[id="NM_INT_LEFT"][class="column_left"]
 search.naver.com##.sub_pack
 comic.naver.com##DIV[id="wrap"][class="end_page"]
 
+! to stop the recommendation feed 
+https://m.blog.naver.com/api/end-recommend
+m.blog.naver.com###blog_fe_feed > div > [class^="recommend_section"]
+m.blog.naver.com###blog_fe_feed > div > [class^="banner_wrap"]
+
 ! dict.naver.com
 en.dict.naver.com##.enen
 ko.dict.naver.com##._sensitiveWord.cautionDiscrimCode_discrimination.info
@@ -481,6 +514,7 @@ shopping.naver.com##div[class*="shoppingHome"] div[class*="mallArea"]
 shopping.naver.com##[class*="verticalCollection"] 
 shopping.naver.com##[class*="intentPrice"] 
 shopping.naver.com##[class*="recommendTrend"] 
+shopping.naver.com##div[class*="aside_list_rank"]
 ||g-selected.pstatic.net
 ||a01-g-naver-vod.pstatic.net
 ||s.pstatic.net
