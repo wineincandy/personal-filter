@@ -624,6 +624,8 @@ reddit.com##shreddit-comment[author="AutoModerator"]
 reddit.com##shreddit-post.stickied:has(span.distinguished-mod)
 
 ! namu-wiki
+! 자동완성 제거
+/^https:\/\/namu\.wiki\/i\/[\w\-]{10,}$/
 ||namu.wiki/sidebar.json
 ! 검색어 순위 제거
 namu.wiki##ul:has(>li a[href^="/Go?q="])
