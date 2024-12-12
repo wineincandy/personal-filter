@@ -308,7 +308,7 @@ youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-ren
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Ducksen/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Hero Hei/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Muaxh03/))
-youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^penguiz0/))
+youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^penguinz0/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^ThePrimeTime/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Asmongold/))
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/Rainbow Retiree/))
@@ -331,7 +331,7 @@ youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Smash 
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Ducksen/))
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Hero Hei/))
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Muaxh03/))
-youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/penguiz0/))
+youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/penguinz0/))
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/ThePrimeTime/))
 youtube.com##ytd-rich-item-renderer:has(:scope ytd-channel-name:has-text(/Asmongold/))
 
@@ -341,7 +341,7 @@ youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/R
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Smash JT/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Ducksen/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Hero Hei/))
-youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/penguiz0/))
+youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/penguinz0/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/ThePrimeTime/))
 youtube.com##ytd-compact-video-renderer:has(:scope  ytd-channel-name:has-text(/Asmongold/))
 
