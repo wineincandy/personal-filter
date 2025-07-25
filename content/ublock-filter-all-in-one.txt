@@ -32,13 +32,11 @@ dcnewsj.joins.com##DIV[id="sub"]
 
 ! searching engine
 
-! annoying recommend stuff
+! annoying recommended stuff
 ! google
 ||google.com/complete/search^$important
 google.com##generic-promo-controller
 maps.googleapis.com
-! Wikipedia 등 대문 제거
-google.com##body div:has(> a g-more-link)
 
 ! duckduckgo
 duckduckgo.com##body div.module--images
@@ -49,30 +47,26 @@ duckduckgo.com##.js-module--news
 
 ! for pc
 !#if !env_mobile
-google.com##body div#main g-section-with-header
-! Video 를 막음
-google.com##div[data-curl][data-surl]
+! Video 중에서 화살표 svg 를 찾아서 제거함
+div#rso > div > div[data-rpos]:has(path[d^="M0 16C0"])
+! 불필요한 화상 검색을 막음
+div#rso > div > div > div[data-rpos]:has(div[id="iur"])
+
+! 옆의 곁가지 삭제
+google.com##div#rsh
+
 ! People also ask 를 막음
 google.com##div[data-initq]
-! 옆의 곁가지 삭제
-google.com##body div[role="complementary"]
-! 연관 검색어를 막음
-! google.com##div[role="listitem"] a[href^="/search"][aria-label]
-google.com##div[role="listitem"][data-surface]
-google.com##div#main div[role="listitem"] a[aria-label^='Add']
-! People Also Ask 를 막음
+! People Also Search For 를 막음
 google.com##div#botstuff a[href^='/search']:has(svg)
+
 ! 기능 추천 막음
 google.com##div#main promo-inline-card
+
 ! 연관 검색어를 막음
-google.com##div#search div#kp-wp-tab-overview > div[data-hveid][data-ved]:nth-last-child(-n +2)
-! 불필요한 화상 검색을 막음
-google.com##div#search div#kp-wp-tab-overview div#media_result_group
-! 지도를 제거함
-! google.com##img[data-bsrc]:upward(4)
-google.com##div#main div div:has(> h1):has(img[data-bsrc])
-! 표를 없애나?
-!google.com##div#main div:has(a[data-ved]:matches-css(display:/table\-cell/)):matches-css(display: /table/)
+google.com##div[role="listitem"][data-surface]
+google.com##div#main div[role="listitem"] a[aria-label^='Add']
+
 !#endif
 
 ! for mobile
