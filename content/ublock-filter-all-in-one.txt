@@ -37,13 +37,16 @@ dcnewsj.joins.com##DIV[id="sub"]
 ||google.com/complete/search^$important
 google.com##generic-promo-controller
 maps.googleapis.com
+! Hide auto suggestions
+google.com##form[action="/search"] div[jsaction*="mouse"]
 
 ! duckduckgo
-duckduckgo.com##body div.module--images
 duckduckgo.com##.related-searches
-duckduckgo.com##.js-module--news
 ||duckduckgo.com/ac/?q
-
+! remove videos
+duckduckgo.com##div[data-react-module-id="videos"]
+! remove news
+duckduckgo.com##div[data-react-module-id="news"]
 
 ! for pc
 !#if !env_mobile
@@ -278,14 +281,15 @@ youtube.com##ytm-media-item:has(.promoted-video-byline-container)
 ! 영화 광고 감춤
 youtube.com##ytd-movie-renderer
 ! short 감춤
-www.youtube.com##.ytd-rich-section-renderer.style-scope
+youtube.com##.rich-section-content
+youtube.com##grid-shelf-view-model
 ! 추천 상자 감춤
 www.youtube.com##ytd-two-column-browse-results-renderer[page-subtype="home"] .ytd-feed-filter-chip-bar-renderer
 ! 음악 및에서 추천 shorts 를 감춤
 www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
 ! 음악 및에서 다른 곡의 추천을 감춤
-www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer
-! youtube.com##.reel-shelf-items
+youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer
+youtube.com##.reel-shelf-items
 ! youtube.com##.reel-shelf-header
 youtube.com##.donation-shelf-campaign
 youtube.com##.donation-shelf-amount-raised-label
@@ -293,6 +297,7 @@ youtube.com##.donation-shelf-expander
 youtube.com##ytm-badge-supported-renderer
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com###clarify-box
+
 
 ! 가리기
 youtube.com##ytm-video-with-context-renderer:has(:scope ytm-badge-and-byline-renderer:has-text(/^Rev says/))
@@ -405,23 +410,8 @@ iwara.tv##.comments
 
 ! comic-list
 
-! mangaowl
-mangaowls.com###ads_inPageWrapper
-mangaowls.com##div.ads_300_250_container
-
-! jmana
-jmana.one##.comment-wrap 
-jmana.one##div.free-board-wrap 
-jmana.one##div.breaking-news-scroll
-jmana.one###main_popup
-jmana.one##.quick-btn-wrap
-||jmana.one/resouce/img/adimg/$image
-
-! klmanga
-klmanga.net##center:has(> a[href*="miscemassed.com"])
-klmanga.net##iframe:nth-of-type(1) 
-klmanga.net##.chapter-content > center 
-klmanga.net###list-imga > center 
+! newtoki_xn 에서 광고 제거
+||blogger.googleusercontent.com$image
 
 ! jestful
 ||h4.klimv1.xyz/images3/20230728/$image
@@ -436,10 +426,17 @@ jestful.net###list-imga > center > div
 ! cookmana
 cookmana.com##.mSliderMenu.m-slider-menu
 cookmana.com##.mChatBtn
+||pl4050.com/toonfile/toonres/theme/basic/img/abc_mb.gif$image
+||pl4050.com/toonfile/toonres/theme/basic/img/*.gif
+||pl4050.com/toonfile/11toonother/pop/$image
+||pl4050.com/toonfile/11toonother/pop/pop20240806/images/new_quit/link.png$image
 
 ! fandom
 fandom.com##.mobileDrawer
 
+! qquing
+qquing.net##div[class*="ad-wrapper"]
+qquing.net###nestads_ads_iframe
 
 ! news-list
 
