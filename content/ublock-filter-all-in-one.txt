@@ -47,6 +47,11 @@ duckduckgo.com##.related-searches
 duckduckgo.com##div[data-react-module-id="videos"]
 ! remove news
 duckduckgo.com##div[data-react-module-id="news"]
+! discussions 이라고 추가하는 부분을 제거함
+duckduckgo.com##div[data-react-module-id="discussions"]
+duckduckgo.com/discussions.js
+! 옆에 설명문 띄우는 걸 제거함
+duckduckgo.com##section[data-testid="sidebar"]
 
 ! for pc
 !#if !env_mobile
@@ -56,13 +61,17 @@ google.com##div#rso > div > div[data-rpos]:has(path[d^="M0 16C0"])
 google.com##div#rso > div > div > div[data-rpos]:has(div[id="iur"])
 
 ! 옆의 곁가지 삭제
-google.com##div#rsh
+google.com##div#rhs
+
+! remove a list of news and reddit
+google.com##div#rso > div > div div[data-rpos]:has(div[role="list"] div[data-news-doc-id])
 
 ! People also ask 를 막음
 google.com##div[data-initq]
 ! People Also Search For 를 막음
 google.com##div#botstuff a[href^='/search']:has(svg)
-
+! People Also Search For 를 막음
+google.com##div#bres
 ! 기능 추천 막음
 google.com##div#main promo-inline-card
 
@@ -77,6 +86,20 @@ google.com##div#main div[role="listitem"] a[aria-label^='Add']
 
 ! 앱 광고 제거
 ||play.google.com
+
+! 지도를 제거함
+google.com##div#main > div > div[class]:has(img[alt^="Map"])
+! 중간에 삽입되는 People also ask 를 제거함
+google.com##div#main > div[data-hveid] > div[class]:has(div[aria-expanded][role="button"])
+! 마지막에 삽입되는 people also ask 를 제거함
+google.com##div#main > div[data-hveid] > div[class]:has(accordion-entry-search-icon)
+! Images > 이라는 화살표를 찾아서 제거함
+google.com##div#main > div > div[data-hveid]:has(button[tabindex="-1"])
+! 이미지 나열 제거, 주로 뉴스임
+google.com##div#main > div > div[data-hveid]:has(a ~ a ~ a ~ a img)
+! 설명문 제거, 확장 버튼을 이용함
+google.com##div#main > div > div[class]:has(div[id][role="button"][tabindex="0"])
+
 
 !#endif
 
@@ -149,38 +172,38 @@ google.com##body div[data-ar][data-surl*="youtube.com"]
 
 ! for mobile
 !#if env_mobile
-google.com##body div#main div[data-hveid]:has(a[href*="tiktok.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="arca.live"])
-google.com##body div#main div[data-hveid]:has(a[href*="theqoo.net"])
-google.com##body div#main div[data-hveid]:has(a[href*="facebook.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="meeco.kr"])
-google.com##body div#main div[data-hveid]:has(a[href*="koreapas.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="cafe.daum.net"])
-google.com##body div#main div[data-hveid]:has(a[href*="dmitory.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="slrclub.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="issuya.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="ygosu.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="pann.nate.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="instiz.net"])
-google.com##body div#main div[data-hveid]:has(a[href*="inven.co.kr"])
-google.com##body div#main div[data-hveid]:has(a[href*="clien.net"])
-google.com##body div#main div[data-hveid]:has(a[href*="todayhumor.co.kr"])
-google.com##body div#main div[data-hveid]:has(a[href*="fmkorea.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="dogdrip.net"])
-google.com##body div#main div[data-hveid]:has(a[href*="hygall.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="bobaedream.co.kr"])
-google.com##body div#main div[data-hveid]:has(a[href*="ilbe.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="humoruniv.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="etoland.co.kr"])
-google.com##body div#main div[data-hveid]:has(a[href*="tdgall.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="teamblind.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="ppomppu.co.kr"])
-google.com##body div#main div[data-hveid]:has(a[href*="mlbpark.donga.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="82cook.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="hygall.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="dcinside.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="ruliweb.com"])
-google.com##body div#main div[data-hveid]:has(a[href*="youtube.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="tiktok.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="arca.live"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="theqoo.net"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="facebook.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="meeco.kr"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="koreapas.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="cafe.daum.net"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="dmitory.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="slrclub.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="issuya.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="ygosu.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="pann.nate.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="instiz.net"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="inven.co.kr"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="clien.net"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="todayhumor.co.kr"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="fmkorea.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="dogdrip.net"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="hygall.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="bobaedream.co.kr"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="ilbe.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="humoruniv.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="etoland.co.kr"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="tdgall.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="teamblind.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="ppomppu.co.kr"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="mlbpark.donga.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="82cook.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="hygall.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="dcinside.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="ruliweb.com"])
+google.com##div#main > div > div[data-hveid]:has(a[href*="youtube.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="tiktok.com"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="theqoo.net"])
 duckduckgo.com##body article[data-nrn="result"]:has(a[href*="facebook.com"])
