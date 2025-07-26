@@ -286,7 +286,7 @@ youtube.com##ytd-horizontal-card-list-renderer
 youtube.com###clarify-box
 !if env_mobile
 m.youtube.com##.related-items-conta
-m.youtube.com##ytm-video-with-context-renderer.adatpive-feed-item.item:nth-of_type(2+n)
+m.youtube.com##ytm-video-with-context-renderer.adatpive-feed-item.item:nth-of-type(2+n)
 !endif
 
 
