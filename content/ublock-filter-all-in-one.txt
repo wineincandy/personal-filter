@@ -51,9 +51,9 @@ duckduckgo.com##div[data-react-module-id="news"]
 ! for pc
 !#if !env_mobile
 ! Video 중에서 화살표 svg 를 찾아서 제거함
-div#rso > div > div[data-rpos]:has(path[d^="M0 16C0"])
+google.com##div#rso > div > div[data-rpos]:has(path[d^="M0 16C0"])
 ! 불필요한 화상 검색을 막음
-div#rso > div > div > div[data-rpos]:has(div[id="iur"])
+google.com##div#rso > div > div > div[data-rpos]:has(div[id="iur"])
 
 ! 옆의 곁가지 삭제
 google.com##div#rsh
@@ -261,6 +261,10 @@ youtube.com##.donation-shelf-expander
 youtube.com##ytm-badge-supported-renderer
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com###clarify-box
+!if env_mobile
+m.youtube.com##.related-items-conta
+m.youtube.com##ytm-video-with-context-renderer.adatpive-feed-item.item:nth-of_type(2+n)
+!endif
 
 
 ! 가리기
@@ -569,6 +573,8 @@ reddit.com##div[data-testid*="frontpage-sidebar"]
 reddit.com##.OuterBannerContainer
 reddit.com##.styled-scrollbars.right-sidebar.block 
 reddit.com##alert-controller 
+reddit.com##shreddit-loading
+reddit.com##div#right-sidebar-container
 ! 검색 결과에서 광고 제거
 reddit.com/svc/shreddit/trending-searches
 ! 잇따른 응답 요청 실페 전언 상자 제거
