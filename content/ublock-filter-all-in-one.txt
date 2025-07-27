@@ -50,6 +50,8 @@ duckduckgo.com##div[data-react-module-id="news"]
 ! discussions 이라고 추가하는 부분을 제거함
 duckduckgo.com##div[data-react-module-id="discussions"]
 duckduckgo.com/discussions.js
+! remove images
+duckduckgo.com##div[data-react-module-id="images"]
 ! 옆에 설명문 띄우는 걸 제거함
 duckduckgo.com##section[data-testid="sidebar"]
 
@@ -294,6 +296,9 @@ youtube.com##.donation-shelf-expander
 youtube.com##ytm-badge-supported-renderer
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com###clarify-box
+! fund-raiser 라고 하는 걸 감춤
+youtube.com##.video-badge
+
 !if env_mobile
 m.youtube.com##.related-items-conta
 m.youtube.com##ytm-video-with-context-renderer.adatpive-feed-item.item:nth-of-type(2+n)
