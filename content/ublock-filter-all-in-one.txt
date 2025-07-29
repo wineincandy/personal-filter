@@ -90,6 +90,12 @@ google.com##div#kp-wp-tab-overview > div div[data-md]:has(div[data-count]  div[d
 google.com##div#kp-wp-tab-overview > div div[data-abe]:has(path[d^="M15.5 14h"])
 ! > 이렇게 질문 딸려오는 걸 제거함
 google.com##div#rso > div > div[data-rpos] table[cellpadding]
+! shorts video 를 제거함
+google.com##div#rso > div[class] > div >div[data-rpos]:has(g-scrolling-carousel)
+! 상품 이미지가 잔뜩 나오는 걸 제거함
+google.com##div#rcnt > div > div[data-hveid]:has(div[data-q][data-viewer-group][data-id])
+! Things to know 를 제거함
+google.com##div#rso > div > div div[data-hveid]:has(div[data-g][data-sm] div[aria-level="3"])
 
 !#endif
 
@@ -296,6 +302,8 @@ youtube.com##.donation-shelf-expander
 youtube.com##ytm-badge-supported-renderer
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com###clarify-box
+! community post 를 제거함
+youtube.com##div#dismissible:has(div#post-text)
 ! fund-raiser 라고 하는 걸 감춤
 youtube.com##.video-badge
 
