@@ -97,6 +97,28 @@ google.com##div#rcnt > div > div[data-hveid]:has(div[data-q][data-viewer-group][
 ! Things to know 를 제거함
 google.com##div#rso > div > div div[data-hveid]:has(div[data-g][data-sm] div[aria-level="3"])
 
+! 아마도 이미지 막기였나
+google.com##div#rso > div > div div[data-rpos]:has(div#iur)
+! 추가 설명을 > 으로 그리는 걸 지움
+google.com##div#rcnt > div > div[data-hveid]:has(div[data-ipr][data-vmt] div[aria-expanded])
+! 트위터 패 형식으로 나타나는 걸 지움
+google.com##div#rso > div > div > div[data-rpos]:has(g-card-section):has(g-image-section)
+! 책 설명 제거함
+google.com##div#rcnt > div > div[data-hveid] > div[data-hveid]:has(div[id][data-ly][role="complementary"])
+! 가게 검색에서 지도 띄워주기 막음
+google.com##div#rcnt > div > div[data-hveid] > div[data-hveid] > div[id]:has(a.a-no-hover-decoration)
+! 비디오 막음
+google.com##div#rso > div > div > div > div[data-rpos]:has(div[data-bkt^="video"])
+! shorts
+google.com##div#rso > div > div > div > div[data-rpos]:has(g-scrolling-carousel g-inner-card)
+! tv casts
+google.com##div#rso > div:has(div[data-attrid*="tv_program"])
+! episode guides
+google.com##div#rso > div > div > div[data-rpos]:has(div.kp-wholepage g-dropdown-menu)
+! block news
+google.com##div#rso > div > div > div[data-rpos]:has(div[data-news-cluster-id])
+
+
 !#endif
 
 ! for mobile
@@ -309,7 +331,7 @@ youtube.com##.video-badge
 
 !if env_mobile
 m.youtube.com##.related-items-conta
-m.youtube.com##ytm-video-with-context-renderer.adatpive-feed-item.item:nth-of-type(2+n)
+m.youtube.com##ytm-video-with-context-renderer.adatpive-feed-item.item:nth-of-type(n+2)
 !endif
 
 
