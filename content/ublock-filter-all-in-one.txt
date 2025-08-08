@@ -95,7 +95,7 @@ google.com##div#rso > div[class] > div >div[data-rpos]:has(g-scrolling-carousel)
 ! 상품 이미지가 잔뜩 나오는 걸 제거함
 google.com##div#rcnt > div > div[data-hveid]:has(div[data-q][data-viewer-group][data-id])
 ! Things to know 를 제거함
-google.com##div#rso > div > div div[data-hveid]:has(div[data-g][data-sm] div[aria-level="3"])
+google.com##div#rso div[aria-level="3"][role]:has(path[d^="M16.59 8.59L12"])
 
 ! 아마도 이미지 막기였나
 google.com##div#rso > div > div div[data-rpos]:has(div#iur)
@@ -328,6 +328,9 @@ youtube.com###clarify-box
 youtube.com##div#dismissible:has(div#post-text)
 ! fund-raiser 라고 하는 걸 감춤
 youtube.com##.video-badge
+! 검색 결과에서 short 를 감춘다
+youtube.com##ytd-search ytd-video-renderer div#dismissible:has(path[d^="m17.77 10.32-"])
+
 
 !if env_mobile
 m.youtube.com##.related-items-conta
