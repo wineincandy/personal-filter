@@ -97,6 +97,18 @@ google.com##div#rcnt > div > div[data-hveid]:has(div[data-q][data-viewer-group][
 ! Things to know 를 제거함
 google.com##div#rso div[aria-level="3"][role]:has(path[d^="M16.59 8.59L12"])
 
+! 비디오
+google.com##div#rso > div > div > div[aria-owns] ~ div[data-rpos]:has(a[aria-label] img)
+! 상품
+google.com##div#rso > div > div > div[data-rpos]:has(product-viewer-group)
+! 지도
+google.com##div#rso > div > div > div >div[data-rpos]:has(div[role="region"][aria-label="Map"])
+! block comments
+pixiv.net##main > section section:has(div[class*="CommentInput"])
+! 상품 막음
+google.com##div#kp-wp-tab-overview > div[data-rpos] > div > div > div > div > div div[data-hveid]:has(div[jsslot] > div[role="listitem"])
+
+
 ! 아마도 이미지 막기였나
 google.com##div#rso > div > div div[data-rpos]:has(div#iur)
 ! 추가 설명을 > 으로 그리는 걸 지움
@@ -732,6 +744,10 @@ brunch.co.kr###footerBanner
 ! manatoki
 
 ! fxfx.com
+iobpn1.net$image
+iobpn2.net$image
+iobpn3.net$image
+iobpn4.net$image
 iabn*.net$image
 iabn4.net$image
 fxfx315.com##.prepage
