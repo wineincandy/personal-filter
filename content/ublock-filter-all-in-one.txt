@@ -38,7 +38,7 @@ dcnewsj.joins.com##DIV[id="sub"]
 google.com##generic-promo-controller
 maps.googleapis.com
 ! Hide auto suggestions
-google.com##form[action="/search"] div[jsaction*="mouse"]
+google.com##div[id][role="presentation"]:has(li[data-attrid^="Autocomplete"])
 
 ! duckduckgo
 duckduckgo.com##.related-searches
@@ -130,6 +130,34 @@ google.com##div#rso > div > div > div[data-rpos]:has(div.kp-wholepage g-dropdown
 ! block news
 google.com##div#rso > div > div > div[data-rpos]:has(div[data-news-cluster-id])
 
+
+! twitter 따위를 차단
+google.com##div#rso > div > div > div > div[data-rpos] g-section-with-header:has(g-card-section)
+! cast
+google.com##div#rso > div > div > div[data-rpos] > div.kp-wholepage[data-kpid^="vise"]:has(div[data-attrid^="kc:/film"])
+! reviews
+google.com##div#rso > div > div > div[data-rpos] > div.kp-wholepage[data-kpid^="vise"]:has(div[data-attrid^="kc:/ugc:user_reviews"])
+! rated
+google.com##div#rso div[data-rpos] span:has(> span > span[aria-label^="Rated"])
+! videos 를 막음
+google.com##div#rso > div > div > div[data-rpos] > div[jscontroller]:has(div[data-id^="atritem-https://www.youtube.com"])
+! movie and tvshos
+google.com##div#rso > div > div > div > div.kp-wholepage-osrp[data-kpid^="vise"]
+! short video 가 옆으로 돌리는 목록으로 나타나면 막음
+google.com##div#rso > div > div > div > div div[data-pcr="true"] div[role="listitem"]
+! 구조 전화 따위를 막음
+google.com##div#taw:has(div[data-maindata*="kc:/hotline"])
+! 제품을 길게 늘어뜨리는 걸 막음
+google.com##div#cnt > div#appbar
+! People also ask 에서 지명 설명이 나옴을 지움
+google.com##div#kp-wp-tab-cont-overview > div > div#kp-wp-tab-overview > div> div > div > div > div:has(div[data-attrid="lab/content/Things to do"] div[role="listitem"])
+! news 막음
+google.com##div#kp-wp-tab-cont-overview > div > div#kp-wp-tab-overview > div[data-rpos] > div g-section-with-header:has(div[data-news-cluster-id])
+google.com##div#rso > div > div > div >div > g-section-with-header:has(div[data-news-cluster-id])
+! 뭐 줄세우기 막음
+google.com##div#kp-wp-tab-cont-overview > div > div#kp-wp-tab-overview > div[data-rpos] > div > div g-scrolling-carousel 
+! 지도 막음
+google.com##div#rso > div > div > div[data-rpos] > div:has(div#lu_map)
 
 !#endif
 
@@ -342,7 +370,14 @@ youtube.com##div#dismissible:has(div#post-text)
 youtube.com##.video-badge
 ! 검색 결과에서 short 를 감춘다
 youtube.com##ytd-search ytd-video-renderer div#dismissible:has(path[d^="m17.77 10.32-"])
-
+youtube.com###ticket-shelf
+! 위키 정보 삽입 차단
+youtube.com###middle-row
+! things like Breaking News
+youtube.com##div#dismissible:has(> div#rich-shelf-header-container):has(div#menu)
+youtube.com##ytd-brand-video-shelf-renderer:has(ytd-rich-grid-media)
+! fundraiser 막음
+youtube.com##.badge-shape-wiz--commerce
 
 !if env_mobile
 m.youtube.com##.related-items-conta
@@ -477,6 +512,7 @@ jestful.net###list-imga > center > div
 ! cookmana
 cookmana.com##.mSliderMenu.m-slider-menu
 cookmana.com##.mChatBtn
+cookmana11.com##.mSliderMenu.m-slider-menu
 ||pl4050.com/toonfile/toonres/theme/basic/img/abc_mb.gif$image
 ||pl4050.com/toonfile/toonres/theme/basic/img/*.gif
 ||pl4050.com/toonfile/11toonother/pop/$image
@@ -539,6 +575,9 @@ naver.com###footer
 naver.com##DIV[id="NM_INT_LEFT"][class="column_left"]
 search.naver.com##.sub_pack
 comic.naver.com##DIV[id="wrap"][class="end_page"]
+n.news.naver.com###_FEED_CARD_LEFT_OUTER_BEFORE
+n.news.naver.com##._REFRESH_VIEW_WRAP
+
 
 ! to stop the recommendation feed 
 https://m.blog.naver.com/api/end-recommend
@@ -666,6 +705,8 @@ reddit.com##faceplate-toast.hasAction
 reddit.com##shreddit-comment[author="AutoModerator"]
 ! 관리자 고정 제거
 reddit.com##shreddit-post.stickied:has(span.distinguished-mod)
+! 검색창에서 뉴스 제거
+reddit.com##ul#reddit-trending-searches-partial-container
 
 ! namu-wiki
 ! 자동완성 제거
@@ -744,6 +785,8 @@ brunch.co.kr###footerBanner
 ! manatoki
 
 ! fxfx.com
+iobpp1.net$image
+ionppn1.net/$image
 iobpn1.net$image
 iobpn2.net$image
 iobpn3.net$image
@@ -790,8 +833,28 @@ secretdns.kilho.net##body div.revenue_unit_wrap
 willbes.net##DIV[class="Layer-Cont"]
 wikitree.co.kr##ASIDE[class="content_right_wrap"]
 antdv.com##DIV[class="slick-track"]
+! 광고차단
+||dictionary.cambridge.org/dictionary/english/be-on-the-mend$subdocument
 dictionary.cambridge.org##.loginPopupContainer
+
+! donga
+donga.com##.view_trend
+donga.com###ainews
+donga.com##.view_foot
+donga.com##.sub_inner
+donga.com###footer
+donga.com###header
+donga.com###is_trend_pc
+
+! code tutsplus
+code.tutsplus.com##.content-block-signup
+code.tutsplus.com###footer-promo-component
+code.tutsplus.com##.ecosystem-highlight
+code.tutsplus.com##.flex-col.w-full
+
 acmicpc.net##.main-slider-ad.text-center
 hinative.com##body 
 duckduckgo.com##.js-module--videos.module--carousel-videos.module--carousel.module 
 ||drive.google.com/uc$image 
+perplexity.ai##.md\:block
+
