@@ -718,7 +718,7 @@ newdaily.co.kr##.news_zone_02
 news.nate.com##a strong
 greened.kr##.user-aside
 digitaltoday.co.kr##.side.grid
-.mt.co.kr##.article_aside
+mt.co.kr##.article_aside
 dongascience.com##.lg\:gap-10 .print-hide
 etoday.co.kr##.relation_newslist
 xportsnews.com##.another_ats
