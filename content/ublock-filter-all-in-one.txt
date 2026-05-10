@@ -62,6 +62,9 @@ google.com##div#rso > div > div[data-rpos]:has(path[d^="M0 16C0"])
 ! 불필요한 화상 검색을 막음
 google.com##div#rso > div > div > div[data-rpos]:has(div[id="iur"])
 
+! 설명 막기
+google.com##div#rso div[data-rpos]:has(div[data-scca] div[role="list"][jsslot])
+
 ! 옆의 곁가지 삭제
 google.com##div#rhs
 
@@ -336,6 +339,16 @@ search.danawa.com###powerShoppingArea
 img.danawa.com^$image,domain=danawa.com|~search.danawa.com|~prod.danawa.com
 
 
+
+! AI chatbot
+gemini.google.com##sign-in-nudge
+chatgpt.com##.bottom-full.absolute > .w-full.h-full
+perplexity.ai##.backdrop-blur-sm.fill-mode-both
+perplexity.ai##.gap-y-1.justify-center.flex-wrap.flex.pointer-events-auto
+perplexity.ai##.justify-center.items-center.flex.overflow-y-auto.inset-0.fixed
+
+
+
 ! streaming-list
 
 ! youtube
@@ -345,15 +358,16 @@ youtube.com##ytd-emergency-onebox-renderer
 youtube.com###donation-shelf
 youtube.com##ad-slot-renderer
 youtube.com##ytm-media-item:has(.promoted-video-byline-container)
+youtube.com##ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer
 ! 영화 광고 감춤
 youtube.com##ytd-movie-renderer
 ! short 감춤
 youtube.com##.rich-section-content
 youtube.com##grid-shelf-view-model
 ! 추천 상자 감춤
-www.youtube.com##ytd-two-column-browse-results-renderer[page-subtype="home"] .ytd-feed-filter-chip-bar-renderer
+youtube.com##ytd-two-column-browse-results-renderer[page-subtype="home"] .ytd-feed-filter-chip-bar-renderer
 ! 음악 및에서 추천 shorts 를 감춤
-www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
+youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
 ! 음악 및에서 다른 곡의 추천을 감춤
 youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer
 youtube.com##.reel-shelf-items
@@ -382,6 +396,7 @@ youtube.com##.badge-shape-wiz--commerce
 !if env_mobile
 m.youtube.com##.related-items-conta
 m.youtube.com##ytm-video-with-context-renderer.adatpive-feed-item.item:nth-of-type(n+2)
+youtube.com##ytm-video-with-context-renderer.adaptive-feed-item.item:nth-of-type(n+3)
 !endif
 
 
@@ -459,13 +474,24 @@ youtube.com##ytm-video-with-context-renderer:nth-of-type(n+4)
 ! facebook
 facebook.com
 
-! twitter
-twitter.com##div[aria-label]:has(div[data-testid="trend"])
-twitter.com##div[aria-label*="Loading"]
-twitter.com##aside[role="complementary"]
-||abs.twimg.com/sticky/animations/like.4.json
-||abs.twimg.com/responsive-web/*ProfessionalHome*
-||abs.twimg.com/responsive-web/*SettingMonetization*
+! twitter / X
+x.com##div[aria-label]:has(div[data-testid="trend"])
+x.com##div[aria-label*="Loading"]
+x.com##aside[role="complementary"]
+x.com##div[aria-label="Trending"]
+
+! twstalker
+twstalker.com##.popular-users-card
+twstalker.com##div.trend-item
+twstalker.com##.full-width.news-data-dash
+twstalker.com##.request-users
+twstalker.com##.news-data-dash
+twstalker.com##.full-width.user-data
+
+! sotwe
+sotwe.com##.col-12.col-md-4.d-md-block.d-none
+
+
 
 ! nicovideo
 nicovideo.jp##.BottomMainContainer.GridCell
@@ -489,6 +515,7 @@ twitch.tv##.r-ongcgc
 
 ! dailymotion
 dailymotion.com##div[class*="Discovery"] div.col:nth-of-type(2)
+dailymotion.com##[class*="SearchPopup__searchProposals"]
 
 ! iwara
 iwara.tv##.likesList 
@@ -513,10 +540,15 @@ jestful.net###list-imga > center > div
 cookmana.com##.mSliderMenu.m-slider-menu
 cookmana.com##.mChatBtn
 cookmana11.com##.mSliderMenu.m-slider-menu
+cookmana11.com##.slide-up.fv-popup-content
+cookmana11.com##.first-visit-popup
 ||pl4050.com/toonfile/toonres/theme/basic/img/abc_mb.gif$image
 ||pl4050.com/toonfile/toonres/theme/basic/img/*.gif
 ||pl4050.com/toonfile/11toonother/pop/$image
 ||pl4050.com/toonfile/11toonother/pop/pop20240806/images/new_quit/link.png$image
+||manacdn.fusoft001.com/cookmana_cdn/image/*.gif$image
+
+
 
 ! fandom
 fandom.com##.mobileDrawer
@@ -649,6 +681,48 @@ kmib.co.kr###aside_news
 gnnews.co.kr###snb-wrap
 gnnews.co.kr##.user-aside
 
+
+! 신문 옆 기둥 막음
+ichannela.com##.side_cont
+news.nate.com###newsSidebar
+news.nate.com###inter_subtab
+mrlee.co.kr##.pb0.clfix
+v.daum.net##.box_news_recomm
+v.daum.net##.main-etc
+ohmynews.com##.content_rt
+tjb.co.kr##.latest
+tjb.co.kr##.popular
+hankookilbo.com##.sm\:self-start.sm\:sticky.sm\:gap-32.max-sm\:mt-8.gap-8.flex-col.w-full.flex
+koreadaily.com##div.listAdGroup > .rankingList
+koreadaily.com##.rightSection
+hankyung.com##.aside
+twig24.com##.right_side_div
+huffingtonpost.kr###navi-aside-right
+sports.hankooki.com##.side.grid
+topstarnews.net##.side.grid
+ibabynews.com##.user-aside
+kscoramdeo.com##.side.grid
+ppss.kr##.side.grid
+ppss.kr##.relation2
+ppss.kr##.writer01
+ppss.kr##.default
+ppss.kr###user-footer
+sports.khan.co.kr##.view-aside-wrap
+kormedi.com##.cs-sidebar__inner
+yna.co.kr##.scroller-wrap02
+consumerwide.com##.side.grid
+asiae.co.kr##.article-body__aside
+radiancereport.kr##.side.grid
+newdaily.co.kr##.articel-side-thumb
+newdaily.co.kr##.news_zone_02
+news.nate.com##a strong
+greened.kr##.user-aside
+digitaltoday.co.kr##.side.grid
+.mt.co.kr##.article_aside
+dongascience.com##.lg\:gap-10 .print-hide
+etoday.co.kr##.relation_newslist
+xportsnews.com##.another_ats
+
 ! misc
 cnn.ybmnet.co.kr##DIV[class="desktop"]
 yna.co.kr##DIV[class="content02 scroll-article-zone02"]
@@ -706,6 +780,9 @@ reddit.com##shreddit-comment[author="AutoModerator"]
 ! 관리자 고정 제거
 reddit.com##shreddit-post.stickied:has(span.distinguished-mod)
 ! 검색창에서 뉴스 제거
+reddit.com##ul#reddit-trending-searches-partial-container
+reddit.com###app-upsell-blocking-bottom-sheet-seo
+reddit.com##.mb-0.pt-md.mt-md.border-x-0.border-neutral-border-weak.border-solid.border-b-0.border-t-sm.flex-col.flex
 reddit.com##ul#reddit-trending-searches-partial-container
 
 ! namu-wiki
@@ -793,37 +870,34 @@ iobpn3.net$image
 iobpn4.net$image
 iabn*.net$image
 iabn4.net$image
-fxfx315.com##.prepage
-fxfx315.com##.nextpage
-fxfx315.com##.down
-fxfx315.com##.up
-fxfx316.com##.prepage
-fxfx316.com##.nextpage
-fxfx316.com##.down
-fxfx316.com##.up
-fxfx317.com##.prepage
-fxfx317.com##.nextpage
-fxfx317.com##.down
-fxfx317.com##.up
-fxfx318.com##.prepage
-fxfx318.com##.nextpage
-fxfx318.com##.down
-fxfx318.com##.up
-fxfx319.com##.prepage
-fxfx319.com##.nextpage
-fxfx319.com##.down
-fxfx319.com##.up
-fxfx320.com##.prepage
-fxfx320.com##.nextpage
-fxfx320.com##.down
-fxfx320.com##.up
+||fxfx320.com/assets/img/arrow_up.png$image
+||fxfx320.com/assets/img/arrow_down.png$image
+||ioxbppx1.net$image
+||ionppn1.net$image
+||iobpp1.net$image
 
-fxfx315.com##.top-banner
-fxfx316.com##.top-banner
-fxfx317.com##.top-banner
-fxfx318.com##.top-banner
-fxfx319.com##.top-banner
-fxfx320.com##.top-banner
+! webtoon
+webtoons.com##._viewerAppDownloadPopup
+webtoons.com##._creator_action_sheet
+webtoons.com###comment_module
+webtoons.com###creatorNoteArea
+
+! toonbro
+||b22.toon-bro.xyz/images$image
+||cdn.xtoon33.com/collaboration/$image
+
+! xtoon
+||xtoon2.b-cdn.net/collaboration/*$image
+t2.xtoon2.com###category-Ad
+||b19.toon-bro.xyz/images/*$image
+||xtoon127.com/img/1wiinp.gif$image
+||xtoon127.com/img/1wiin.gif$image
+xtoon127.com##.popup-banner-single
+||xtoon127.com/img/*$image
+xtoon127.com##.banner-section
+t2.xtoon365.com###category-Ad
+james.3zoku.com##td:nth-of-type(1)
+||xtoon2.b-cdn.net/collaboration/$image
 
 ! secretDNS
 secretdns.kilho.net##body div.sidebar
@@ -857,4 +931,9 @@ hinative.com##body
 duckduckgo.com##.js-module--videos.module--carousel-videos.module--carousel.module 
 ||drive.google.com/uc$image 
 perplexity.ai##.md\:block
+
+! 4shared
+4shared.com##.file-card:not(.not-urred) a:style(pointer-events:auto !important)
+4shared.com##.file-card:not(.not-blurred):style(filter:none !important)
+4shared.com##.jsLimitMessageBlock.rec-limit-message
 
