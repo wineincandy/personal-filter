@@ -75,8 +75,6 @@ google.com##div#rso > div > div div[data-rpos]:has(div[role="list"] div[data-new
 google.com##div[data-initq]
 ! People Also Search For 를 막음
 google.com##div#botstuff a[href^='/search']:has(svg)
-! People Also Search For 를 막음
-google.com##div#bres
 ! 기능 추천 막음
 google.com##div#main promo-inline-card
 
@@ -392,6 +390,10 @@ youtube.com##div#dismissible:has(> div#rich-shelf-header-container):has(div#menu
 youtube.com##ytd-brand-video-shelf-renderer:has(ytd-rich-grid-media)
 ! fundraiser 막음
 youtube.com##.badge-shape-wiz--commerce
+! 옆에 Shorts 나오는 것 막음
+youtube.com##.yt-horizontal-list-renderer.shortsLockupViewModelHost
+! 기부요청 막음
+youtube.com##.ytBadgeViewModelHost
 
 !if env_mobile
 m.youtube.com##.related-items-conta
@@ -556,6 +558,8 @@ fandom.com##.mobileDrawer
 ! qquing
 qquing.net##div[class*="ad-wrapper"]
 qquing.net###nestads_ads_iframe
+qquing.net##.border-navy.bo_list
+
 
 ! news-list
 
@@ -723,6 +727,31 @@ dongascience.com##.lg\:gap-10 .print-hide
 etoday.co.kr##.relation_newslist
 xportsnews.com##.another_ats
 
+kmib.co.kr##.aside
+v.daum.net##.viewrelate_wrap
+etnews.com##.aside_wrap
+kmib.co.kr##.aside
+dailycc.net##.side.grid
+sisajournal.com##.side.grid
+sstpnews.com###subCtsRight
+khan.co.kr##.article-wrap > .list-wrap
+webrtc.org##.devsite-banner-message
+hankookilbo.com##.gap-8.flex-col.flex
+imnews.imbc.com##.news_list
+imnews.imbc.com##.s_hits
+munhwa.com##.article-side
+m-joongang.com##.side.grid
+m-joongang.com##.auto-article
+joongang.co.kr##.jswiper.recommend_list_swiper
+joongang.co.kr##.ad_lg_hidden.chain_wrap
+joongang.co.kr##.jaswiper_wrap.card_group
+joongang.co.kr##.recompkg-listitem.slide
+nocutnews.co.kr##.slider
+hangyo.com##.art_list
+hangyo.com##.tit_set
+hangyo.com##.time_list
+mt.co.kr##.news--primary
+
 ! misc
 cnn.ybmnet.co.kr##DIV[class="desktop"]
 yna.co.kr##DIV[class="content02 scroll-article-zone02"]
@@ -784,6 +813,8 @@ reddit.com##ul#reddit-trending-searches-partial-container
 reddit.com###app-upsell-blocking-bottom-sheet-seo
 reddit.com##.mb-0.pt-md.mt-md.border-x-0.border-neutral-border-weak.border-solid.border-b-0.border-t-sm.flex-col.flex
 reddit.com##ul#reddit-trending-searches-partial-container
+reddit.com###configured-xpromo-blocking_xpromo_nsfw_blocking_desktop_cms
+
 
 ! namu-wiki
 ! 자동완성 제거
@@ -870,11 +901,43 @@ iobpn3.net$image
 iobpn4.net$image
 iabn*.net$image
 iabn4.net$image
-||fxfx320.com/assets/img/arrow_up.png$image
-||fxfx320.com/assets/img/arrow_down.png$image
+||fxfx*.com/assets/img/arrow_up.png
+||fxfx*.com/assets/img/arrow_down.png
 ||ioxbppx1.net$image
 ||ionppn1.net$image
 ||iobpp1.net$image
+||ioxbppx2.net$image
+fxfx329.com##.up
+fxfx329.com##.down
+fxfx329.com##.nextpage
+fxfx329.com##.prepage
+fxfx320.com##.up
+fxfx330.com##.down
+fxfx330.com##.nextpage
+fxfx330.com##.prepage
+fxfx331.com##.up
+fxfx331.com##.down
+fxfx331.com##.nextpage
+fxfx331.com##.prepage
+fxfx332.com##.up
+fxfx332.com##.down
+fxfx332.com##.nextpage
+fxfx332.com##.prepage
+fxfx333.com##.up
+fxfx333.com##.down
+fxfx333.com##.nextpage
+fxfx333.com##.prepage
+fxfx334.com##.up
+fxfx334.com##.down
+fxfx334.com##.nextpage
+fxfx334.com##.prepage
+fxfx335.com##.up
+fxfx335.com##.down
+fxfx335.com##.nextpage
+fxfx335.com##.prepage
+
+
+
 
 ! webtoon
 webtoons.com##._viewerAppDownloadPopup
@@ -898,6 +961,11 @@ xtoon127.com##.banner-section
 t2.xtoon365.com###category-Ad
 james.3zoku.com##td:nth-of-type(1)
 ||xtoon2.b-cdn.net/collaboration/$image
+
+! https://manhwabang.org
+||img.imgdd.com$image
+||joatoon-oh.com/storage/ad/$image
+||reactor.cc/images/menubars/$image
 
 ! secretDNS
 secretdns.kilho.net##body div.sidebar
